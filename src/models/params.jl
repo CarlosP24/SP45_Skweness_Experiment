@@ -8,6 +8,8 @@ end
 @with_kw struct Results
     params = nothing
     wire = nothing
+    junction = nothing
     LDOS = nothing
+    Js = nothing
     path = nothing
 end
