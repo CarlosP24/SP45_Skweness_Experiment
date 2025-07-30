@@ -19,7 +19,7 @@ params_jos = Calc_Params(;
     φrng = range(0, 2π, 101),
 )
 
-TNs = 10 .^ range(-4, 0, 5)
+TNs = round.(10 .^ range(-4, 0, 5))
 
 junctions_C = Dict(
     ["C_$(TN)" => Junction(

@@ -68,7 +68,7 @@ function calc_Josephson(name::String)
 
     # Calculate Josephson current
     Js = pfunction(
-        B -> J(B; τ),
+        B -> J(0; B, τ),
         [Brng]
     )
 
