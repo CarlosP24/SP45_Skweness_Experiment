@@ -51,6 +51,7 @@ function calc_Josephson(name::String)
     Gτs = Gτs ./ maximum(Gτs)
     Tτ = linear_interpolation(τrng, Gτs)            # gives TN as a function of τ
     τ = find_zeros(τ -> Tτ(τ) - TN, 0, 1) |> first
+    println("Found τ = $τ for TN = $TN")
 
     # Build integration path
     bw = maximum([bandwidth(params_left), bandwidth(params_right)])
@@ -70,6 +71,8 @@ function calc_Josephson(name::String)
         B -> J(B; τ),
         [Brng]
     )
+
+    Js = mapreduce(permutedims, vcat, Js)
 
     return Results(
         params = params2,

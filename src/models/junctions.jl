@@ -14,7 +14,6 @@ end
 end
 
 
-
 params_jos = Calc_Params(;
     Brng = range(0, 0.6, 101),
     φrng = range(0, 2π, 101),
