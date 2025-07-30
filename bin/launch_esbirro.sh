@@ -9,8 +9,7 @@ sbatch --export=ALL <<EOT
 ## Slurm header
 #SBATCH --partition=esbirro
 #SBATCH --ntasks-per-node=32
-#SBATCH --nodes=2
-#SBATCH --exclude=es8
+#SBATCH --nodes=7
 #SBATCH --cpus-per-task=1
 ##SBATCH --mem-per-cpu=2G
 #SBATCH --output="logs/%A_%a.out"
