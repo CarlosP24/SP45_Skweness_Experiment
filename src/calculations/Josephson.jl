@@ -63,6 +63,7 @@ function calc_Josephson(name::String)
     Ω(x) = maximum([ΩL(x; θ = params_left.θ), ΩR(x; θ = params_right.θ)])
     ipath = Paths.polygon((mu, kBT; B = 0, _...) -> (-bw, -Ω(B),  -Ω(B)/2 + itip(B)*1im, 0) .+ imshift*1im)
 
+    ipath = Paths.polygon((mu, kBT; B = 0, _...) -> (-bw, 0).+imshift*1im)
     # Josephson integrator
     J = josephson(g[attach_link["semi"]], ipath; omegamap = ω -> (; ω), phases = φrng, atol, maxevals, order)
 

@@ -16,6 +16,7 @@ wires = Dict(
         τΓ = 1,
         μ = 0,
         num_mJ = 5,
+        shell = "Ballistic"
     )
 )
 
