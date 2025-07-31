@@ -69,7 +69,8 @@ function calc_Josephson(name::String)
     function Jparalell(B)
         try
             return J(0; B, τ)
-        catch
+        catch e
+            @warn "Error in Jparalell at B=$(B)" exception = e
             return fill(NaN, length(φrng))
         end
     end
