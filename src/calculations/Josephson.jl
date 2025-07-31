@@ -66,9 +66,17 @@ function calc_Josephson(name::String)
     # Josephson integrator
     J = josephson(g[attach_link["semi"]], ipath; omegamap = ω -> (; ω), phases = φrng, atol, maxevals, order)
 
+    function Jparalell(B)
+        try
+            return J(0; B, τ)
+        catch
+            return fill(NaN, length(φrng))
+        end
+    end
+
     # Calculate Josephson current
     Js = pfunction(
-        B -> J(0; B, τ),
+        Jparalell,
         [Brng]
     )
 
