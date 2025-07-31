@@ -33,5 +33,5 @@ end
 
 fig = Figure()
 ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"I_c")
-plot_Ic(ax, "C_0.1")
+plot_Ic(ax, "C_1.0")
 fig
