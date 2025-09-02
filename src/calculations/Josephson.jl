@@ -65,7 +65,7 @@ function calc_Josephson(name::String)
 
     ipath = Paths.polygon((mu, kBT; B = 0, _...) -> (-bw, 0) .+ imshift*1im)
     # Josephson integrator
-    J = josephson(g[attach_link["semi"]], (-bw, 0); omegamap = ω -> (; ω), phases = φrng, atol, maxevals, order)
+    J = josephson(g[attach_link["semi"]], ipath; omegamap = ω -> (; ω), phases = φrng, atol, maxevals, order)
 
     function Jparalell(B)
         try
