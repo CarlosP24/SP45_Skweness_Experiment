@@ -44,7 +44,7 @@ drago:
   host: drago.csic.es
   path: /lustre/home/icmm/cpaya
   launcher: bin/launcher.sh
-  partition: drago
+  partition: long
   ntasks_per_node: 64
   nodes: 4
   cpus_per_task: 1
