@@ -1,7 +1,7 @@
 @with_kw struct J_Params
     imshift = 1e-4
     atol = 1e-7
-    maxevals = 1e7
+    maxevals = 1e5
     order = 21
 end
 
@@ -19,24 +19,29 @@ params_jos = Calc_Params(;
     φrng = range(0, 2π, 101),
 )
 
-TNs = round.(10 .^ range(-4, 0, 5), sigdigits = 1)
+#TNs = round.(10 .^ range(-4, 0, 5), sigdigits = 1)
+TN = 1.0
+μs = range(0, 5, step = 0.5)
+ws = range(5, 30, step = 5)
+nmJs = collect(round.(range(5, 10, length=length(μs)))) .|> Int
+pts = Iterators.product(zip(μs, nmJs), ws)
 
 junctions_C = Dict(
-    ["C_$(TN)" => Junction(
-        wireL = wires["C_left"],
-        wireR = wires["C_right"],
+    ["C_mu=$(μ)_w=$(w)" => Junction(
+        wireL = Params_mm(wires["C_left"]; μ = μ, w = w, num_mJ = nmJ),
+        wireR = Params_mm(wires["C_right"]; μ = μ, w = w, num_mJ = nmJ),
         params = params_jos,
         TN = TN,
-    ) for TN in TNs]
+    ) for ((μ, nmJ), w) in pts]
 )
 
 junctions_D = Dict(
-    ["D_$(TN)" => Junction(
-        wireL = wires["D_left"],
-        wireR = wires["D_right"],
+    ["D_mu=$(μ)_w=$(w)" => Junction(
+        wireL = Params_mm(wires["D_left"]; μ = μ, w = w, num_mJ = nmJ),
+        wireR = Params_mm(wires["D_right"]; μ = μ, w = w, num_mJ = nmJ),
         params = params_jos,
         TN = TN,
-    ) for TN in TNs]
+    ) for ((μ, nmJ), w) in pts]
 )
 
 junctions_dict = Dict(

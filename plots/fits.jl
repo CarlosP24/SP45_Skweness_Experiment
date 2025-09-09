@@ -45,7 +45,7 @@ fig
 ##
 fig = Figure(size = (500, 600), fontsize = 20)
 ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"$\omega$ (meV)")
-Bsleft = plot_LDOS(ax, "C_left", colorrange = (0, 4e-5))
+Bsleft = plot_LDOS(ax, "C_left", colorrange = (0, 4e-4))
 vlines!(ax, Bsleft, color = :orange, linestyle = :dash, linewidth = 3)
 
 hidexdecorations!(ax, ticks = false)
@@ -55,7 +55,7 @@ vlines!(ax, Bsright, color = :green, linestyle = :dash, linewidth = 3)
 
 hidexdecorations!(ax, ticks = false)
 ax = Axis(fig[3, 1]; xlabel = L"$B$ (T)", ylabel = L"I_c")
-plot_Ic(ax, "C_0.1")
+plot_Ic(ax, "C_1.0")
 vlines!(ax, Bsleft; color = :orange, linestyle = :dash, linewidth = 3)
 vlines!(ax, Bsright; color = :green, linestyle = :dash, linewidth = 3)
 xlims!(ax, (0, 0.6))

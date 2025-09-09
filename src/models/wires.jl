@@ -7,7 +7,7 @@ wires = Dict(
     "base_wire" => Params_mm(;
         R = 60,
         d = 8,
-        a0 = 1,
+        a0 = 2,
         Δ0 = 0.2,
         α = 0,
         g = 10,
@@ -26,7 +26,7 @@ wires["C_left"] = Params_mm(wires["base_wire"];
     ξd = 55,
     #θ = 8 * π / 180,
     θ = 0.1,
-    Δ0 = 0.204
+    Δ0 = 0.204,
 )
 
 wires["C_right"] = Params_mm(wires["base_wire"];
