@@ -37,9 +37,11 @@ function plot_Ic(ax, name::String; basepath = "data/Js")
 
 end
 
-fig = Figure()
-ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"I_c")
-plot_Ic(ax, "C_1.0")
+fig = Figure(size = (800, 280))
+ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"I_c", backgroundcolor = (:white, 0))
+plot_Ic(ax, "C_mu=1_w=5_tau=1.5_g=0")
+xlims!(ax, (0, 0.4))
+save("Ic_test.pdf", fig)
 fig
 
 ##

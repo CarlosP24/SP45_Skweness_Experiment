@@ -59,6 +59,9 @@ gen_launcher:
 	@if yq e '.${CLUSTER}.partition' $(CLUSTERS_CFG) | grep -vq 'null'; then \
 		echo "#SBATCH --partition=$$(yq e '.${CLUSTER}.partition' $(CLUSTERS_CFG))" >> bin/launcher.sh; \
 	fi
+	@if yq e '.${CLUSTER}.exclude' $(CLUSTERS_CFG) | grep -vq 'null'; then \
+		echo "#SBATCH --exclude=$$(yq e '.${CLUSTER}.exclude' $(CLUSTERS_CFG))" >> bin/launcher.sh; \
+	fi
 	@if yq e '.${CLUSTER}.ntasks_per_node' $(CLUSTERS_CFG) | grep -vq 'null'; then \
 		echo "#SBATCH --ntasks-per-node=$$(yq e '.${CLUSTER}.ntasks_per_node' $(CLUSTERS_CFG))" >> bin/launcher.sh; \
 	fi
@@ -73,6 +76,12 @@ gen_launcher:
 	fi
 	@if yq e '.${CLUSTER}.mem_per_cpu' $(CLUSTERS_CFG) | grep -vq 'null'; then \
 		echo "#SBATCH --mem-per-cpu=$$(yq e '.${CLUSTER}.mem_per_cpu' $(CLUSTERS_CFG))" >> bin/launcher.sh; \
+	fi
+	@if yq e '.${CLUSTER}.mem' $(CLUSTERS_CFG) | grep -vq 'null'; then \
+		echo "#SBATCH --mem=$$(yq e '.${CLUSTER}.mem' $(CLUSTERS_CFG))" >> bin/launcher.sh; \
+	fi
+	@if yq e '.${CLUSTER}.time' $(CLUSTERS_CFG) | grep -vq 'null'; then \
+		echo "#SBATCH --time=$$(yq e '.${CLUSTER}.time' $(CLUSTERS_CFG))" >> bin/launcher.sh; \
 	fi
 	@echo "#SBATCH --output=\"logs/%A_%a.out\"" >> bin/launcher.sh
 	@echo "#SBATCH --job-name=\"\$$*\"" >> bin/launcher.sh

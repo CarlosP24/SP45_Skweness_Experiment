@@ -16,7 +16,12 @@ function calc_LDOS(name::String)
     # Calculate LDOS
     ρ = ldos(g_right[cells = (-1,)])
     LDOS = pfunction(
-        (B, ω) -> sum(ρ(ω; B, ω)),
+        (B, ω) -> try
+            sum(ρ(ω; B, ω))
+        catch e
+            @warn "Error computing LDOS at (B=$B, ω=$ω): $e"
+            NaN
+        end,
         [Brng, ωrng]
     )
 

@@ -32,6 +32,12 @@ elseif input in keys(junctions)
     @info "Josephson current calculation completed for: $input"
     @info "Saving results to $(res.path)"
     save(res.path, "res", res)
+elseif input in keys(junctions_fit)
+    @info "Fitting Josephson current for: $input"
+    res = fit_Josephson(input)
+    @info "Josephson current fitting completed for: $input"
+    @info "Saving results to $(res.path)"
+    save(res.path, "res", res)
 else
     @error "Key '$input' not found."
 end
