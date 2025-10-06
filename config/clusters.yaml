@@ -4,9 +4,9 @@ esbirro:
   path: /local/cap
   launcher: bin/launcher.sh
   partition: esbirro
-  exclude: es3
   ntasks_per_node: 32
   nodes: 1-7
+  exclude: es1
   cpus_per_task: 1
   mem_per_cpu: 2G
   mail_user: carlos.paya@csic.es
@@ -33,9 +33,10 @@ cesga:
   path: /home/csic/toq/cph
   launcher: bin/launcher.sh
   partition: long
-  ntasks: 100
+  ntasks_per_node: 64
+  nodes: 8-16
   cpus_per_task: 1
-  mem: 20G
+  mem_per_cpu: 2G
   time: 24:00:00
   mail_user: carlos.paya@csic.es
   mail_type: BEGIN,END,FAIL,TIME_LIMIT_80
@@ -46,11 +47,12 @@ drago:
   host: drago.csic.es
   path: /lustre/home/icmm/cpaya
   launcher: bin/launcher.sh
-  partition: special
+  partition: long
   ntasks_per_node: 48
-  nodes: 2-8
+  nodes: 8-16
   cpus_per_task: 1
-  mem: 10G
+  mem_per_cpu: 2G
   mail_user: carlos.paya@csic.es
   mail_type: BEGIN,END,FAIL,TIME_LIMIT_80
+  exclude: drago31020047
   # Add any other SBATCH options needed for this cluster

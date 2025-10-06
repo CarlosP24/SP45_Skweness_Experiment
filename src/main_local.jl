@@ -13,10 +13,9 @@ using CSV, DataFrames
 include("utilities.jl")
 ensure_pkgs(["Quantica", "FullShell", "Parameters", "ProgressMeter", "Interpolations", "Roots"])
 @everywhere begin
-    using Quantica, FullShell
+    using Quantica, FullShell, JLD2
     using ProgressMeter, Parameters
     using Interpolations, Roots
-    
     # Load code
     include("utilities.jl")
     include("models/params.jl")
@@ -60,9 +59,9 @@ wire_systems = Dict(
     ]
 )
 
-µ = 50
-w = 35
-num_mJ = 10
+µ = 10
+w = 20
+num_mJ = 4
 
 params = Calc_Params(;
     Brng = range(0, 0.4, 101),
@@ -78,8 +77,8 @@ wire_tests = Dict(
             w = w,
             num_mJ = num_mJ,
             τΓ = 3,
-            g = 20,
-            α = 10
+            g = 10,
+            α = 0,
         ),
         params = params
     ),
@@ -88,9 +87,9 @@ wire_tests = Dict(
             μ = µ,
             w = w,
             num_mJ = num_mJ,
-            τΓ = 1,
-            g = 20,
-            α = 10
+            τΓ = 3,
+            g = 10,
+            α = 0,
         ),
         params = params
     )]
@@ -107,7 +106,7 @@ save(res.path, "res", res)
 fig = Figure()
 
 ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"$\omega$ (meV)")
-plot_LDOS(ax, nameL, colorrange = (0, 2e-2))
+plot_LDOS(ax, nameL, colorrange = (0, 1e-2))
 #hidexdecorations!(ax, ticks = false)
 
 # ax = Axis(fig[2, 1]; xlabel = L"$B$ (T)", ylabel = L"$\omega$ (meV)")
@@ -140,11 +139,11 @@ crit_index = [findmin(zvals[i, :])[2] for i in 1:size(zvals, 1)]
 fig = Figure(size = (800, 280))
 ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"I_c", backgroundcolor = (:white, 0))
 xrng = range(0, 0.4, length = size(zvals, 1))
-yrng = range(0, 0.2, length = size(zvals, 2))
+yrng = range(0, 0.5, length = size(zvals, 2))
 heatmap!(ax, xrng, yrng, zvals, colormap = :redsblues)
 scatter!(ax, xrng, [yrng[i] for i in crit_index]; color = :red,)
 
-plot_Ic(ax, "C_mu=1_w=5_tau=1.5_g=0"; basepath = "../data/Js", color = :black, linewidth = 5)
+plot_Ic(ax, "C_mu=10_w=15_tau=1.0_g=0"; basepath = "../data/Js", color = :black, linewidth = 5)
 xlims!(ax, (0, 0.4))
 ylims!(ax, (first(yrng), last(yrng)))
 save("Ic_test.pdf", fig)

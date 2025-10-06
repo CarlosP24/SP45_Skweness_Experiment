@@ -2,7 +2,7 @@ using Pkg, JLD2
 include("utilities.jl")
 ensure_pkgs(["Quantica", "FullShell", "Parameters", "ProgressMeter", "Interpolations", "Roots"])
 @everywhere begin
-    using Quantica, FullShell
+    using Quantica, FullShell, JLD2
     using ProgressMeter, Parameters
     using Interpolations, Roots
     

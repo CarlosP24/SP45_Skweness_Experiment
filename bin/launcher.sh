@@ -4,7 +4,7 @@ if [ $? -ne 0 ]; then exit 1; fi
 JOB_INFO=$(sbatch --parsable --export=ALL <<EOT
 #!/bin/bash
 #SBATCH --partition=esbirro
-#SBATCH --exclude=es3
+#SBATCH --exclude=es1
 #SBATCH --ntasks-per-node=32
 #SBATCH --nodes=1-7
 #SBATCH --cpus-per-task=1

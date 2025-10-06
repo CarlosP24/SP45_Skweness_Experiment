@@ -9,7 +9,7 @@ wires = Dict(
         d = 8,
         a0 = 2,
         Δ0 = 0.2,
-        α = 10,
+        α = 0,
         g = 20,
         # Parameters to fit 
         w = 20,
@@ -54,6 +54,7 @@ wires["D_right"] = Params_mm(wires["base_wire"];
 @with_kw struct Wire_System
     wire::Params_mm = Params_mm()
     params::Calc_Params = Calc_Params()
+    Δw::Float64 = 0
 end
 
 wire_systems = Dict(
@@ -68,35 +69,42 @@ wire_systems = Dict(
 
 μs = range(0, 5, step = 0.5)
 ws = range(5, 30, step = 5)
+Δws = range(5, 30, step = 5)
+τΓs = range(1, 5, step = 1)
+gs = range(5, 20, step = 5)
 nmJs = collect(round.(range(5, 10, length=length(μs)))) .|> Int
-pts = Iterators.product(zip(μs, nmJs), ws)
+pts = Iterators.product(zip(μs, nmJs), ws, Δws, τΓs, gs)
 
 wires_C_left = Dict(
-    ["C_left_mu=$(μ)_w=$(w)" => Wire_System(
-        wire = Params_mm(wires["C_left"]; μ = μ, w = w, num_mJ = nmJ),
-        params = params_LDOS
-    ) for ((μ, nmJ), w) in pts]
+    ["C_left_mu=$(μ)_w=$(w)_dw=$(Δw)_tau=$(τΓ)_g=$(g)" => Wire_System(
+        wire = Params_mm(wires["C_left"]; μ = μ, w = w, num_mJ = nmJ, τΓ = τΓ, g = g),
+        params = params_LDOS,
+        Δw =  Δw
+    ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
 )
 
 wires_C_right = Dict(
-    ["C_right_mu=$(μ)_w=$(w)" => Wire_System(
-        wire = Params_mm(wires["C_right"]; μ = μ, w = w, num_mJ = nmJ),
-        params = params_LDOS
-    ) for ((μ, nmJ), w) in pts]
-) 
+    ["C_right_mu=$(μ)_w=$(w)_dw=$(Δw)_tau=$(τΓ)_g=$(g)" => Wire_System(
+        wire = Params_mm(wires["C_right"]; μ = μ, w = w, num_mJ = nmJ, τΓ = τΓ, g = g),
+        params = params_LDOS,
+        Δw = Δw
+    ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
+)
 
 wires_D_left = Dict(
     ["D_left_mu=$(μ)_w=$(w)" => Wire_System(
-        wire = Params_mm(wires["D_left"]; μ = μ, w = w, num_mJ = nmJ),
-        params = params_LDOS
-    ) for ((μ, nmJ), w) in pts]
+        wire = Params_mm(wires["D_left"]; μ = μ, w = w, num_mJ = nmJ, τΓ = τΓ, g = g),
+        params = params_LDOS,
+        Δw = Δw
+    ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
 )
 
 wires_D_right = Dict(
     ["D_right_mu=$(μ)_w=$(w)" => Wire_System(
         wire = Params_mm(wires["D_right"]; μ = μ, w = w, num_mJ = nmJ),
-        params = params_LDOS
-    ) for ((μ, nmJ), w) in pts]
+        params = params_LDOS,
+        Δw = Δw
+    ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
 )
 
 merge!(wire_systems, wires_C_left, wires_C_right, wires_D_left, wires_D_right)

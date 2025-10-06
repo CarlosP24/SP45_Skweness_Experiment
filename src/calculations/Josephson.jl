@@ -26,7 +26,7 @@ end
 
 function calc_Josephson(name::String)
     junction = junctions[name]
-    @unpack wireL, wireR, params, j_params, TN = junction
+    @unpack wireL, wireR, params, Δw, j_params, TN = junction
     @unpack Brng, φrng, outdir = params
     @unpack imshift, atol, maxevals, order = j_params
 
@@ -67,9 +67,15 @@ function calc_Josephson(name::String)
     # Josephson integrator
     J = josephson(g[attach_link["semi"]], ipath; omegamap = ω -> (; ω), phases = φrng, atol, maxevals, order)
 
-    function Jparalell(B)
+    ws = [wireL.w]
+
+    if Δw != 0
+        push!(ws, wireL.w + Δw)
+    end
+
+    function Jparalell(B, w)
         try
-            return J(0; B, τ)
+            return J(0; B, w, τ)
         catch e
             @warn "Error in Jparalell at B=$(B)" exception = e
             return fill(NaN, length(φrng))
@@ -79,10 +85,13 @@ function calc_Josephson(name::String)
     # Calculate Josephson current
     Js = pfunction(
         Jparalell,
-        [Brng]
+        [Brng, ws]
     )
 
+    Js = dropdims(sum(Js, dims = 2), dims = 2)
+
     Js = mapreduce(permutedims, vcat, Js)
+
 
     return Results(
         params = params2,
