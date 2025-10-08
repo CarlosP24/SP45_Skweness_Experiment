@@ -20,6 +20,9 @@ end
 ## Run 
 input = ARGS[1]
 
+read_wire(input)
+read_junction(input)
+
 if input in keys(wire_systems)
     @info "Calculating LDOS for wire: $input"
     res = calc_LDOS(input)

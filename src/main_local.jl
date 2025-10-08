@@ -5,7 +5,7 @@ addprocs(8)
     using Pkg; Pkg.activate(".");
     Pkg.instantiate(); Pkg.precompile()
 end 
-
+    
 cd("src")
 
 using Pkg, JLD2
@@ -48,54 +48,11 @@ function plot_LDOS(ax, name::String; basepath = "data/LDOS", colorrange = (0, 1e
     return Bsws
 end
 ##
+nameL = "C_left_mu=10.0_w=25_dw=10_tau=2.0_g=15"
+nameR = "C_right_mu=15.0_w=30_dw=10_tau=3.0_g=20"
 
-wire_systems = Dict(
-    [
-        key => Wire_System(
-            wire = value, 
-            params = params_LDOS
-        )
-        for (key, value) in wires
-    ]
-)
-
-µ = 10
-w = 20
-num_mJ = 4
-
-params = Calc_Params(;
-    Brng = range(0, 0.4, 101),
-    ωrng = range(-0.3, 0, 101) .+ 1e-3im,
-)
-
-nameL = "C_ltest_mu=$(μ)_w=$(w)"
-nameR = "C_rtest_mu=$(μ)_w=$(w)"
-wire_tests = Dict(
-    [nameL => Wire_System(
-        wire = Params_mm(wires["C_left"];
-            μ = µ,
-            w = w,
-            num_mJ = num_mJ,
-            τΓ = 3,
-            g = 10,
-            α = 0,
-        ),
-        params = params
-    ),
-    nameR => Wire_System(
-        wire = Params_mm(wires["C_right"];
-            μ = µ,
-            w = w,
-            num_mJ = num_mJ,
-            τΓ = 3,
-            g = 10,
-            α = 0,
-        ),
-        params = params
-    )]
-)
-
-merge!(wire_systems, wire_tests)
+read_wire(nameL)
+read_wire(nameR)
 
 res = calc_LDOS(nameL)
 save(res.path, "res", res)
@@ -139,11 +96,11 @@ crit_index = [findmin(zvals[i, :])[2] for i in 1:size(zvals, 1)]
 fig = Figure(size = (800, 280))
 ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"I_c", backgroundcolor = (:white, 0))
 xrng = range(0, 0.4, length = size(zvals, 1))
-yrng = range(0, 0.5, length = size(zvals, 2))
+yrng = range(0, 1, length = size(zvals, 2))
 heatmap!(ax, xrng, yrng, zvals, colormap = :redsblues)
 scatter!(ax, xrng, [yrng[i] for i in crit_index]; color = :red,)
 
-plot_Ic(ax, "C_mu=10_w=15_tau=1.0_g=0"; basepath = "../data/Js", color = :black, linewidth = 5)
+plot_Ic(ax, "C_mu=10.0_w=25_dw=10_tau=2.0_g=15"; basepath = "../data/Js", color = :black, linewidth = 5)
 xlims!(ax, (0, 0.4))
 ylims!(ax, (first(yrng), last(yrng)))
 save("Ic_test.pdf", fig)

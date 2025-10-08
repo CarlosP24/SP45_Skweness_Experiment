@@ -49,9 +49,9 @@ drago:
   launcher: bin/launcher.sh
   partition: long
   ntasks_per_node: 48
-  nodes: 8-16
+  nodes: 8
   cpus_per_task: 1
-  mem_per_cpu: 2G
+  mem_per_cpu: 3G
   mail_user: carlos.paya@csic.es
   mail_type: BEGIN,END,FAIL,TIME_LIMIT_80
   exclude: drago31020047
