@@ -56,12 +56,14 @@ function add_junction(name::String)
 
     parts = split(name, '_')
     if length(parts) < 1
-        error("invalid junction name: $name")
+        @info "$name is not a junction"
+        return
     end
 
     base = parts[1]
     if !(base in ("C", "D"))
-        error("unknown junction base: $base (expected 'C' or 'D')")
+        @info "$name has unknown junction base: $base (expected 'C' or 'D')"
+        return
     end
 
     # collect k=v tokens from the remainder
@@ -100,7 +102,8 @@ function add_junction(name::String)
     left_key = string(base, "_left")
     right_key = string(base, "_right")
     if !haskey(wires, left_key) || !haskey(wires, right_key)
-        error("missing wire templates for junction base: $base")
+        @info "missing wire templates for junction base: $base"
+        return
     end
 
     baseL = wires[left_key]

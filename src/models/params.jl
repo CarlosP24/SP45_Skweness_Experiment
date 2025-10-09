@@ -20,7 +20,9 @@ end
     Ibump1 = 2.0            # Relative drop in I_c skewed 1st lobe
     skew2 = "left"          # Second lobe skewness condition for fitting ("left", "right")
     outdir = "data"
-    prevfit = "data/Js_fit/base_C.jld2"  # Previous fit to start from
+    BsLDOS = range(0, 0.4, 101) 
+    ω = 0.0 + 1e-3im
+    prevfit = "data/LDOS_fit/C_left.jld2"  # Previous fit to start from
 end
 
 @with_kw struct Results

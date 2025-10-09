@@ -1,5 +1,5 @@
 params_LDOS = Calc_Params(;
-    Brng = range(0, 0.4, 101),
+    Brng = range(0, 0.4, 201),
     ωrng = range(-0.3, 0, 101) .+ 1e-3im,
 )
 
@@ -15,7 +15,7 @@ wires = Dict(
         w = 20,
         τΓ = 3,
         μ = 0,
-        num_mJ = 4,
+        num_mJ = 6,
         shell = "Ballistic",
     )
 )
@@ -145,44 +145,26 @@ function read_wire(name::String)
     end
 end
 
-# μs = range(0, 50, step = 0.5)
-# ws = range(5, 30, step = 1)
-# Δws = range(0, 30, step = 1)
-# τΓs = range(1, 5, step = 0.5)
-# gs = range(0, 20, step = 5)
-# nmJs = collect(round.(range(5, 10, length=length(μs)))) .|> Int
-# pts = Iterators.product(zip(μs, nmJs), ws, Δws, τΓs, gs)
+@with_kw struct LDOS_fit
+    wire::Params_mm = Params_mm()
+    params::Fit_Params = Fit_Params()
+end
 
-# wires_C_left = Dict(
-#     ["C_left_mu=$(μ)_w=$(w)_dw=$(Δw)_tau=$(τΓ)_g=$(g)" => Wire_System(
-#         wire = Params_mm(wires["C_left"]; μ = μ, w = w, num_mJ = nmJ, τΓ = τΓ, g = g),
-#         params = params_LDOS,
-#         Δw =  Δw
-#     ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
-# )
-
-# wires_C_right = Dict(
-#     ["C_right_mu=$(μ)_w=$(w)_dw=$(Δw)_tau=$(τΓ)_g=$(g)" => Wire_System(
-#         wire = Params_mm(wires["C_right"]; μ = μ, w = w, num_mJ = nmJ, τΓ = τΓ, g = g),
-#         params = params_LDOS,
-#         Δw = Δw
-#     ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
-# )
-
-# wires_D_left = Dict(
-#     ["D_left_mu=$(μ)_w=$(w)" => Wire_System(
-#         wire = Params_mm(wires["D_left"]; μ = μ, w = w, num_mJ = nmJ, τΓ = τΓ, g = g),
-#         params = params_LDOS,
-#         Δw = Δw
-#     ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
-# )
-
-# wires_D_right = Dict(
-#     ["D_right_mu=$(μ)_w=$(w)" => Wire_System(
-#         wire = Params_mm(wires["D_right"]; μ = μ, w = w, num_mJ = nmJ),
-#         params = params_LDOS,
-#         Δw = Δw
-#     ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
-# )
-
-# merge!(wire_systems, wires_C_left, wires_C_right, wires_D_left, wires_D_right)
+wires_fit = Dict(
+    "C_left" => LDOS_fit(
+        wire = wires["C_left"],
+        params = Fit_Params()
+    ),
+    "C_right" => LDOS_fit(
+        wire = wires["C_right"],
+        params = Fit_Params()
+    ),
+    "D_left" => LDOS_fit(
+        wire = wires["D_left"],
+        params = Fit_Params()
+    ),
+    "D_right" => LDOS_fit(
+        wire = wires["D_right"],
+        params = Fit_Params()
+    )
+)

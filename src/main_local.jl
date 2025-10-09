@@ -48,27 +48,30 @@ function plot_LDOS(ax, name::String; basepath = "data/LDOS", colorrange = (0, 1e
     return Bsws
 end
 ##
-nameL = "C_left_mu=10.0_w=25_dw=10_tau=2.0_g=15"
-nameR = "C_right_mu=15.0_w=30_dw=10_tau=3.0_g=20"
+common = "mu=25.0_w=20_dw=30_tau=2.5_g=17"
+nameL = "C_left_$(common)"
+nameR = "C_right_$(common)"
 
 read_wire(nameL)
 read_wire(nameR)
 
 res = calc_LDOS(nameL)
 save(res.path, "res", res)
-# res = calc_LDOS(nameR)
-# save(res.path, "res", res)
+res = calc_LDOS(nameR)
+save(res.path, "res", res)
 
 ##
-fig = Figure()
+fig = Figure(size = (600, 600))
 
 ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"$\omega$ (meV)")
-plot_LDOS(ax, nameL, colorrange = (0, 1e-2))
-#hidexdecorations!(ax, ticks = false)
+plot_LDOS(ax, nameL, colorrange = (0, 4e-3))
+text!(ax, 0.37, 0.25; text = "Left", align = (:center, :center), color = :white, fontsize = 20)
+# hidexdecorations!(ax, ticks = false)
 
-# ax = Axis(fig[2, 1]; xlabel = L"$B$ (T)", ylabel = L"$\omega$ (meV)")
-# plot_LDOS(ax, nameR, colorrange = (0, 2e-2))
-
+ax = Axis(fig[2, 1]; xlabel = L"$B$ (T)", ylabel = L"$\omega$ (meV)")
+plot_LDOS(ax, nameR, colorrange = (0, 4e-3))
+text!(ax, 0.37, 0.25; text = "Right", align = (:center, :center), color = :white, fontsize = 20)
+save("../plots/study_figs/LDOS_$(common).pdf", fig)
 fig
 
 ##
@@ -89,20 +92,21 @@ end
 csv_path = "../Recovered.csv"
 df = CSV.read(csv_path, DataFrame)
 
-zvals = reverse( Matrix(df[:, 2:end])', dims = 2)
+zvals = reverse(Matrix(df[:, 2:end])', dims = 2)
 
 crit_index = [findmin(zvals[i, :])[2] for i in 1:size(zvals, 1)]
 
 fig = Figure(size = (800, 280))
 ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"I_c", backgroundcolor = (:white, 0))
 xrng = range(0, 0.4, length = size(zvals, 1))
-yrng = range(0, 1, length = size(zvals, 2))
+yrng = range(0, 1.7, length = size(zvals, 2))
 heatmap!(ax, xrng, yrng, zvals, colormap = :redsblues)
 scatter!(ax, xrng, [yrng[i] for i in crit_index]; color = :red,)
 
-plot_Ic(ax, "C_mu=10.0_w=25_dw=10_tau=2.0_g=15"; basepath = "../data/Js", color = :black, linewidth = 5)
+name = "C_mu=25.0_w=20_dw=30_tau=2.5_g=17"
+plot_Ic(ax, name; basepath = "../data/Js", color = :black, linewidth = 5)
 xlims!(ax, (0, 0.4))
 ylims!(ax, (first(yrng), last(yrng)))
-save("Ic_test.pdf", fig)
+save("../plots/study_figs/$(name).pdf", fig)
 fig
 ## 
