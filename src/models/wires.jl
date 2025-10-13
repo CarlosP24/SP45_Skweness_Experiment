@@ -1,6 +1,6 @@
 params_LDOS = Calc_Params(;
-    Brng = range(0, 0.4, 201),
-    ωrng = range(-0.3, 0, 101) .+ 1e-3im,
+    Brng = range(0, 0.4, 401),
+    ωrng = range(-0.3, 0, 401) .+ 1e-3im,
 )
 
 wires = Dict(
@@ -144,6 +144,16 @@ function read_wire(name::String)
         @info "$name is not a wire"
     end
 end
+
+## Fitted wires 
+
+cfit = "mu=25_w=20_dw=0_tau=2.5_g=17"
+add_wire("C_left_$(cfit)")
+add_wire("C_right_$(cfit)")
+wires["fitted_C_left"] = wires["C_left_$(cfit)"]
+delete!(wires, "C_left_$(cfit)")
+wires["fitted_C_right"] = wires["C_right_$(cfit)"]
+delete!(wires, "C_right_$(cfit)")
 
 @with_kw struct LDOS_fit
     wire::Params_mm = Params_mm()

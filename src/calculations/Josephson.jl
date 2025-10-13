@@ -26,7 +26,7 @@ end
 
 function calc_Josephson(name::String)
     junction = junctions[name]
-    @unpack wireL, wireR, params, Δw, j_params, TN = junction
+    @unpack wireL, wireR, params, Δw, j_params, TN, kBT = junction
     @unpack Brng, φrng, outdir = params
     @unpack imshift, atol, maxevals, order = j_params
 
@@ -75,7 +75,7 @@ function calc_Josephson(name::String)
 
     function Jparalell(B, w)
         try
-            return J(0; B, w, τ)
+            return J(kBT; B, w, τ)
         catch e
             @warn "Error in Jparalell at B=$(B)" exception = e
             return fill(NaN, length(φrng))

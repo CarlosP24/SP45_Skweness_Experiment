@@ -11,7 +11,8 @@ end
     params::Calc_Params = Calc_Params()
     Δw::Float64 = 0
     j_params::J_Params = J_Params()
-    TN = 1
+    TN = 0.9
+    kBT = 0
 end
 
 @with_kw struct Junction_fit
@@ -19,7 +20,7 @@ end
     wireR::Params_mm = Params_mm()
     params::Fit_Params = Fit_Params()
     j_params::J_Params = J_Params()
-    TN = 0.1
+    TN = 0.2
 end
 
 junctions_fit = Dict(
@@ -32,13 +33,15 @@ junctions_fit = Dict(
 ) 
 
 params_jos = Calc_Params(;
-    Brng = range(0, 0.4, 201),
+    Brng = range(0, 0.4, 401),
     φrng = range(0, 2π, 101),
 )
 
 
 # Registry for dynamically created junctions
 junctions = Dict{String, Junction}()
+
+## Fitted junctions 
 
 
 function add_junction(name::String)
@@ -114,6 +117,8 @@ function add_junction(name::String)
 
     # Δw (dw in the string) is stored on the Junction struct
     Δw = haskey(params_map, "dw") ? parse_num(params_map["dw"]) : 0.0
+    kBT = haskey(params_map, "kBT") ? parse_num(params_map["kBT"]) : 0.0
+    TN = haskey(params_map, "TN") ? parse_num(params_map["TN"]) : 0.24
 
     j = Junction(
         wireL = wireL,
@@ -121,7 +126,8 @@ function add_junction(name::String)
         params = params_jos,
         Δw = Δw,
         j_params = J_Params(),
-        TN = 0.1,
+        TN = TN,
+        kBT = kBT,
     )
 
     # register and return
@@ -139,53 +145,11 @@ function read_junction(name::String)
 end
 
 
+## Fitted junctions
+add_junction("C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.24")
+junctions["fitted_C"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.24"]
+delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.24")
+
 
 
 #########################################################################
-
-
-
-
-
-# fitC = try 
-#     load("data/Js_fit/base_C.jld2")["res"].fitted_params
-# catch e 
-#     load("../data/Js_fit/base_C.jld2")["res"].fitted_params
-# end
-
-# μs = range(0, 50, step = 0.5)
-# ws = range(5, 30, step = 1)
-# Δws = range(5, 30, step = 1)
-# τΓs = range(1, 5, step = 0.5)
-# gs = range(0, 20, step = 5)
-# nmJs = collect(round.(range(5, 10, length=length(μs)))) .|> Int
-
-# pts = Iterators.product(zip(μs, nmJs), ws, Δws, τΓs, gs)
-
-
-# junctions_C = Dict(
-#     ["C_mu=$(μ)_w=$(w)_dw=$(Δw)_tau=$(τΓ)_g=$(g)" => Junction(
-#         wireL = Params_mm(wires["C_left"]; μ, w, τΓ, g),
-#         wireR = Params_mm(wires["C_right"]; μ, w, τΓ, g),
-#         params = params_jos,
-#         Δw = Δw,
-#         TN = 0.1,
-#     ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
-# )
-
-# junctions_D = Dict(
-#     ["D_mu=$(μ)_w=$(w)_dw=$(Δw)_tau=$(τΓ)_g=$(g)" => Junction(
-#         wireL = Params_mm(wires["D_left"]; μ, w, τΓ, g),
-#         wireR = Params_mm(wires["D_right"]; μ, w, τΓ, g),
-#         params = params_jos,
-#         Δw = Δw,
-#         TN = 0.1,
-#     ) for ((μ, nmJ), w, Δw, τΓ, g) in pts]
-# )
-
-# junctions_dict = Dict(
-#     "junctions_C" => junctions_C,
-#     "junctions_D" => junctions_D
-# )
-
-# junctions = merge(junctions_C, junctions_D)
