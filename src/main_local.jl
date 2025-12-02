@@ -57,7 +57,7 @@ nameR = "C_right_$(common)"
 read_wire(nameL)
 read_wire(nameR)
 
-res = calc_LDOS(nameL)
+res = calc_LDOS(nameL)  
 save(res.path, "res", res)
 res = calc_LDOS(nameR)
 save(res.path, "res", res)
@@ -87,7 +87,7 @@ function plot_Ic(ax, name::String; conv = 1, basepath = "data/Js", kw...)
     
     Ic = getindex(findmax(Js; dims = 2),1) |> vec
 
-    scatter!(ax, Brng, conv * Ic; kw...)
+    lines!(ax, Brng, conv * Ic; kw...)
     xlims!(ax, (first(Brng), last(Brng)))
     ylims!(ax, (0, conv * maximum(filter(!isnan, Ic))))
 end
@@ -106,8 +106,8 @@ yrng = range(0, 150, length = size(zvals, 2))
 heatmap!(ax, xrng, yrng, zvals, colormap = :redsblues)
 scatter!(ax, xrng, [yrng[i] for i in crit_index]; color = :red,)
 
-name = "C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022"
-plot_Ic(ax, name; conv = 74.4, basepath = "../data/Js", color = :lightgreen,)
+name = "fitted_C"
+plot_Ic(ax, name; conv = 74.4, basepath = "../data/Js", color = :black, linewidth = 5)
 #xlims!(ax, (0, 0.4))
 #ylims!(ax, (first(yrng), last(yrng)))
 ylims!(ax, 0, 150)
@@ -120,9 +120,9 @@ fig = Figure(size = (800, 280))
 ax = Axis(fig[1, 1]; xlabel = L"$B$ (T)", ylabel = L"$I_c$ (nA)")
 name = "C_mu=25.0_w=20_dw=0_tau=2.5_g=17"
 plot_Ic(ax, name; conv = 74.4, basepath = "../data/Js", color = :black, linewidth = 5, label = L"T=0") #  meV * 2e / h = 74.4 nA
-name = "C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022"
-plot_Ic(ax, name; conv = 74.4, basepath = "../data/Js", color = :green, linestyle = :dash, linewidth = 5, label = L"$T=250$mK") #  meV * 2e / h = 74.4 nA
-ylims!(ax, 0, 75)
+name = "fitted_C"
+plot_Ic(ax, name; conv = 0.5*74.4, basepath = "../data/Js", color = :green, linestyle = :dash, linewidth = 5, label = L"$T=250$mK") #  meV * 2e / h = 74.4 nA
+ylims!(ax, 0, 80)
 axislegend(ax; position = :rt, framevisible = false, textsize = 20)
 fig
 

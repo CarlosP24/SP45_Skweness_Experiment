@@ -50,6 +50,18 @@ if input in keys(junctions)
     exit(0)
 end
 
+if endswith(input, "_cond")
+    truekey = replace(input, "_cond" => "")
+    if truekey in keys(junctions)
+        @info "Calculating Conductance for: $truekey"
+        res = calc_Conductance(truekey)
+        @info "Conductance calculation completed for: $truekey"
+        @info "Saving results to $(res.path)"
+        save(res.path, "res", res)
+        exit(0)
+    end
+end
+
 if input in keys(junctions_fit)
     @info "Fitting Josephson current for: $input"
     res = fit_Josephson(input)

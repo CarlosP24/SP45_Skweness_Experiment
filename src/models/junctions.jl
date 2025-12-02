@@ -33,7 +33,7 @@ junctions_fit = Dict(
 ) 
 
 params_jos = Calc_Params(;
-    Brng = range(0, 0.4, 401),
+    Brng = range(0, 0.45, 101),
     φrng = range(0, 2π, 101),
 )
 
@@ -146,10 +146,9 @@ end
 
 
 ## Fitted junctions
-add_junction("C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.24")
-junctions["fitted_C"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.24"]
-delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.24")
-
-
+add_junction("C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.19")
+junctions["fitted_C"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.19"]
+junctions["fitted_C_test"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.19"]
+delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.19")
 
 #########################################################################

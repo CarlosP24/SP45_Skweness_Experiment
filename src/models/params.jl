@@ -1,6 +1,6 @@
 @with_kw struct Calc_Params
     Brng = range(0, 0.6, 401)
-    ωrng = range(-0.3, 0, 401) .+ 1e-4im
+    ωrng = range(-0.3, 0, 401) .+ 1e-3im
     φrng = range(0, 2π, 101)
     outdir = "data"
 end
@@ -31,6 +31,7 @@ end
     junction = nothing
     LDOS = nothing
     Js = nothing
+    Gs = nothing
     fitted_params = nothing
     path = nothing
 end
