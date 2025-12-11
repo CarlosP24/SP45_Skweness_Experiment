@@ -1,7 +1,7 @@
 params_LDOS = Calc_Params(;
-    Brng = range(0, 0.4, 101),
-    #ωrng = range(-0.3, 0, 101) .+ 1e-3im,
-    ωrng = [0] .+ 1e-3im
+    Brng = range(0, 0.4, 401),
+    ωrng = range(-0.3, 0, 401) .+ 1e-3im,
+    #ωrng = [0] .+ 1e-3im
 )
 
 wires = Dict(
@@ -148,34 +148,16 @@ end
 
 ## Fitted wires 
 
-cfit = "mu=25_w=20_dw=0_tau=2.5_g=17"
-add_wire("C_left_$(cfit)")
-add_wire("C_right_$(cfit)")
-wire_systems["fitted_C_left"] = wire_systems["C_left_$(cfit)"]
-delete!(wire_systems, "C_left_$(cfit)")
-wire_systems["fitted_C_right"] = wire_systems["C_right_$(cfit)"]
-delete!(wire_systems, "C_right_$(cfit)")
-
-@with_kw struct LDOS_fit
-    wire::Params_mm = Params_mm()
-    params::Fit_Params = Fit_Params()
+function add_fit(name::String, key)
+    add_wire("C_left_"*name)
+    add_wire("C_right_"*name)
+    wire_systems["fitted_"*key*"_left"] = wire_systems["C_left_"*name]
+    wire_systems["fitted_"*key*"_right"] = wire_systems["C_right_"*name]
+    delete!(wire_systems, "C_left_"*name)
+    delete!(wire_systems, "C_right_"*name)
 end
 
-wires_fit = Dict(
-    "C_left" => LDOS_fit(
-        wire = wires["C_left"],
-        params = Fit_Params()
-    ),
-    "C_right" => LDOS_fit(
-        wire = wires["C_right"],
-        params = Fit_Params()
-    ),
-    "D_left" => LDOS_fit(
-        wire = wires["D_left"],
-        params = Fit_Params()
-    ),
-    "D_right" => LDOS_fit(
-        wire = wires["D_right"],
-        params = Fit_Params()
-    )
-)
+C = "mu=25_w=20_dw=0_tau=2.5_g=17"
+C3 = "mu=20_w=25_tau=2.5_g=17_T=550"
+add_fit(C, "C")
+add_fit(C3, "C3")

@@ -504,8 +504,8 @@ function fig_theory(exp_data::Exp_Data, exp_params::Exp_Params, name::String; na
     scatter!(ax, Ts[ilim:imax], IcAH(T)[ilim:imax]; color = :black, markersize = 8, label = "Experiment")
     scatter!(ax, Ts[ilim:imax], -IcAH(T)[ilim:imax]; color = :black, markersize = 8)
 
-    #lines!(ax, Brng_base, pref_base .* Ict_base; color = (:red, 0.7),  linestyle = :dash, linewidth = 3, label = "Theory (base)")
-    #lines!(ax, Brng_base,- pref_base .* Ict_base; color = (:red, 0.7),  linestyle = :dash, linewidth = 3,)
+    lines!(ax, Brng_base, pref_base .* Ict_base; color = (:red, 0.7),  linestyle = :dash, linewidth = 3, label = "Theory (base)")
+    lines!(ax, Brng_base,- pref_base .* Ict_base; color = (:red, 0.7),  linestyle = :dash, linewidth = 3,)
     lines!(ax, Brng, pref .* Ict; color = (:red, 0.7), linewidth = 3, label = "Theory")
     lines!(ax, Brng, -pref .* Ict; color = (:red, 0.7), linewidth = 3)
 
@@ -522,16 +522,16 @@ function fig_theory(exp_data::Exp_Data, exp_params::Exp_Params, name::String; na
     
     scatter!(ax, Ts[1:ilim], Ic[1:ilim]; color = :black, markersize = 8)
     scatter!(ax, Ts[ilim:imax], IcAH(T)[ilim:imax]; color = :black, markersize = 8, label = "Experiment")
-    #lines!(ax, Brng_base, pref_base .* Ict_base; color = (:red, 0.7),  linestyle = :dash, linewidth = 3, label = "Theory (base)")
+    lines!(ax, Brng_base, pref_base .* Ict_base; color = (:red, 0.7),  linestyle = :dash, linewidth = 3, label = "Theory (base)")
     lines!(ax, Brng, pref .* Ict; color = :red, linewidth = 3, label = "Theory")
     xlims!(ax, minimum(Ts), maximum(Ts))
     ylims!(ax, 0, maximum(filter(!isnan, Ic)) * 1.1)
     
     return fig
 end
-fig8 = fig_theory(Exp_Data(), Exp_Params(), "fitted_C3"; name_base = "C_mu=25_w=20_tau=2.5_g=17_T=550_TN=0.19", T = 550, pref = 0.8)
+fig8 = fig_theory(Exp_Data(), Exp_Params(), "fitted_C3"; name_base = "C_mu=25_w=20_tau=2.5_g=17_T=550_TN=0.19", T = 550, pref = 0.8, pref_base = 0.9)
+save("plots/study_figs/fig8_C.pdf", fig8)
 fig8
-#save("plots/study_figs/fig8_C.pdf", fig8)
 
 ##
 # ============================================================================

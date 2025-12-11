@@ -11,27 +11,10 @@ end
     params::Calc_Params = Calc_Params()
     Δw::Float64 = 0
     j_params::J_Params = J_Params()
-    TN = 0.9
+    TN = 0.1
     kB::Float64 = 8.61e-5   # eV/K
     T::Float64 = 0.0        # mK
 end
-
-@with_kw struct Junction_fit
-    wireL::Params_mm = Params_mm()
-    wireR::Params_mm = Params_mm()
-    params::Fit_Params = Fit_Params()
-    j_params::J_Params = J_Params()
-    TN = 0.2
-end
-
-junctions_fit = Dict(
-    ["base_C" => Junction_fit(
-        wireL = Params_mm(wires["C_left"]),
-        wireR = Params_mm(wires["C_right"]),
-        params = Fit_Params(),
-        j_params = J_Params(),
-    )]
-) 
 
 params_jos = Calc_Params(;
     #Brng = vcat(collect(0.01:0.005:0.02),collect(0.05:0.005:0.08), collect(0.18:0.005:0.22), collect(0.28:0.005:0.32)),

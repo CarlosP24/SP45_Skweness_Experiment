@@ -1,276 +1,139 @@
-using DelimitedFiles
-using Parameters
-
-const πoΦ0 = 1.519267e-3  
-
-@with_kw struct Exp_Params
-    Rs::Float64 = 5000
-    β::Float64 = 1
-    dI::Float64 = 5e-9 * β
-    G_0::Float64 = 7.74809173e-5
-end
-
-@with_kw struct Exp_Data
-    keysight = "data_exp/250mK_DEV13_275_16_dmm_keysight_signal.dat"
-    lockin = "data_exp/250mK_DEV13_275_16_mf1_X.dat"
-end
-
-@with_kw struct Filter_Params
-    window_size::Int = 201
-    poly_order::Int = 3
-end
-
-theo_params= Params_mm(;
-    R = 60,
-    ξd = 55,
-    θ = 0.1,    
-    Δ0 = 0.204
-)
-
-@with_kw struct Data
-    Ts = Float64[]
-    Is = Float64[]
-    Vmat = Array{Float64,2}(undef, 0, 0)
-    dVmat = Array{Float64,2}(undef, 0, 0)
-    dIdVmat = Array{Float64,2}(undef, 0, 0)
-    dVdImat = Array{Float64,2}(undef, 0, 0)
-end
-
-function read_data(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params())
-    @unpack keysight, lockin = exp_data
-    @unpack Rs, dI, G_0 = exp_params
-
-    # load files (DelimitedFiles.readdlm returns an Array)
-
-
-    keysight = DelimitedFiles.readdlm(keysight)
-    lockin = DelimitedFiles.readdlm(lockin)
-
-    # unique sorted indices for rows/columns
-    Ts = sort(unique(keysight[:, 1]))
-    Is = sort(unique(keysight[:, 2]))
-
-    # mapping from value -> matrix index
-    t_idx = Dict(val => i for (i, val) in enumerate(Ts))
-    i_idx = Dict(val => j for (j, val) in enumerate(Is))
-
-    # create matrix with missing values for pairs not present
-    Vmat = fill(NaN, length(Ts), length(Is))
-    dVmat = fill(NaN, length(Ts), length(Is))
-    dIdVmat = fill(NaN, length(Ts), length(Is))
-    dVdImat = fill(NaN, length(Ts), length(Is))
-    # populate matrix: column 1 -> row index, column 2 -> col index, column 4 -> value
-    for r in eachindex(keysight[:, 1])
-        t = keysight[r, 1]
-        i = keysight[r, 2]
-        v = keysight[r, 4]
-        dv = lockin[r, 4]
-        # Real voltage and lock-in correction
-        Vmat[t_idx[t], i_idx[i]] = v - Is[i_idx[i]] * Rs
-        dVmat[t_idx[t], i_idx[i]] = dv - dI * Rs
-        dIdVmat[t_idx[t], i_idx[i]] = dI / dVmat[t_idx[t], i_idx[i]] / G_0
-        dVdImat[t_idx[t], i_idx[i]] = dVmat[t_idx[t], i_idx[i]] / dI
-    end
-
-
-    return Data(; Ts = Ts, Is = Is, Vmat = Vmat, dVmat = dVmat, dIdVmat = dIdVmat, dVdImat = dVdImat)
-end
-
-function find_lobes(Bs, theo_params)
-    BtoΦ = get_Φ(theo_params)
-    Φs = BtoΦ.(Bs)
-    is = [findmin(abs.(Φs .- nh))[2] for nh in [0.5, 1.5, 2.5]]
-    return is, Bs[is]
-end
-
-function find_Isw(dVdImat, filter_params)
-    @unpack window_size, poly_order = filter_params
-    sgfilter = SGolay(window_size, poly_order)
-    iIsw = mapslices(dVdImat, dims=2) do dVdI_row
-        filtered = dVdI_row |> sgfilter 
-        imax = findmax(filtered.y)[2]
-        dVdImean = mean(dVdI_row[imax:end])
-        iIsw = findmin(abs.(filtered.y[1:imax] .- dVdImean))[2]
-        return imax
-    end
-    return [iIsw...]
-end
-
-function integrate_Is(dVdImat)
-    it = sum.(dVdImat)
-    return [it...]
-end
-
-function plot_conductance(ax, name::String; dir = "data/Conductance")
-    data = load(joinpath(dir, name * ".jld2"))["res"]
-    @unpack Gs, params = data
-    @unpack Brng = params
-    lines!(ax, Brng, 1 ./ abs.(Gs) .|> log10; color = :blue)
-    xlims!(ax, minimum(Brng), maximum(Brng))
-    return ax
-end
-
-function Ic_AH(Rp, kBT, RN)
-    α = Rp / RN
-    if α < 1
-        f(γ) = Rp/RN - 1 / besseli0(γ/2)^2
-        γ = find_zero(f, (0, 100);)
-        return 240 * kBT * γ # in nA
-    end
-    return 0
-end
-
-function R_RSJ(Ic, kBT, RN)
-    γ = Ic ./ (240 * kBT )
-    Rs = RN .* besseli0.(γ ./ 2).^(-2)
-    return Rs
-end
-
-function Rp(name::String; basepath = "data/Js", conv = 74.4)
+function ics(name::String; basepath = "data/Js", conv = 74.4)
     # Load results
     path = joinpath(basepath, "$(name).jld2")
     res = load(path)["res"]
 
-    @unpack Js, params, junction = res
-    @unpack kBT = junction 
-    πoΦ0 = res.junction.wireL.πoΦ0
-
-    Ic = getindex(findmax(Js; dims = 2),1) |> vec
-    Ic .*= conv 
-
-    γs = Ic ./ (240 * kBT )
-    Rs = besseli0.(γs ./ 2).^(-2)
-    return Rs, params.Brng
-end
-
-Seleznev(θ) = 2*π * exp(-2/θ) /θ
-
-function Rp_Seleznev(name::String; basepath = "data/Js", conv = 74.4, ħo2e = 2.06e-3)
-    # ħo2e in meV/nA
-    # Load results
-    path = joinpath(basepath, "$(name).jld2")
-    res = load(path)["res"]
-
-    @unpack Js, params, junction = res
-    @unpack kBT = junction 
-
-    Ic = getindex(findmax(Js; dims = 2),1) |> vec
-    Ic .*= conv 
-
-    EJ = ħo2e .* Ic
-    θ = kBT ./ EJ
-    Rs = Seleznev.(θ)
-    return Rs, params.Brng
-end
-
-function normalize_R(r)
-    Rmin = minimum(r)
-    R = r .- Rmin
-    Rmax = maximum(R)
-    R = R ./ Rmax
-    return R
-end
- 
-
-function fig_theo_exp(exp_data::Exp_Data, name::String; Imax = 130, B = 0, theo_params = theo_params, filter_params = Filter_Params())
-    fig = Figure()
-    data = read_data(exp_data)
-    @unpack Ts, Is, dVdImat, dVmat = data 
-    @unpack Rs = Exp_Params()
-    Is = Is .* 1e9
-    idx = findall(Is .<= Imax .&& Is .>= 0) 
-    Is = Is[idx]
-    dVdImat = dVdImat[:, idx]
-    dVmat = dVmat[:, idx]
+    @unpack Js, params = res
+    @unpack Brng, φrng = params
     
+    Ic = getindex(findmax(Js; dims = 2),1) |> vec
+
+    return Brng, Ic * conv
+end
+
+function process_data(exp_data::Exp_Data, name::String; T::Real = 550, Imax = 120, colorrange = (2.9, 3.2), Blims = (0.08, 0.4), pref = 0.8)
+    # Process experimental data 
+    data = read_data(exp_data)
+    Ts, Is, dVdImat, _, _ = prepare_data(exp_data, Imax)
+    
+    Isw, _, _ = extract_peak_currents(dVdImat, Is, Ts)
+    RNs = compute_normal_resistances(dVdImat, Is, Isw)
+
+    ilim = findmin(abs.(Ts .- Blims[1]))[2]
+    imax = findmin(abs.(Ts .- Blims[2]))[2]
+    
+    i0 = findmin(abs.(Is))[2]
+    R0 = dVdImat[:, i0]
+    
+    Rnorm = R0 ./ RNs
+    γs = γAH.(Rnorm)
+    IcAH = 0.0209 * T .* γs  # T in mK
+
+    Ic = vcat(Isw[1:ilim-1], IcAH[ilim:imax])
+    Trng = Ts[1:imax]
+
+    Rs = Rnorm[ilim:imax]
+    Trng_Rs = Ts[ilim:imax]
+
+    # Process theory results
+    Brng, Ict = ics(name)
+    Ict .*= pref
+    jmin = findmin(abs.(Brng .- Blims[1]))[2]
+    jmax = findmin(abs.(Brng .- Blims[2]))[2]
+
+    R(γ) = besseli0(γ/2)^(-2)
+    Rs_theo = R.(Ict[jmin:jmax] ./ (0.0209 * T))
+
+    Brng_Rs = Brng[jmin:jmax]
+
+    return Trng, Ic, Is, Brng, Ict, Rs, Trng_Rs, Rs, Brng_Rs, Rs_theo, dVdImat[1:imax, :]
+end
+
+function panel_resistance(ax, Trng_Rs, Rs, Brng_Rs, Rs_theo; kw...)
+    scatter!(ax, Trng_Rs, Rs; color = :black, label = "Experiment", kw...)
+    lines!(ax, Brng_Rs, Rs_theo; color = :orange,  label = "Theory", linewidth = 3, kw...)
+    axislegend(ax; position = :rb)
+end
+
+function panel_dVdI(ax, dVdImat, Ts, Is,  Ic, Brng, Ict; kw... )
+    hmap = heatmap!(ax, Ts, Is, abs.(dVdImat); rasterize = 5, colormap = :davos, colorrange = (10^2.9, 10^3.2), colorscale = Makie.pseudolog10, kw...)
+    scatter!(ax, Ts, Ic; color = :black, markersize = 8, label = "Experiment")
+    scatter!(ax, Ts, -Ic; color = :black, markersize = 8)
+
+    lines!(ax, Brng, Ict; color = :orange, linewidth = 3, label = "Theory")
+    lines!(ax, Brng, -Ict; color = :orange, linewidth = 3)
+    lims = (first(Ts), last(Ts))
+    xlims!(ax, lims)
+    axislegend(ax; position = :rt)
+
+    return lims, hmap
+end
+
+function panel_LDOS(ax, name::String; basepath = "data/LDOS", colorrange = (0, 1e-1), kw... )
+    # Load resultsº
+    pathL = joinpath(basepath, "fitted_$(name)_left.jld2")
+    resL = load(pathL)["res"]
+    pathR = joinpath(basepath, "fitted_$(name)_right.jld2")
+    resR = load(pathR)["res"]
+
+    @unpack LDOS, params = resL
+    LDOSL = LDOS
+    @unpack LDOS = resR
+    LDOSR = LDOS
+    @unpack Brng, ωrng = params
+    ωrng = real.(ωrng)
+    ωrng = vcat(ωrng, -reverse(ωrng)[2:end])
+    LDOS = cat(LDOSR, reverse(LDOSL, dims = 2)[:, 2:end], dims = 2)
+    heatmap!(ax, Brng, ωrng, LDOS; colormap = :thermal, colorrange, rasterize = 5, kw...)
+    hlines!(ax, [0]; color = :white, linewidth = 2)
+end
+
+
+function fig_theo_exp(exp_data::Exp_Data, name::String)
+    Trng, Ic, Is, Brng, Ict, Rs, Trng_Rs, Rs, Brng_Rs, Rs_theo, dVdImat = process_data(Exp_Data(), "fitted_$(name)")
+
+    fig = Figure(size = (600, 250 * 3), fontsize = 16,)
+
     ax = Axis(fig[1, 1];
+        xlabel = L"$B$ (T)",
+        ylabel = L"$\omega $ (meV)",
+        )
+    panel_LDOS(ax, name; colorrange = (0, 2e-3))
+    hidexdecorations!(ax, ticks = false, grid = false)
+    text!(ax, 0.36, 0.2; text = "Left", color = :white, align = (:center, :center), fontsize = 20)
+    text!(ax, 0.36, -0.2; text = "Right", color = :white, align = (:center, :center), fontsize = 20)
+
+    Colorbar(fig[1, 2], colormap = :thermal, label = L"LDOS (a. u.) $$", width = 15, limits = (0, 1), ticks = [0, 1], labelpadding = -10)
+
+    ax = Axis(fig[3, 1];
         xlabel = L"$B$ (T)",
         ylabel = L"$I$ (nA)",
         )
-    heatmap!(ax, Ts, Is, log10.(abs.(dVdImat)); colormap = :thermal, colorrange = (2.9, 3.2))
-    plot_Ic(ax, name; conv = 74.4, color = :white)
+    lims, hmap =  panel_dVdI(ax, dVdImat, Trng, Is, Ic, Brng, Ict; )
 
-    vlines!(ax, [B]; color = :white, linestyle = :dash)
-    is, Bis = find_lobes(Ts, theo_params)
-    vlines!(ax, Bis; color = :red, linestyle = :dash)
-    hidexdecorations!(ax)
-    iIsw = find_Isw(dVdImat, filter_params)
-    Isw = Is[iIsw]
-
-    scatter!(ax, Ts, Isw; color = :lightblue,)
-    Bx = findmin(abs.(Ts .- B))[2]
-    ax = Axis(fig[1, 2];
-        xlabel = L"$dV/dI$ ($\Omega$)",
-        ylabel =  L"$I$ (nA)",
-        )
-
-
-    l = dVdImat[Bx, :]
-
-    lines!(ax, l./maximum(l), Is; color = :blue)
-    ylims!(ax, minimum(Is), maximum(Is))
-    hideydecorations!(ax, ticks = false)
-
-    # ax = Axis(fig[2, 1];
-    #     xlabel = L"$B$ (T)",
-    #     ylabel = L"$\int dV/dI$ (a.u.)",
-    #     )
-    
-    # IdV = integrate_Is([dVdImat[i, 1:iIsw[i]] for i in eachindex(Ts)])
-    # lines!(ax, Ts, IdV./ maximum(IdV); color = :green,)
-    # vlines!(ax, Bis; color = :red, linestyle = :dash)
-    # xlims!(ax, minimum(Ts), maximum(Ts))
-    # hidexdecorations!(ax)
-
+    Colorbar(fig[3, 2], hmap; label = L"$dV/dI$ (k$\Omega$)", labelpadding = -20, ticks = ([1000, 1500], ["1", "1.5"]))
     ax = Axis(fig[2, 1];
         xlabel = L"$B$ (T)",
-        ylabel = L"$R_p / R_N$",
+        ylabel = L"$R_0/R_N$"
         )
-    #lines!(ax, Ts, Ic_AH.(dVdImat[:, 1], 0.022, dVdImat[:, end]))
-    lines!(ax, Ts, normalize_R(dVdImat[:, 1]); color = :green,)
-    # Iswn = map(x -> x < 20 ? NaN : x, Isw)
-    # println(Iswn)
-    # lines!(ax, Ts[1:is[3]], normalize_R(R_RSJ(Iswn[1:is[3]], 0.022, Rs)); color = :orange,)
-    vlines!(ax, Bis; color = :red, linestyle = :dash)
-    text!(ax, 0.09, 1; text = "Experiment", color = :black, align = (:left, :center))
-    text!(ax, 0.35, 0.2; text = L"$I = 0$", color = :black, align = (:center, :center))
-    xlims!(ax, minimum(Ts), maximum(Ts))
+    panel_resistance(ax, Trng_Rs, Rs, Brng_Rs, Rs_theo;)
+    xlims!(ax, lims)
+    hidexdecorations!(ax, ticks = false, grid = false)
 
-    ax = Axis(fig[2, 2];
-        xlabel = L"$B$ (T)",
-        ylabel = L"$R_p / R_N$",
-        )
-    Rs, Brng = Rp(name;)
-    lines!(ax, Brng, Rs; color = :purple,)
-    xlims!(ax, minimum(Brng), maximum(Brng))
-    #plot_Ic(ax, name; conv = 74.4,)
-   # hideydecorations!(ax, ticks = false)
-    text!(ax, 0.1, 1; text = "Theory", color = :black, align = (:left, :center))
-    vlines!(ax, Bis;  color = :red, linestyle = :dash)
+    rowsize!(fig.layout, 1, Relative(0.25))
+    rowsize!(fig.layout, 2, Relative(0.25))
+    colgap!(fig.layout, 1, 5)
+    rowgap!(fig.layout, 1, 5)
+    rowgap!(fig.layout, 2, 5)
+    
+    style = (font = "CMU Serif Bold", fontsize   = 20)
+    Label(fig[1, 1, TopLeft()], "a",  padding = (-40, 0, -30, 0); style...)
+    Label(fig[2, 1, TopLeft()], "b",  padding = (-40, 0, -30, 0); style...)
+    Label(fig[3, 1, TopLeft()], "c",  padding = (-40, 0, -30, 0); style...)
 
-    #rowgap!(fig.layout, 1, -30)
-
-    # ax = Axis(fig[2, 2];
-    #     xlabel = L"$B$ (T)",
-    #     ylabel = L"$G$ (a. u.)",
-    #     )
-    # plot_conductance(ax, name; )
     return fig
-end 
+end
 
-fig = fig_theo_exp(Exp_Data(), "fitted_C_test"; B = 0.32)
-fig
-
-##
-j = findmin(abs.(Ts .- 0.05))[2]
-dVdI_B = dVdImat[j, :]
-filtered = savitzky_golay(dVdI_B, 101, 3;)
-
-fig = Figure()
-ax = Axis(fig[1, 1];
-    xlabel = L"$I$ (nA)",
-    ylabel = L"$dV/dI$ (a.u.)",
-    )
-lines!(ax, Is, dVdI_B; color = :blue, linestyle = :dash)
-lines!(ax, Is, filtered.y; color = :red, linewidth = 4)
+fig = fig_theo_exp(Exp_Data(), "C3")
+save("plots/figures/fig_theo_exp.pdf", fig)
 fig
