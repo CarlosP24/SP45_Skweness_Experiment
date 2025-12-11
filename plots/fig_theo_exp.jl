@@ -120,6 +120,58 @@ function Ic_AH(Rp, kBT, RN)
     return 0
 end
 
+function R_RSJ(Ic, kBT, RN)
+    γ = Ic ./ (240 * kBT )
+    Rs = RN .* besseli0.(γ ./ 2).^(-2)
+    return Rs
+end
+
+function Rp(name::String; basepath = "data/Js", conv = 74.4)
+    # Load results
+    path = joinpath(basepath, "$(name).jld2")
+    res = load(path)["res"]
+
+    @unpack Js, params, junction = res
+    @unpack kBT = junction 
+    πoΦ0 = res.junction.wireL.πoΦ0
+
+    Ic = getindex(findmax(Js; dims = 2),1) |> vec
+    Ic .*= conv 
+
+    γs = Ic ./ (240 * kBT )
+    Rs = besseli0.(γs ./ 2).^(-2)
+    return Rs, params.Brng
+end
+
+Seleznev(θ) = 2*π * exp(-2/θ) /θ
+
+function Rp_Seleznev(name::String; basepath = "data/Js", conv = 74.4, ħo2e = 2.06e-3)
+    # ħo2e in meV/nA
+    # Load results
+    path = joinpath(basepath, "$(name).jld2")
+    res = load(path)["res"]
+
+    @unpack Js, params, junction = res
+    @unpack kBT = junction 
+
+    Ic = getindex(findmax(Js; dims = 2),1) |> vec
+    Ic .*= conv 
+
+    EJ = ħo2e .* Ic
+    θ = kBT ./ EJ
+    Rs = Seleznev.(θ)
+    return Rs, params.Brng
+end
+
+function normalize_R(r)
+    Rmin = minimum(r)
+    R = r .- Rmin
+    Rmax = maximum(R)
+    R = R ./ Rmax
+    return R
+end
+ 
+
 function fig_theo_exp(exp_data::Exp_Data, name::String; Imax = 130, B = 0, theo_params = theo_params, filter_params = Filter_Params())
     fig = Figure()
     data = read_data(exp_data)
@@ -172,19 +224,28 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; Imax = 130, B = 0, theo_
 
     ax = Axis(fig[2, 1];
         xlabel = L"$B$ (T)",
-        ylabel = L"$I_c$ (nA)",
+        ylabel = L"$R_p / R_N$",
         )
-    lines!(ax, Ts, Ic_AH.(dVdImat[:, 1], 0.022, dVdImat[:, end]))
+    #lines!(ax, Ts, Ic_AH.(dVdImat[:, 1], 0.022, dVdImat[:, end]))
+    lines!(ax, Ts, normalize_R(dVdImat[:, 1]); color = :green,)
+    # Iswn = map(x -> x < 20 ? NaN : x, Isw)
+    # println(Iswn)
+    # lines!(ax, Ts[1:is[3]], normalize_R(R_RSJ(Iswn[1:is[3]], 0.022, Rs)); color = :orange,)
     vlines!(ax, Bis; color = :red, linestyle = :dash)
-    #text!(ax, 0.35, 5.5; text = L"$I = 0$", color = :black, align = (:center, :center))
+    text!(ax, 0.09, 1; text = "Experiment", color = :black, align = (:left, :center))
+    text!(ax, 0.35, 0.2; text = L"$I = 0$", color = :black, align = (:center, :center))
     xlims!(ax, minimum(Ts), maximum(Ts))
 
     ax = Axis(fig[2, 2];
         xlabel = L"$B$ (T)",
-        ylabel = L"$I_c$ (nA)",
+        ylabel = L"$R_p / R_N$",
         )
-    plot_Ic(ax, name; conv = 74.4,)
+    Rs, Brng = Rp(name;)
+    lines!(ax, Brng, Rs; color = :purple,)
+    xlims!(ax, minimum(Brng), maximum(Brng))
+    #plot_Ic(ax, name; conv = 74.4,)
    # hideydecorations!(ax, ticks = false)
+    text!(ax, 0.1, 1; text = "Theory", color = :black, align = (:left, :center))
     vlines!(ax, Bis;  color = :red, linestyle = :dash)
 
     #rowgap!(fig.layout, 1, -30)
@@ -197,7 +258,7 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; Imax = 130, B = 0, theo_
     return fig
 end 
 
-fig = fig_theo_exp(Exp_Data(), "fitted_C"; B = 0.32)
+fig = fig_theo_exp(Exp_Data(), "fitted_C_test"; B = 0.32)
 fig
 
 ##

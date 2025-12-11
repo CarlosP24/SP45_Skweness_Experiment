@@ -1,10 +1,11 @@
 using Pkg, JLD2
 include("utilities.jl")
-ensure_pkgs(["Quantica", "FullShell", "Parameters", "ProgressMeter", "Interpolations", "Roots"])
+ensure_pkgs(["Quantica", "FullShell", "Parameters", "ProgressMeter", "Interpolations", "Roots", "QuadGK"])
 @everywhere begin
     using Quantica, FullShell, JLD2
     using ProgressMeter, Parameters
     using Interpolations, Roots
+    using QuadGK
     
     # Load code
     include("utilities.jl")

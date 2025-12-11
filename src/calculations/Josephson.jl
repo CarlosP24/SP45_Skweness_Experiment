@@ -26,7 +26,7 @@ end
 
 function calc_Josephson(name::String)
     junction = junctions[name]
-    @unpack wireL, wireR, params, Δw, j_params, TN, kBT = junction
+    @unpack wireL, wireR, params, Δw, j_params, TN, kB, T = junction
     @unpack Brng, φrng, outdir = params
     @unpack imshift, atol, maxevals, order = j_params
 
@@ -61,6 +61,7 @@ function calc_Josephson(name::String)
     ΩL = get_Ω(params_left)
     ΩR = get_Ω(params_right)
     Ω(x) = maximum([ΩL(x; θ = params_left.θ), ΩR(x; θ = params_right.θ)])
+    Ωmin(x) = minimum([ΩL(x; θ = params_left.θ), ΩR(x; θ = params_right.θ)])
     ipath = Paths.polygon((mu, kBT; B = 0, _...) -> (-bw, -Ω(B),  -Ω(B)/2 + itip(B)*1im, 0) .+ imshift*1im)
 
     #ipath = Paths.polygon((mu, kBT; B = 0, _...) -> (-bw, 0) .+ imshift*1im)
@@ -75,7 +76,10 @@ function calc_Josephson(name::String)
 
     function Jparalell(B, w)
         try
-            return J(kBT; B, w, τ)
+            if Ωmin(B) < 1e-3
+                return fill(NaN, length(φrng))
+            end
+            return J(kB*T; B, w, τ)
         catch e
             @warn "Error in Jparalell at B=$(B)" exception = e
             return fill(NaN, length(φrng))

@@ -1,6 +1,7 @@
 params_LDOS = Calc_Params(;
     Brng = range(0, 0.4, 101),
-    ωrng = range(-0.3, 0, 101) .+ 1e-3im,
+    #ωrng = range(-0.3, 0, 101) .+ 1e-3im,
+    ωrng = [0] .+ 1e-3im
 )
 
 wires = Dict(

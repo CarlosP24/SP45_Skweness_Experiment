@@ -32,9 +32,8 @@ cesga:
   host: ft3.cesga.es
   path: /home/csic/toq/cph
   launcher: bin/launcher.sh
-  partition: long
   ntasks_per_node: 64
-  nodes: 8-16
+  nodes: 8
   cpus_per_task: 1
   mem_per_cpu: 2G
   time: 24:00:00

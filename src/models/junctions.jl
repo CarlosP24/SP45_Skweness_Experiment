@@ -12,7 +12,8 @@ end
     Δw::Float64 = 0
     j_params::J_Params = J_Params()
     TN = 0.9
-    kBT = 0
+    kB::Float64 = 8.61e-5   # eV/K
+    T::Float64 = 0.0        # mK
 end
 
 @with_kw struct Junction_fit
@@ -33,7 +34,8 @@ junctions_fit = Dict(
 ) 
 
 params_jos = Calc_Params(;
-    Brng = range(0, 0.45, 101),
+    #Brng = vcat(collect(0.01:0.005:0.02),collect(0.05:0.005:0.08), collect(0.18:0.005:0.22), collect(0.28:0.005:0.32)),
+    Brng = range(0, 0.38, 201),
     φrng = range(0, 2π, 101),
 )
 
@@ -117,7 +119,7 @@ function add_junction(name::String)
 
     # Δw (dw in the string) is stored on the Junction struct
     Δw = haskey(params_map, "dw") ? parse_num(params_map["dw"]) : 0.0
-    kBT = haskey(params_map, "kBT") ? parse_num(params_map["kBT"]) : 0.0
+    T = haskey(params_map, "T") ? parse_num(params_map["T"]) : 0.0
     TN = haskey(params_map, "TN") ? parse_num(params_map["TN"]) : 0.24
 
     j = Junction(
@@ -127,7 +129,7 @@ function add_junction(name::String)
         Δw = Δw,
         j_params = J_Params(),
         TN = TN,
-        kBT = kBT,
+        T = T,
     )
 
     # register and return
@@ -146,9 +148,14 @@ end
 
 
 ## Fitted junctions
-add_junction("C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.19")
-junctions["fitted_C"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.19"]
-junctions["fitted_C_test"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.19"]
-delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=17_kBT=0.022_TN=0.19")
+add_junction("C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19")
+add_junction("C_mu=20_w=29_tau=3.1_g=20_T=550")
+add_junction("C_mu=20_w=25_tau=2.5_g=17_T=550")
+junctions["fitted_C"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19"]
+junctions["fitted_C2"] = junctions["C_mu=20_w=29_tau=3.1_g=20_T=550"]
+junctions["fitted_C3"] = junctions["C_mu=20_w=25_tau=2.5_g=17_T=550"]
+delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19")
+delete!(junctions, "C_mu=20_w=29_tau=3.1_g=20_T=550")
+delete!(junctions, "C_mu=20_w=25_tau=2.5_g=17_T=550")
 
 #########################################################################
