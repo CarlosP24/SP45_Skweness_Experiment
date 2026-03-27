@@ -25,6 +25,9 @@ function read_data(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params())
 
     # load files (DelimitedFiles.readdlm returns an Array)
 
+    if keysight === nothing
+        return read_data_nokeysight(exp_data; exp_params)
+    end
 
     keysight = DelimitedFiles.readdlm(keysight)
     lockin = DelimitedFiles.readdlm(lockin)
@@ -47,7 +50,7 @@ function read_data(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params())
         t = keysight[r, 1]
         i = keysight[r, 2]
         v = keysight[r, 4]
-        dv = lockin[r, 4]
+        dv = abs.(lockin[r, 4])
         # Real voltage and lock-in correction
         Vmat[t_idx[t], i_idx[i]] = v - Is[i_idx[i]] * Rs
         dVmat[t_idx[t], i_idx[i]] = dv - dI * Rs
@@ -59,17 +62,57 @@ function read_data(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params())
     return Data(; Ts = Ts, Is = Is, Vmat = Vmat, dVmat = dVmat, dIdVmat = dIdVmat, dVdImat = dVdImat)
 end
 
-function prepare_data(exp_data::Exp_Data, Imax::Real=120)
+function read_data_nokeysight(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params())
+    @unpack lockin = exp_data
+    @unpack Rs, dI, G_0 = exp_params
+
+    lockin = DelimitedFiles.readdlm(lockin)
+
+     # unique sorted indices for rows/columns
+    Ts = sort(unique(lockin[:, 1]))
+    Is = sort(unique(lockin[:, 2]))
+
+    # mapping from value -> matrix index
+    t_idx = Dict(val => i for (i, val) in enumerate(Ts))
+    i_idx = Dict(val => j for (j, val) in enumerate(Is))
+
+    # create matrix with missing values for pairs not present
+    dVmat = fill(NaN, length(Ts), length(Is))
+    dIdVmat = fill(NaN, length(Ts), length(Is))
+    dVdImat = fill(NaN, length(Ts), length(Is))
+
+    # populate matrix: column 1 -> row index, column 2 -> col index, column 4 -> value
+    for r in eachindex(lockin[:, 1])
+        t = lockin[r, 1]
+        i = lockin[r, 2]
+        dv = lockin[r, 4]
+
+        # Real voltage and lock-in correction
+        dVmat[t_idx[t], i_idx[i]] = dv - dI * Rs
+        dIdVmat[t_idx[t], i_idx[i]] = dI / dVmat[t_idx[t], i_idx[i]] / G_0
+        dVdImat[t_idx[t], i_idx[i]] = dVmat[t_idx[t], i_idx[i]] / dI
+    end
+
+    return Data(; Ts = Ts, Is = Is, dVmat = dVmat, dIdVmat = dIdVmat, dVdImat = dVdImat)
+end
+
+
+function prepare_data(exp_data::Exp_Data, Imax::Real=120; Icoef = 1e9)
     """Load and preprocess experimental data."""
     data = read_data(exp_data)
     @unpack Ts, Is, dVdImat, dVmat, Vmat = data 
     
-    Is .*= 1e9
+    Is .*= Icoef
     idx = findall(Is .<= Imax .&& Is .>= -Imax) 
     Is = Is[idx]
     dVdImat = dVdImat[:, idx]
     dVmat = dVmat[:, idx]
-    Vmat = Vmat[:, idx]
+
+    try
+        Vmat = Vmat[:, idx]
+    catch e 
+    end
     
     return Ts, Is, dVdImat, dVmat, Vmat
 end
+
