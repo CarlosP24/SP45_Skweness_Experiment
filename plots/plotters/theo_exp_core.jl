@@ -56,14 +56,14 @@ function panel_resistance(ax, Trng_Rs, Rs, Brng_Rs, Rs_theo; kw...)
     axislegend(ax; position = (1, 0.))
 end
 
-function panel_dVdI(ax, dVdImat, Ts, Is, Ic, Brng, Ict; theo_color=:orange, exp_color= :black, kw...)
+function panel_dVdI(ax, dVdImat, Ts, Is, Ic, Brng, Ict; theo_color=:orange, exp_color= :darkgreen, kw...)
     hmap = heatmap!(ax, Ts, Is, abs.(dVdImat); rasterize = 5, colormap = :davos, colorrange = (10^2.9, 10^3.2), colorscale = Makie.pseudolog10, kw...)
-    scatter!(ax, Ts, Ic; color = exp_color, markersize = 8, label = "Experiment", strokewidth = 0.5, strokecolor = :white)
+    scatter!(ax, Ts, Ic; color = exp_color, markersize = 8, label = L"I_c^\text{AH}", strokewidth = 0.5, strokecolor = :white)
     scatter!(ax, Ts, -Ic; color = exp_color, markersize = 8, strokecolor = :white, strokewidth = 0.5)
 
     lines!(ax, Brng, Ict; color = :black, linewidth = 4)
     lines!(ax, Brng, -Ict; color = :black, linewidth = 4)
-    lines!(ax, Brng, Ict; color = theo_color, linewidth = 3, label = "Theory")
+    lines!(ax, Brng, Ict; color = theo_color, linewidth = 3, label = L"I_c^\text{theo}")
     lines!(ax, Brng, -Ict; color = theo_color, linewidth = 3)
     lims = (first(Ts), last(Ts))
     xlims!(ax, lims)

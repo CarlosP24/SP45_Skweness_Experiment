@@ -9,7 +9,7 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
     Bhalfs = [0.5, 1.5].* Φ0 / (π * R^2)
     BΦs = vcat(Bns, Bhalfs)
 
-    fig = Figure(size = (600, 250 * 3 + 50), fontsize = 20)
+    fig = Figure(size = (600, 750), fontsize = 20)
 
     ax = Axis(fig[1, 1];)
     panel_LDOS(ax, name, "left"; colorrange = (0, 2e-3))
@@ -51,7 +51,7 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
 
     Colorbar(fig[1:2, 2], colormap = :thermal, label = L"LDOS (a. u.) $$", width = 15, limits = (0, 1), ticks = [0, 1], labelpadding = -10)
 
-    ax = Axis(fig[4, 1];
+    ax = Axis(fig[3, 1];
         xlabel = L"$B$ (T)",
         ylabel = L"$I$ (nA)",
     )
@@ -65,8 +65,12 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
         text!(ax, (n + 0.4 - (n == 2) * 0.1) * Φ0 / (π * R^2), -110; text = "$n"*"L", align = (:center, :center), color = :white)
     end
 
-    Colorbar(fig[4, 2], hmap; label = L"$dV/dI$ (k$\Omega$)", labelpadding = -20, ticks = ([1000, 1500], ["1", "1.5"]))
-    ax = Axis(fig[3, 1];
+    hidexdecorations!(ax, ticks = false, grid = false)
+
+
+    Colorbar(fig[3, 2], hmap; label = L"$dV/dI$ (k$\Omega$)", labelpadding = -20, ticks = ([1000, 1500], ["1", "1.5"]))
+    
+    ax = Axis(fig[4, 1];
         xlabel = L"$B$ (T)",        
         ylabel = L"$R_0/R_N$"
     )
@@ -81,12 +85,11 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
     end
 
 
-    hidexdecorations!(ax, ticks = false, grid = false)
     #vlines!(ax,[0.11, 0.14, 0.17, 0.195, 0.24]; color = :red, linestyle = :dash)
 
     rowsize!(fig.layout, 1, Relative(0.25 / 2))
     rowsize!(fig.layout, 2, Relative(0.25 / 2))
-    rowsize!(fig.layout, 3, Relative(0.25))
+    rowsize!(fig.layout, 4, Relative(0.25 ))
     colgap!(fig.layout, 1, 5)
     rowgap!(fig.layout, 1, 5)
     rowgap!(fig.layout, 2, 5)
