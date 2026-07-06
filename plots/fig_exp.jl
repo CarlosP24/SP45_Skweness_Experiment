@@ -19,7 +19,7 @@ function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, B
         text!(ax, (n + 0.4) * Φ0 / (π * R^2), -650; text = "$n"*"L", align = (:center, :center), color = :white)
     end
 
-    text!(ax, 0.25, 400; text = "Skewed\n switching current", align = (:center, :center), color = :black, fontsize = 16)
+    text!(ax, 0.25, 400; text = "Skewed\n critical current", align = (:center, :center), color = :black, fontsize = 16)
     arrows2d!(ax, [0.25], [220], [0.23], [50]; argmode = :endpoint, shaftwidth = 2, tipwidth = 10)
     arrows2d!(ax, [0.25], [220], [0.27], [50]; argmode = :endpoint, shaftwidth = 2, tipwidth = 10)
 
@@ -59,7 +59,7 @@ function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, B
         text!(ax, (n + 0.4) * Φ0 / (π * R^2), 1.25; text = "$n"*"L", align = (:center, :center), color = :white)
     end
 
-    text!(ax, 0.28, 0.45; text = "Skewed\n critical\n current", align = (:center, :center), color = :white, fontsize = 16)
+    text!(ax, 0.28, 0.45; text = "Skewed\n critical\n temperature", align = (:center, :center), color = :white, fontsize = 16)
     arrows2d!(ax, [0.255], [0.44], [0.22], [0.4]; argmode = :endpoint, color = :white, shaftwidth = 2, tipwidth = 10)
    
     #text!(ax, 0.088, 1.07; text = L"T_c", align = (:center, :center), color = :white, fontsize = 20)

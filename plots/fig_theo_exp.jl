@@ -80,8 +80,9 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
     vlines!(ax, Bns; color = :black, linestyle = :dash)
     vlines!(ax, Bhalfs; color = :gray, linestyle = :dash)
 
+
     for n in 0:2
-        text!(ax, (n - 0.4) * Φ0 / (π * R^2), 0.5; text = "$n"*"L", align = (:center, :center), color = :black)
+        text!(ax, (n + 0.4 - (n == 2) * 0.1) * Φ0 / (π * R^2), 0.1; text = "$n"*"L", align = (:center, :center), color = :black)
     end
 
 

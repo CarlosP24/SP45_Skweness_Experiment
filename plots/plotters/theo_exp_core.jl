@@ -29,7 +29,8 @@ function process_data(exp_data::Exp_Data, name::String; T::Real = 550, Imax = 12
     γs = γAH.(r0)
     IcAH = 0.0209 * T .* γs  # T in mK
 
-    Ic = vcat(Isw[1:ilim-1], IcAH[ilim:imax])
+    Ic = vcat(NaN .* ones(1:ilim), IcAH[ilim+1:imax])
+
     Trng = Ts[1:imax]
 
     Rs = r0[ilim:imax]
@@ -42,9 +43,9 @@ function process_data(exp_data::Exp_Data, name::String; T::Real = 550, Imax = 12
     jmax = findmin(abs.(Brng .- Blims[2]))[2]
 
     R(γ) = besseli0(γ / 2)^(-2)
-    Rs_theo = R.(Ict[jmin:jmax] ./ (0.0209 * T))
+    Rs_theo = R.(Ict[1:jmax] ./ (0.0209 * T))
 
-    Brng_Rs = Brng[jmin:jmax]
+    Brng_Rs = Brng[1:jmax]
 
     return Trng, Ic, Is, Brng, Ict, Rs, Trng_Rs, Rs, Brng_Rs, Rs_theo, rnorm[ilim:imax, :], Ic[ilim:imax], dVdImat[1:imax, :]
 end
@@ -52,14 +53,14 @@ end
 function panel_resistance(ax, Trng_Rs, Rs, Brng_Rs, Rs_theo; kw...)
     scatter!(ax, Trng_Rs, Rs; color = :black, label = "Experiment", markersize = 8, strokecolor = :white, strokewidth = 0.5, kw...)
     lines!(ax, Brng_Rs, Rs_theo; color = :black, linewidth = 4, kw...)
-    lines!(ax, Brng_Rs, Rs_theo; color = :orange, label = "Theory", linewidth = 3, kw...)
-    axislegend(ax; position = (1, 0.))
+    lines!(ax, Brng_Rs, Rs_theo; color = :orchid, label = "Theory", linewidth = 3, kw...)
+    axislegend(ax; position = (1, 0.5))
 end
 
-function panel_dVdI(ax, dVdImat, Ts, Is, Ic, Brng, Ict; theo_color=:orange, exp_color= :darkgreen, kw...)
+function panel_dVdI(ax, dVdImat, Ts, Is, Ic, Brng, Ict; theo_color=:orange, exp_color= :limegreen, kw...)
     hmap = heatmap!(ax, Ts, Is, abs.(dVdImat); rasterize = 5, colormap = :davos, colorrange = (10^2.9, 10^3.2), colorscale = Makie.pseudolog10, kw...)
-    scatter!(ax, Ts, Ic; color = exp_color, markersize = 8, label = L"I_c^\text{AH}", strokewidth = 0.5, strokecolor = :white)
-    scatter!(ax, Ts, -Ic; color = exp_color, markersize = 8, strokecolor = :white, strokewidth = 0.5)
+    scatter!(ax, Ts, Ic; color = exp_color, markersize = 8, label = L"I_c^\text{AH}", strokewidth = 0.5, strokecolor = :black)
+    scatter!(ax, Ts, -Ic; color = exp_color, markersize = 8, strokecolor = :black, strokewidth = 0.5)
 
     lines!(ax, Brng, Ict; color = :black, linewidth = 4)
     lines!(ax, Brng, -Ict; color = :black, linewidth = 4)
