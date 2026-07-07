@@ -10,10 +10,12 @@ depot_path="$script_dir/../.julia_depot"
 mkdir -p "$depot_path"
 mkdir -p "logs"
 mkdir -p "data"
+sync
+sleep 3
 export JULIA_DEPOT_PATH="$depot_path"
 export JULIA_PROJECT="$script_dir/.."
 
-export JULIAUP_CHANNEL=1.11.1
+export JULIAUP_CHANNEL=1.12.4
 
 if ! juliaup status | grep " $JULIAUP_CHANNEL "; then
   echo "Julia version $JULIAUP_CHANNEL not installed. Installing now..."

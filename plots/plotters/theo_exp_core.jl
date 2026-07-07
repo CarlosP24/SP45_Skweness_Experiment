@@ -11,7 +11,7 @@ function ics(name::String; basepath = "data/Js", conv = 74.4)
     return Brng, Ic * conv
 end
 
-function process_data(exp_data::Exp_Data, name::String; T::Real = 550, Imax = 120, colorrange = (2.9, 3.2), Blims = (0.08, 0.4), pref = 0.8)
+function process_data(exp_data::Exp_Data, name::String; T::Real = 460, Imax = 120, colorrange = (2.9, 3.2), Blims = (0.08, 0.4), pref = 0.8)
     # Process experimental data
     data = read_data(exp_data)
     Ts, Is, dVdImat, _, _ = prepare_data(exp_data, Imax)
@@ -26,7 +26,7 @@ function process_data(exp_data::Exp_Data, name::String; T::Real = 550, Imax = 12
 
     rnorm = dVdImat ./ RNs
     r0 = rnorm[:, i0] |> vec
-    γs = γAH.(r0)
+    γs = γAH.(abs.(r0))
     IcAH = 0.0209 * T .* γs  # T in mK
 
     Ic = vcat(NaN .* ones(1:ilim), IcAH[ilim+1:imax])
@@ -58,7 +58,7 @@ function panel_resistance(ax, Trng_Rs, Rs, Brng_Rs, Rs_theo; kw...)
 end
 
 function panel_dVdI(ax, dVdImat, Ts, Is, Ic, Brng, Ict; theo_color=:orange, exp_color= :limegreen, kw...)
-    hmap = heatmap!(ax, Ts, Is, abs.(dVdImat); rasterize = 5, colormap = :davos, colorrange = (10^2.9, 10^3.2), colorscale = Makie.pseudolog10, kw...)
+    hmap = heatmap!(ax, Ts, Is, dVdImat; rasterize = 5, colormap = :davos, colorrange = (10^2.9, 10^3.2), colorscale = Makie.pseudolog10, kw...)
     scatter!(ax, Ts, Ic; color = exp_color, markersize = 8, label = L"I_c^\text{AH}", strokewidth = 0.5, strokecolor = :black)
     scatter!(ax, Ts, -Ic; color = exp_color, markersize = 8, strokecolor = :black, strokewidth = 0.5)
 
