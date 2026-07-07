@@ -1,4 +1,4 @@
-function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, Bmax = 0.4)
+function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, Bmax = 0.4, colorrange = (1e2, 1.5e3))
 
     Φ0 = 2067.833 #T⋅nm^2
     Bns = [1, 2].* Φ0 / (π * R^2)
@@ -11,7 +11,7 @@ function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, B
     ax.yticks = -600:300:600
     dVdI = abs.(dVdImat[1:iB, :])
 
-    hmap = heatmap!(ax, Bs[1:iB], Is, dVdI; rasterize = 5, colormap = :seismic, colorrange = (0.4e3, 1.6e3), lowclip = cgrad(:seismic)[1])
+    hmap = heatmap!(ax, Bs[1:iB], Is, dVdI; rasterize = 5, colormap = :seismic, colorrange, lowclip = cgrad(:seismic)[1], highclip = cgrad(:seismic)[end], )
     vlines!(ax, Bns; color = :black, linestyle = :dash)
     vlines!(ax, Bhalfs; color = :gray, linestyle = :dash)
 
@@ -35,9 +35,12 @@ function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, B
     hideydecorations!(gax)
     hidexdecorations!(gax, ticks = false, ticklabels = false, label = false)
     
-    Colorbar(fig[1, 2], hmap; ticks = ([500, 1500], ["0.5", "1.5"]), label = L"$dV/dI$ (k$\Omega$)", labelpadding = -15)
+    Colorbar(fig[1, 2], hmap; ticks = ([first(colorrange), last(colorrange)], [first(colorrange), last(colorrange)] ./ 1e3 .|> string), label = L"$dV/dI$ (k$\Omega$)", labelpadding = -15)
 
     hidexdecorations!(ax, ticks = false)
+
+
+    colorrange = (4e2, 1.5e3)
 
     Ts, Bs, dVdImat, _, _ = prepare_data(exp_dataT, 0.6; Icoef = 1)
     iB = findmin(abs.(Bs .- Bmax))[2]
@@ -51,7 +54,7 @@ function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, B
 
     dVdI = abs.(dVdImat[:, 1:iB])'
 
-    hmap = heatmap!(ax, Bs[1:iB], Ts, dVdI; rasterize = 5, colormap = :seismic, colorrange = (0.6e3, 1.6e3), lowclip = cgrad(:seismic)[1])
+    hmap = heatmap!(ax, Bs[1:iB], Ts, dVdI; rasterize = 5, colormap = :seismic, colorrange, lowclip = cgrad(:seismic)[1], highclip = cgrad(:seismic)[end],)
     vlines!(ax, Bns; color = :black, linestyle = :dash)
     vlines!(ax, Bhalfs; color = :gray, linestyle = :dash)
 
@@ -66,7 +69,7 @@ function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, B
     #arrows2d!(ax, [0.085], [1.0], [0.1], [0.9]; argmode = :endpoint, color = :white, shaftwidth = 2, tipwidth = 10)
     #arrows2d!(ax, [0.085], [1.0], [0.065], [0.9]; argmode = :endpoint, color = :white, shaftwidth = 2, tipwidth = 10)
 
-    Colorbar(fig[2, 2], hmap; ticks = ([700, 1500], ["0.7", "1.5"]), label = L"$dV/dI$ (k$\Omega$)", labelpadding = -15, )
+    Colorbar(fig[2, 2], hmap; ticks = ([first(colorrange), last(colorrange)], [first(colorrange), last(colorrange)] ./ 1e3 .|> string), label = L"$dV/dI$ (k$\Omega$)", labelpadding = -15, )
     rowgap!(fig.layout, 1, 5)
     colgap!(fig.layout, 1, 5)
 

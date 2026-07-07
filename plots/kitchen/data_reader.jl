@@ -1,6 +1,6 @@
 @with_kw struct Exp_Params
-    Rs::Float64 = 5000
-    β::Float64 = 1
+    Rs::Float64 = 5490
+    β::Float64 = 0.95
     dI::Float64 = 5e-9 * β
     G_0::Float64 = 7.74809173e-5
 end
@@ -63,7 +63,7 @@ function sg_filter_along_x(mat::AbstractMatrix{<:Real}; window_size::Int = 9, or
     return out
 end
 
-function read_data(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params(; Rs = 5490, β = 0.95), window_size = 50, order = 3)
+function read_data(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params(; ), window_size = 50, order = 3)
     @unpack keysight, lockin = exp_data
     @unpack Rs, dI, G_0 = exp_params
 
@@ -107,7 +107,7 @@ function read_data(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params(; Rs 
     return Data(; Ts = Ts, Is = Is, Vmat = Vmat, dVmat = dVmat, dIdVmat = dIdVmat, dVdImat = dVdImat)
 end
 
-function read_data_nokeysight(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params(; Rs = 5490, β = 0.95), window_size = 50, order = 3)
+function read_data_nokeysight(exp_data::Exp_Data; exp_params::Exp_Params = Exp_Params(;), window_size = 50, order = 3)
     @unpack lockin = exp_data
     @unpack Rs, dI, G_0 = exp_params
 

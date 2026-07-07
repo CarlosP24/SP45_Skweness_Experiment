@@ -14,3 +14,16 @@ ax = Axis(fig[1, 1], xlabel = L"$B$ (T)", ylabel = L"$dV/dI (I=0)$ (Ω)",)
 lines!(ax, Bs, R0, color = :navyblue, linewidth = 2)
 ylims!(ax, (0, 1.2 * maximum(R0)))
 fig
+
+##
+fig = Figure()
+ax = Axis(fig[1, 1], xlabel = L"$dV/dI$", ylabel = L"$$ Counts")
+hist!(ax, vec(dVdImat), bins = 100, color = :navyblue)
+xlims!(ax, 0, 2000)
+fig
+
+##
+fig = Figure()
+ax = Axis(fig[1, 1], xlabel = L"$I$ (nA)", ylabel = L"$dV/dI$")
+lines!(ax, Is, dVdImat[1, :], color = :navyblue, linewidth = 2)
+fig

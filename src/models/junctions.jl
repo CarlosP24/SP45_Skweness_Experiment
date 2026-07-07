@@ -133,12 +133,12 @@ end
 ## Fitted junctions
 add_junction("C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19")
 add_junction("C_mu=20_w=29_tau=3.1_g=20_T=550")
-add_junction("C_mu=20_w=25_tau=2.5_g=17_T=550")
+add_junction("C_mu=20_w=25_tau=2.5_g=17_T=460")
 junctions["fitted_C"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19"]
 junctions["fitted_C2"] = junctions["C_mu=20_w=29_tau=3.1_g=20_T=550"]
-junctions["fitted_C3"] = junctions["C_mu=20_w=25_tau=2.5_g=17_T=460_TN=0.26"]
+junctions["fitted_C3"] = junctions["C_mu=20_w=25_tau=2.5_g=17_T=460"]
 delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19")
 delete!(junctions, "C_mu=20_w=29_tau=3.1_g=20_T=550")
-delete!(junctions, "C_mu=20_w=25_tau=2.5_g=17_T=460_TN=0.26")
+delete!(junctions, "C_mu=20_w=25_tau=2.5_g=17_T=460")
 
 #########################################################################

@@ -51,24 +51,25 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
 
     Colorbar(fig[1:2, 2], colormap = :thermal, label = L"LDOS (a. u.) $$", width = 15, limits = (0, 1), ticks = [0, 1], labelpadding = -10)
 
+    colorrange = (5e2, 1.5e3)
     ax = Axis(fig[3, 1];
         xlabel = L"$B$ (T)",
         ylabel = L"$I$ (nA)",
     )
-    lims, hmap = panel_dVdI(ax, dVdImat, Trng, Is, Ic, Brng, Ict; colormap = :seismic, lowclip = cgrad(:seismic)[1])
+    lims, hmap = panel_dVdI(ax, dVdImat, Trng, Is, Ic, Brng, Ict; colormap = :seismic, lowclip = cgrad(:seismic)[1], colorrange, highclip = cgrad(:seismic)[end],)
     ax.ylabelpadding = -18
 
     vlines!(ax, Bns; color = :black, linestyle = :dash)
     vlines!(ax, Bhalfs; color = :gray, linestyle = :dash)
 
     for n in 0:2
-        text!(ax, (n + 0.4 - (n == 2) * 0.1) * Φ0 / (π * R^2), -110; text = "$n"*"L", align = (:center, :center), color = :white)
+        text!(ax, (n + 0.3 - (n == 2) * 0.1) * Φ0 / (π * R^2), -110; text = "$n"*"L", align = (:center, :center), color = :white)
     end
 
     hidexdecorations!(ax, ticks = false, grid = false)
 
 
-    Colorbar(fig[3, 2], hmap; label = L"$dV/dI$ (k$\Omega$)", labelpadding = -20, ticks = ([1000, 1500], ["1", "1.5"]))
+    Colorbar(fig[3, 2], hmap; label = L"$dV/dI$ (k$\Omega$)", labelpadding = -20, ticks = ([first(colorrange), last(colorrange)], [first(colorrange), last(colorrange)] ./ 1e3 .|> string))
     
     ax = Axis(fig[4, 1];
         xlabel = L"$B$ (T)",        
