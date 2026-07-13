@@ -79,14 +79,14 @@ function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, B
     return fig
 end
 
-fig = fig_exp(Exp_Data(;
-    keysight = "data_exp/250mK_DEV13_277_18_dmm_keysight_signal.dat",
-    lockin = "data_exp/250mK_DEV13_277_18_mf1_X.dat"
-    ),
-    Exp_Data(;
-    keysight = "data_exp/250mK_DEV13_294_35_V_drop.dat",
-    lockin = "data_exp/250mK_DEV13_294_35_R_demod.dat"
-    )
-)
-save("plots/figures/fig_exp.pdf", fig)
-fig
+# fig = fig_exp(Exp_Data(;
+#     keysight = "data_exp/250mK_DEV13_277_18_dmm_keysight_signal.dat",
+#     lockin = "data_exp/250mK_DEV13_277_18_mf1_X.dat"
+#     ),
+#     Exp_Data(;
+#     keysight = "data_exp/250mK_DEV13_294_35_V_drop.dat",
+#     lockin = "data_exp/250mK_DEV13_294_35_R_demod.dat"
+#     )
+# )
+# save("plots/figures/fig_exp.pdf", fig)
+# fig

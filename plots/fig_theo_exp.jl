@@ -1,5 +1,5 @@
 include("plotters/theo_exp_core.jl")
-include("plotters/theo_exp_extras.jl")
+#include("plotters/theo_exp_extras.jl")
 
 function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
     Trng, Ic, Is, Brng, Ict, Rs, Trng_Rs, Rs, Brng_Rs, Rs_theo, rnorm, IcRs, dVdImat = process_data(exp_data, "fitted_$(name)")
@@ -106,6 +106,6 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
     return fig
 end
 
-fig = fig_theo_exp(Exp_Data(), "C3")
-save("plots/figures/fig_theo_exp.pdf", fig)
-fig
+# fig = fig_theo_exp(Exp_Data(), "C3")
+# save("plots/figures/fig_theo_exp.pdf", fig)
+# fig
