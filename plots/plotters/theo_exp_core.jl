@@ -64,7 +64,7 @@ function panel_dVdI(ax, dVdImat, Ts, Is, Ic, Brng, Ict; theo_color=:orange, exp_
 
     lines!(ax, Brng, Ict; color = :black, linewidth = 4)
     lines!(ax, Brng, -Ict; color = :black, linewidth = 4)
-    lines!(ax, Brng, Ict; color = theo_color, linewidth = 3, label = L"I_c^\text{theo}")
+    lines!(ax, Brng, Ict; color = theo_color, linewidth = 3, label = L"I_c^\text{th}")
     lines!(ax, Brng, -Ict; color = theo_color, linewidth = 3)
     lims = (first(Ts), last(Ts))
     xlims!(ax, lims)
