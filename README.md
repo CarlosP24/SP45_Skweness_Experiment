@@ -1,5 +1,5 @@
 # Probing Synthetic Caroli-de Gennes-Matricon States Through Critical Current in Full-Shell Nanowire Josephson Junctions
-
+[![DOI](https://zenodo.org/badge/1016588588.svg)](https://doi.org/10.5281/zenodo.21381725)
 ![arXiv](https://img.shields.io/badge/arXiv-soon-b31b1b.svg)
 [![Julia v1.12+](https://img.shields.io/badge/Julia-v1.12+-blue.svg)](https://julialang.org/)
 [![Quantica badge](https://raw.githubusercontent.com/pablosanjose/Quantica.jl/master/docs/src/assets/badge.svg)](https://github.com/pablosanjose/Quantica.jl)
