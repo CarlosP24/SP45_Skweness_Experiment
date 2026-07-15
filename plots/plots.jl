@@ -18,6 +18,7 @@ fig = fig_exp(Exp_Data(;
     lockin = "data_exp/250mK_DEV13_294_35_R_demod.dat"
     )
 )
+mkpath("plots/figures")
 save("plots/figures/fig_exp.pdf", fig)
 fig
 
@@ -25,5 +26,6 @@ fig
 ## Fig 3: Experiments vs Theory
 include("fig_theo_exp.jl")
 fig = fig_theo_exp(Exp_Data(), "C3")
+mkpath("plots/figures")
 save("plots/figures/fig_theo_exp.pdf", fig)
 fig
