@@ -10,6 +10,7 @@ using CairoMakie
 mm2pt(x) = x * 72 / 25.4
 const HERO    = (mm2pt(771), mm2pt(240))   # 771 × 240 mm slot
 const SUPPORT = (mm2pt(373), mm2pt(150))   # 373 × 150 mm slot
+const SUPPORT2 = (0.8SUPPORT[1], 0.75SUPPORT[2])  # 298.4 × 112.5 mm — 80 % × 75 % of it
 
 # ------------------------------------------------------------------- fonts ---
 const FONTDIR  = normpath(joinpath(@__DIR__, "..", "fonts"))
@@ -151,4 +152,39 @@ function flux_lines!(ax; color = GREY, R = 64)
     vlines!(ax, flux_edges(; R);   color = (color, 0.55), linestyle = :dot,  linewidth = LW_RULE)
     vlines!(ax, flux_centres(; R); color = color,         linestyle = :dash, linewidth = LW_RULE)
     return ax
+end
+
+# ------------------------------------------------------------------- output ---
+"""
+    exact_page!(path, size_pt)
+
+CairoMakie rounds the scene to whole points, so a 771 × 240 mm slot comes out as a
+2186 × 680 pt page — 0.17 mm too wide, 0.11 mm too short. Reset the MediaBox to the
+exact slot size. qpdf's QDF form is edited in place and repaired with fix-qdf, so every
+content stream survives byte for byte; the only thing the width loses is half a point
+of empty figure padding.
+"""
+function exact_page!(path::AbstractString, size_pt::Tuple)
+    qpdf, fixqdf = Sys.which("qpdf"), Sys.which("fix-qdf")
+    if qpdf === nothing || fixqdf === nothing
+        @warn "qpdf/fix-qdf not on PATH — page stays at CairoMakie's rounded size"
+        return false
+    end
+    mktempdir() do dir
+        qdf = joinpath(dir, "qdf.pdf")
+        run(pipeline(`$qpdf --qdf --object-streams=disable $path $qdf`; stdout = devnull))
+        bytes = read(qdf)
+        i = first(something(findfirst(codeunits("/MediaBox"), bytes)))
+        j = first(something(findnext(codeunits("]"), bytes, i)))
+        box = "/MediaBox [ 0 0 $(round(size_pt[1], digits = 4)) $(round(size_pt[2], digits = 4)) ]"
+        write(qdf, vcat(bytes[1:i-1], codeunits(box), bytes[j+1:end]))
+        fixed = joinpath(dir, "fixed.pdf")
+        open(fixed, "w") do io
+            run(pipeline(`$fixqdf $qdf`; stdout = io))
+        end
+        # QDF form is uncompressed — put the streams back the way Cairo had them
+        run(pipeline(`$qpdf --stream-data=compress --object-streams=generate $fixed $path`;
+                     stdout = devnull))
+    end
+    return true
 end

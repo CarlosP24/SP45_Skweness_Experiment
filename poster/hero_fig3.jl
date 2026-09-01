@@ -172,40 +172,6 @@ function hero_fig3(; name = "C3")
     return fig
 end
 
-"""
-    exact_page!(path, size_pt)
-
-CairoMakie rounds the scene to whole points, so a 771 × 240 mm slot comes out as
-a 2186 × 680 pt page — 0.17 mm too wide, 0.11 mm too short. Reset the MediaBox to
-the exact slot size. qpdf's QDF form is edited in place and repaired with fix-qdf,
-so every content stream survives byte for byte; the only thing the width loses is
-0.5 pt of empty figure padding.
-"""
-function exact_page!(path::AbstractString, size_pt::Tuple)
-    qpdf, fixqdf = Sys.which("qpdf"), Sys.which("fix-qdf")
-    if qpdf === nothing || fixqdf === nothing
-        @warn "qpdf/fix-qdf not on PATH — page stays at CairoMakie's rounded size"
-        return false
-    end
-    mktempdir() do dir
-        qdf = joinpath(dir, "qdf.pdf")
-        run(pipeline(`$qpdf --qdf --object-streams=disable $path $qdf`; stdout = devnull))
-        bytes = read(qdf)
-        i = first(something(findfirst(codeunits("/MediaBox"), bytes)))
-        j = first(something(findnext(codeunits("]"), bytes, i)))
-        box = "/MediaBox [ 0 0 $(round(size_pt[1], digits = 4)) $(round(size_pt[2], digits = 4)) ]"
-        write(qdf, vcat(bytes[1:i-1], codeunits(box), bytes[j+1:end]))
-        fixed = joinpath(dir, "fixed.pdf")
-        open(fixed, "w") do io
-            run(pipeline(`$fixqdf $qdf`; stdout = io))
-        end
-        # QDF form is uncompressed — put the streams back the way Cairo had them
-        run(pipeline(`$qpdf --stream-data=compress --object-streams=generate $fixed $path`;
-                     stdout = devnull))
-    end
-    return true
-end
-
 if abspath(PROGRAM_FILE) == @__FILE__
     fig = hero_fig3()
     mkpath("poster/figures")
