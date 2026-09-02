@@ -1,10 +1,4 @@
-function filter_πs(φrng)
-    φrng1 = φrng[findall(x -> x > 0 && x < π, φrng)]
-    φrng2 = φrng[findall(x -> x > π && x < 2π, φrng)]
-    deleteat!(φrng1, findall(x -> isapprox(x, π), φrng1))
-    deleteat!(φrng2, findall(x -> isapprox(x, 2π), φrng2))
-    return vcat(φrng1, φrng2)
-end
+# filter_πs moved to src/utilities.jl — calc_CPR and the diagnostic need it too.
 
 function add_Δ0(h, params)
     @unpack τΓ, Δ0 = params

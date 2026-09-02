@@ -52,3 +52,52 @@ function build_hopping(p_left::Params_mm, p_right::Params_mm; zero_site = false,
     )
     return model
 end
+
+# ---------------------------------------------------------------------------
+# Single-mode (Params) methods.
+#
+# Also recycled from SP43 (src/builders/JosephsonJunction.jl:55-88 at SHA
+# dd7ad2f), which SP45's original port left behind because nothing here needed
+# them until the m_J-resolved CPR. They are what lets `greens_dict["semi"]`
+# accept `build_cyl` wires with no other change.
+#
+# There is no `hdict` and no ΔmJ bookkeeping: in the single-mode model m_J is
+# the conserved parameter `Z`, so the junction cannot mix sectors by
+# construction. `iszero(dr[2])` is the only transverse guard needed.
+# ---------------------------------------------------------------------------
+
+function build_coupling(p_left::Params, p_right::Params;  kw...)
+    p_left.a0 != p_right.a0 && throw(ArgumentError("Lattice constants must be equal"))
+    a0 = p_left.a0
+    t = p_left.t
+    α = (p_left.α + p_right.α) / 2
+    preα = (p_left.preα + p_right.preα) / 2
+    Vmax = (p_left.Vmax + p_right.Vmax) / 2
+    Vmin = (p_left.Vmin + p_right.Vmin) / 2
+    Vexponent = (p_left.Vexponent + p_right.Vexponent) / 2
+    dϕ(ρ, v0, v1) = - (Vexponent/p_left.R) * (v1 - v0) * (ρ/p_left.R)^(Vexponent - 1)
+    wire_hopping(r, dr) = - t * σ0τz * ifelse(iszero(dr[1]), r[2]/sqrt(r[2]^2 - 0.25*dr[2]^2), 1) + (α + preα * dϕ(r[2], Vmax, Vmin)) * (im * dr[1] / (2 * a0^2)) * σyτz;
+    model = @hopping((r, dr; τ = 1) ->
+        wire_hopping(r, dr/2) * τ * iszero(dr[2]);
+        range = 2*a0
+    )
+    return model
+end
+
+function build_hopping(p_left::Params, p_right::Params; zero_site = false,  kw...)
+    p_left.a0 != p_right.a0 && throw(ArgumentError("Lattice constants must be equal"))
+    a0 = p_left.a0
+    t = p_left.t
+    α = (p_left.α + p_right.α) / 2
+    preα = (p_left.preα + p_right.preα) / 2
+    Vmax = (p_left.Vmax + p_right.Vmax) / 2
+    Vmin = (p_left.Vmin + p_right.Vmin) / 2
+    Vexponent = (p_left.Vexponent + p_right.Vexponent) / 2
+    dϕ(ρ, v0, v1) = - (Vexponent/p_left.R) * (v1 - v0) * (ρ/p_left.R)^(Vexponent - 1)
+    wire_hopping(r, dr) = - t * σ0τz * ifelse(iszero(dr[1]), r[2]/sqrt(r[2]^2 - 0.25*dr[2]^2), 1) + (α + preα * dϕ(r[2], Vmax, Vmin)) * (im * dr[1] / (2 * a0^2)) * σyτz;
+    model = @hopping((r, dr; ) ->
+            wire_hopping(r, dr/2 + dr/2 * zero_site);
+            range = (a0 + a0 * !zero_site)
+    )
+    return model
+end

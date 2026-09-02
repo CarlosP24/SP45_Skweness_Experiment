@@ -11,6 +11,9 @@ mm2pt(x) = x * 72 / 25.4
 const HERO    = (mm2pt(771), mm2pt(240))   # 771 × 240 mm slot
 const SUPPORT = (mm2pt(373), mm2pt(150))   # 373 × 150 mm slot
 const SUPPORT2 = (0.8SUPPORT[1], 0.75SUPPORT[2])  # 298.4 × 112.5 mm — 80 % × 75 % of it
+const CPR     = (mm2pt(373), mm2pt(143))   # 373 × 143 mm — the §3 column slot,
+                                           # replacing the critical-temperature
+                                           # dV/dI map. Hard ceiling is 160 mm.
 
 # ------------------------------------------------------------------- fonts ---
 const FONTDIR  = normpath(joinpath(@__DIR__, "..", "fonts"))
@@ -63,6 +66,23 @@ const C_THEO  = hexcolor("orange")      # theory: Ic^th and R₀/R_N curves
 const C_HALO  = hexcolor("black")       # the paper's dark under-stroke
 const C_ANNOT     = hexcolor("black")    # skew callout, over seismic's pale ground
 const C_ANNOT_ALT = hexcolor("#D8D8D8")  # ... and over the dark 1L lobe
+
+# CdGM analog families. Poster-wide swatches, not one-off values: they carry the
+# same meaning on the hero's LDOS panels and in the CPR mechanism figure, so the
+# reader learns the pair once.
+#
+#   hole-like (hC)     — SP43's turquoise, unchanged
+#   electron-like (eC) — SP43's coral #FF7F55, shifted to magenta
+#
+# The shift is deliberate. SP43's coral sits at hue ≈ 17°, which is close enough
+# to the hero's own orange theory line (#FFA500, hue ≈ 39°) that the two would be
+# a single colour at three metres — and §5 puts the eC label directly on the hero,
+# where that orange curve already is. The poster red #BF2633 was the clash the
+# build doc anticipated; it is not the dangerous one. Magenta clears both.
+#
+# Still owed a print test at 2 m against #BF2633 (build doc §10.7).
+const C_HC = hexcolor("#67CBC2")   # hole-like CdGM analogs
+const C_EC = hexcolor("#D6529E")   # electron-like CdGM analogs
 
 # Perceptually uniform, reused wherever the quantity appears.
 const CMAP_LDOS = :thermal        # LDOS (a.u.)

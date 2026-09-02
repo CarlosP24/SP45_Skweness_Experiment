@@ -65,7 +65,76 @@ function flux_axis!(gp)
     return gax
 end
 
-function hero_fig3(; name = "C3")
+# --------------------------------------------------------------------------
+# §5 additions, drawn only when `labelled = true`. Everything else about the
+# hero is untouched, and the unlabelled export is unchanged.
+#
+# The hC/eC identification is NOT eyeballed off the map. It comes from the
+# per-m_J LDOS of the same wire (single-mode `build_cyl`, one sector per run),
+# which puts, at Φ = 0.90 in the right lead:
+#
+#     m_J = ±1  →  ω = −0.136 meV   hole-like     (hC throughout the 1L lobe)
+#     m_J = ±3  →  ω = −0.040 meV   electron-like (eC until it crosses zero)
+#
+# The ±3 analog is the one that crosses zero energy at Φ ≈ 1.05–1.075 and
+# converts to hC — the same conversion the CPR figure's panels (b) and (c)
+# bracket. So the eC arrow here points at exactly the analog that figure is about.
+#
+# Caveat worth knowing: the map itself is the multimode model summed over m_J,
+# while the branch identification is single-mode per sector. The two were
+# validated against each other (crossing fluxes agree for all four ±m_J pairs);
+# see data/theory/PROVENANCE.md.
+const Φ0_PER_T = 6.2229          # Φ/Φ₀ per tesla, for R_LP = 64 nm
+B_of_Φ(Φ) = Φ / Φ0_PER_T
+
+const LBL_hC_Φ    = 0.95            # flux at which the two analogs are labelled
+const LBL_hC_ω = 0.14
+const LBL_eC_Φ    = 1.05            # flux at which the two analogs are labelled
+const LBL_eC_ω = 0.09
+
+# The three fluxes the CPR mechanism figure shows, with its symbols (§5).
+const MARK_Φ   = (0.60, 1.05, 1.10)
+const MARK_SYM = (:circle, :rect, :utriangle)
+
+"""
+    flux_marks!(ax, y)
+
+The three fluxes the CPR mechanism figure shows, at height `y` in `ax`'s own
+units, using that figure's symbols.
+
+Light fill with a dark stroke, not the reverse: the row crosses both the pale
+band near the 0L/1L edge in (c) and the dark ground of the LDOS maps, and this
+way round reads on both. The square and triangle sit 0.008 T apart because those
+two panels deliberately bracket one zero-energy crossing.
+"""
+function flux_marks!(ax, y)
+    for (Φ, sym) in zip(MARK_Φ, MARK_SYM)
+        scatter!(ax, [B_of_Φ(Φ)], [y]; marker = sym, markersize = 20,
+                 color = LIGHT, strokecolor = C_ANNOT, strokewidth = 2.5)
+    end
+    return ax
+end
+
+"""
+Short leader arrow plus label, in the hC/eC colour code.
+
+`side` says which way the label sits from the feature. The eC label has to come
+in from the right: at ω ≈ −0.04 a left-hand label runs straight into the
+existing "Right lead" annotation, which sits at the same height.
+"""
+function analog_label!(ax, Bfeat, ωfeat, text_str, colour; side = :left, dB = 0.032)
+    s  = side === :left ? -1 : +1
+    B0 = Bfeat + s * dB
+    arrows2d!(ax, [B0 - s * 0.008], [ωfeat], [Bfeat + s * 0.004], [ωfeat];
+              argmode = :endpoint, color = colour,
+              shaftwidth = 3.5, tipwidth = 16, tiplength = 14)
+    text!(ax, B0 - s*0.004, ωfeat; text = text_str, color = colour,
+          align = (side === :left ? :right : :left, :center),
+          fontsize = FS_ANNOT, font = MONT_BOLD)
+    return ax
+end
+
+function hero_fig3(; name = "C3", labelled = false)
     Trng, Ic, Is, Brng, Ict, _, Trng_Rs, Rs, Brng_Rs, Rs_theo, _, _, dVdImat =
         process_data(Exp_Data(), "fitted_$(name)")
 
@@ -92,6 +161,17 @@ function hero_fig3(; name = "C3")
     ylims!(axB, -0.3, 0); axB.yticks = [-0.2]
     text!(axB, 0.045, -0.035; text = "Right lead", color = LIGHT, align = (:left, :center),
           fontsize = FS_ANNOT, font = MONT_MED)
+
+    if labelled
+        # Both labels go in (b) rather than one per panel: the two families are
+        # only distinguishable in the negative-energy sector, and (a) shows ω > 0.
+        analog_label!(axA, B_of_Φ(LBL_eC_Φ), LBL_eC_ω, "eC", C_EC; side = :right)
+        analog_label!(axA, B_of_Φ(LBL_hC_Φ), LBL_hC_ω, "hC", C_HC; side = :left)
+        # Repeated here as well as in (c), so the three CPR panels are tied to the
+        # spectrum they come from and not only to the measured critical current.
+        # Below the gap edge, where the map is dark and empty.
+        flux_marks!(axB, -0.285)
+    end
 
     Label(gl_L[1:2, 0], rich(gk("ω"), " (meV)"); rotation = π/2,
           fontsize = FS_LABEL, color = GREY)
@@ -131,6 +211,9 @@ function hero_fig3(; name = "C3")
               color = C_ANNOT, shaftwidth = 4, tipwidth = 20, tiplength = 18)
     text!(axC, 0.323, 60; text = "skew", color = C_ANNOT, align = (:center, :bottom),
           fontsize = FS_ANNOT, font = MONT_BOLD)
+
+    # Flux markers tying (c) to the CPR figure's three panels, matching (b)'s row
+    labelled && flux_marks!(axC, -108)
 
     # Makie draws the legend backdrop as part of the frame, so the frame stays
     # on: grey text on a mid-tone heatmap is otherwise unreadable at 2 m.
@@ -173,10 +256,16 @@ function hero_fig3(; name = "C3")
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    fig = hero_fig3()
     mkpath("poster/figures")
-    save("poster/figures/hero_fig3.pdf", fig; pt_per_unit = 1)
-    save("poster/figures/hero_fig3.png", fig; px_per_unit = 150/72)   # preview only
-    exact_page!("poster/figures/hero_fig3.pdf", HERO)
-    @info "wrote poster/figures/hero_fig3.{pdf,png}"
+    # Named for the paper figure it rebuilds, per this repo's convention. The
+    # build doc calls this hero_fig1; poster/CLAUDE.md, MANIFEST.md and the file
+    # already on disk all call the hero slot fig3, so fig3 is kept.
+    for (suffix, labelled) in (("", false), ("_labelled", true))
+        fig = hero_fig3(; labelled)
+        pdf = "poster/figures/hero_fig3$(suffix).pdf"
+        save(pdf, fig; pt_per_unit = 1)
+        save("poster/figures/hero_fig3$(suffix).png", fig; px_per_unit = 150/72)  # preview only
+        exact_page!(pdf, HERO)
+        @info "wrote poster/figures/hero_fig3$(suffix).{pdf,png}"
+    end
 end

@@ -12,6 +12,7 @@ ensure_pkgs(["Quantica", "FullShell", "Parameters", "ProgressMeter", "Interpolat
     include("models/params.jl")
     include("models/wires.jl")
     include("models/junctions.jl")
+    include("models/cpr.jl")        # derives from junctions.jl — keep it after
     include_all("builders")
     include_all("operators")
     include_all("parallelizers")
@@ -23,7 +24,17 @@ input = ARGS[1]
 
 read_wire(input)
 read_junction(input)
+read_cpr(input)
 
+
+if input in keys(cpr_systems)
+    @info "Calculating m_J-resolved CPR for: $input"
+    res = calc_CPR(input)
+    @info "CPR calculation completed for: $input"
+    @info "Saving results to $(res.path)"
+    save(res.path, "res", res)
+    exit(0)
+end
 
 if input in keys(wire_systems)
     @info "Calculating LDOS for wire: $input"
