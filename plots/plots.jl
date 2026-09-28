@@ -29,3 +29,10 @@ fig = fig_theo_exp(Exp_Data(), "C3")
 mkpath("plots/figures")
 save("plots/figures/fig_theo_exp.pdf", fig)
 fig
+
+
+## Referee: depleted core (no CdGM analogs, no skewness)
+include("fig_depleted.jl")
+fig = fig_depleted("C3")
+save("figures/fig_depleted.pdf", fig)
+fig

@@ -14,6 +14,9 @@ end
     TN = 0.1
     kB::Float64 = 8.61e-5   # eV/K
     T::Float64 = 0.0        # mK
+    # Junction whose normal-state conductance fixes τ (via TN). Empty = this one.
+    # A depleted core has G_N ≈ 0, so TN is meaningless there and τ must be borrowed.
+    τ_from::String = ""
 end
 
 params_jos = Calc_Params(;
@@ -140,5 +143,12 @@ junctions["fitted_C3"] = junctions["C_mu=20_w=25_tau=2.5_g=17_T=460"]
 delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19")
 delete!(junctions, "C_mu=20_w=29_tau=3.1_g=20_T=550")
 delete!(junctions, "C_mu=20_w=25_tau=2.5_g=17_T=460")
+
+## Depleted core (referee request): fitted_C3 with only μ changed.
+# The band bottom of build_cyl_mm sits at μ = 0; μ = -5 meV is ≫ Δ0, Zeeman and τΓΔ0,
+# so the core has no occupied subbands anywhere in Brng. τ is taken from fitted_C3.
+add_junction("C_mu=-5_w=25_tau=2.5_g=17_T=460")
+junctions["depleted_C3"] = Junction(junctions["C_mu=-5_w=25_tau=2.5_g=17_T=460"]; τ_from = "fitted_C3")
+delete!(junctions, "C_mu=-5_w=25_tau=2.5_g=17_T=460")
 
 #########################################################################

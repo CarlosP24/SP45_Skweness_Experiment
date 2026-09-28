@@ -18,9 +18,20 @@ function get_TN(hleft, hright, params_left, params_right, gs, τrng; kw...)
 end
 
 
+function find_τ(junction::Junction)
+    @unpack wireL, wireR, TN = junction
+    hSM_left, _, params_left = build_cyl_mm(wireL)
+    hSM_right, _, params_right = build_cyl_mm(wireR)
+    τrng = subdiv(0, 1, 100)
+    Gτs = get_TN(hSM_left, hSM_right, params_left, params_right, "semi", τrng; B = 0)
+    Gτs = Gτs ./ maximum(Gτs)
+    Tτ = linear_interpolation(τrng, Gτs)            # gives TN as a function of τ
+    return find_zeros(τ -> Tτ(τ) - TN, 0, 1) |> first
+end
+
 function calc_Josephson(name::String)
     junction = junctions[name]
-    @unpack wireL, wireR, params, Δw, j_params, TN, kB, T = junction
+    @unpack wireL, wireR, params, Δw, j_params, TN, kB, T, τ_from = junction
     @unpack Brng, φrng, outdir = params
     @unpack imshift, atol, maxevals, order = j_params
 
@@ -35,17 +46,13 @@ function calc_Josephson(name::String)
     mkpath(dirname(path))
 
     # Build Hamiltonian and Green's function
-    hSM_left, hSC_left, params_left = build_cyl_mm(wireL )
-    hSM_right, hSC_right, params_right = build_cyl_mm(wireR)
+    _, hSC_left, params_left = build_cyl_mm(wireL)
+    _, hSC_right, params_right = build_cyl_mm(wireR)
     g_right, g_left, g = greens_dict["semi"](hSC_left, hSC_right, params_left, params_right;)
 
-    # Find τ from TN
-    τrng = subdiv(0, 1, 100)
-    Gτs = get_TN(hSM_left, hSM_right, params_left, params_right, "semi", τrng; B = 0)
-    Gτs = Gτs ./ maximum(Gτs)
-    Tτ = linear_interpolation(τrng, Gτs)            # gives TN as a function of τ
-    τ = find_zeros(τ -> Tτ(τ) - TN, 0, 1) |> first
-    println("Found τ = $τ for TN = $TN")
+    # Find τ from TN (of this junction, or of `τ_from` if given)
+    τ = isempty(τ_from) ? find_τ(junction) : find_τ(junctions[τ_from])
+    println("Found τ = $τ for TN = $TN" * (isempty(τ_from) ? "" : " of $τ_from"))
 
     # Build integration path
     bw = maximum([bandwidth(params_left), bandwidth(params_right)])
