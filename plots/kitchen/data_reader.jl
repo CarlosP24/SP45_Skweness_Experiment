@@ -144,9 +144,9 @@ function read_data_nokeysight(exp_data::Exp_Data; exp_params::Exp_Params = Exp_P
 end
 
 
-function prepare_data(exp_data::Exp_Data, Imax::Real=120; Icoef = 1e9)
+function prepare_data(exp_data::Exp_Data, Imax::Real=120; Icoef = 1e9, exp_params::Exp_Params = Exp_Params(; ), window_size = 50)
     """Load and preprocess experimental data."""
-    data = read_data(exp_data)
+    data = read_data(exp_data; exp_params, window_size)
     @unpack Ts, Is, dVdImat, dVmat, Vmat = data 
     
     Is .*= Icoef
