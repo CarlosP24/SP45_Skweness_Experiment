@@ -5,7 +5,7 @@ include("plotters/theo_exp_core.jl")
 const gate_runs = [
     (Vg = 20, run = "A198_DEV19_54_54", quad = "X", bad_B = Float64[]),
     (Vg = 25, run = "A198_DEV19_51_51", quad = "X", bad_B = Float64[]),
-    (Vg = 30, run = "A198_DEV19_43_43", quad = "Y", bad_B = Float64[]),
+    # (Vg = 30, run = "A198_DEV19_43_43", quad = "Y", bad_B = Float64[]),  # dropped from the figure
     (Vg = 35, run = "A198_DEV19_17_17", quad = "X", bad_B = [0.124]),
 ]
 
@@ -57,7 +57,16 @@ function switching_current(Ts, Is, dVdImat; Bmax = 0.012)
     return (median(Ips) - median(Ims)) / 2
 end
 
-function fig_gates(name::String; R = 64, Imax = 120, Bmax = 0.4, pref = 0.8, rrange = (0.5, 1.6), δI_ref = 0.2167)
+function zero_bias_resistance(Ts, Is, dVdImat; Blims = (0.08, 0.4))
+    """R_0/R_N at zero bias for Blims[1] ≤ B ≤ Blims[2], with R_N as in fig_theo_exp (process_data)."""
+    Isw, _, _ = extract_peak_currents(dVdImat, Is, Ts)
+    RNs = compute_normal_resistances(dVdImat, Is, Isw)
+    i0 = findmin(abs.(Is))[2]
+    iB = findall(Blims[1] .<= Ts .<= Blims[2])
+    return Ts[iB], dVdImat[iB, i0] ./ RNs[iB]
+end
+
+function fig_gates(name::String; R = 64, Imax = 120, Bmax = 0.4, pref = 0.8, rrange = (0.5, 1.6), δI_ref = 0.2167, T = 460, Blims = (0.08, 0.4))
     Φ0 = 2067.833 #T⋅nm^2
     Bns = [1, 2].* Φ0 / (π * R^2)
     Bhalfs = [0.5, 1.5].* Φ0 / (π * R^2)
@@ -66,12 +75,13 @@ function fig_gates(name::String; R = 64, Imax = 120, Bmax = 0.4, pref = 0.8, rra
     Ict .*= pref
     Ict0 = Ict[findmin(abs.(Brng))[2]]
 
-    fig = Figure(size = (1100, 560), fontsize = 20)
+    jmax = findmin(abs.(Brng .- Blims[2]))[2]
+    Brng_Rs = Brng[1:jmax]
 
-    axs = Axis[]
-    for (i, (; Vg, run, quad, bad_B)) in enumerate(gate_runs)
-        row, col = fldmod1(i, 2)
+    fig = Figure(size = (1240, 560), fontsize = 20)  # page width ≈ 2.07 × the 600-px column figures
 
+    axs, axRs = Axis[], Axis[]
+    for (col, (; Vg, run, quad, bad_B)) in enumerate(gate_runs)
         exp_data = gate_exp_data(run, quad)
         exp_params = gate_exp_params(exp_data, quad)
 
@@ -88,19 +98,27 @@ function fig_gates(name::String; R = 64, Imax = 120, Bmax = 0.4, pref = 0.8, rra
         iI = findall(abs.(Is) .<= Imax)
         Is, dVdImat = Is[iI], dVdImat[:, iI]
         @info "V_g = $Vg V: current offset $(round(Ioff; digits = 1)) nA"
+
+        # Zero-bias cut before masking, so the peak finder never sees NaN rows
+        Trng_Rs, Rs = zero_bias_resistance(Ts, Is, dVdImat; Blims)
+        Rs[[any(isapprox(B, b; atol = 1e-6) for b in bad_B) for B in Trng_Rs]] .= NaN
+
         ibad = findall(B -> any(isapprox(B, b; atol = 1e-6) for b in bad_B), Ts)
         dVdImat[ibad, :] .= NaN
 
         # Theory scaled to the measured zero-field switching current (smaller transparency at lower V_g)
         scale = switching_current(Ts, Is, dVdImat) / Ict0
 
+        # Theoretical R_0/R_N as in fig_theo_exp (Ambegaokar-Halperin at T), from the scaled I_c^th
+        Rs_theo = @. besseli0(scale * Ict[1:jmax] / (0.0209 * T) / 2)^(-2)
+
         # Same colour range relative to R_N as in the main-text figure ((0.5, 1.5) kΩ for R_N ≈ 1 kΩ)
         RN = median(filter(isfinite, dVdImat[Ts .> 0.1, abs.(Is) .> 80]))
         colorrange = round.(rrange .* RN; digits = -2)
 
-        ax = Axis(fig[row, 2col - 1];
-            xlabel = L"$B$ (T)",
+        ax = Axis(fig[1, 2col - 1];
             ylabel = L"$I$ (nA)",
+            title = L"V_g = %$(Vg)\,\mathrm{V}",
         )
         lims, hmap = panel_dVdI(ax, dVdImat, Ts, Is, Ts, Brng, Ict .* scale; colormap = :seismic, lowclip = cgrad(:seismic)[1], colorrange, highclip = cgrad(:seismic)[end], legend = false, show_AH = false)
         ax.ylabelpadding = -18
@@ -109,28 +127,55 @@ function fig_gates(name::String; R = 64, Imax = 120, Bmax = 0.4, pref = 0.8, rra
         vlines!(ax, Bhalfs; color = :gray, linestyle = :dash)
 
         for n in 0:2
-            text!(ax, (n + 0.3 - (n == 2) * 0.1) * Φ0 / (π * R^2), -110; text = "$n"*"L", align = (:center, :center), color = :white)
+            text!(ax, (n + 0.3 - (n == 2) * 0.1) * Φ0 / (π * R^2), -110; text = "$n"*"L", align = (:center, :center), color = :black)
         end
 
-        text!(ax, 0.395, 110; text = L"V_g = %$(Vg)\,\mathrm{V}", align = (:right, :top), color = :white)
-        text!(ax, 0.395, 80; text = L"I_c^\text{th} \times %$(round(scale; digits = 2))", align = (:right, :top), color = :white, fontsize = 16)
 
-        Colorbar(fig[row, 2col], hmap; label = L"$dV/dI$ (k$\Omega$)", labelpadding = -20, ticks = ([first(colorrange), last(colorrange)], [first(colorrange), last(colorrange)] ./ 1e3 .|> string))
+        Colorbar(fig[1, 2col], hmap; label = L"$dV/dI$ (k$\Omega$)", labelpadding = -20, ticks = ([first(colorrange), last(colorrange)], [first(colorrange), last(colorrange)] ./ 1e3 .|> string))
 
-        row == 1 && hidexdecorations!(ax, ticks = false, grid = false)
-        col == 2 && hideydecorations!(ax, ticks = false, grid = false)
+        col == 1 && axislegend(ax, [[LineElement(color = :black, linewidth = 4), LineElement(color = :orange, linewidth = 3)]], ["Theory"];
+            position = :rt, patchsize = (15, 12), padding = (6, 6, 2, 2), margin = (0, 4, 0, 4))
+
+        hidexdecorations!(ax, ticks = false, grid = false)
+        col > 1 && hideydecorations!(ax, ticks = false, grid = false)
         push!(axs, ax)
+
+        axR = Axis(fig[2, 2col - 1];
+            xlabel = L"$B$ (T)",
+            ylabel = L"$R_0/R_N$",
+        )
+        panel_resistance(axR, Trng_Rs, Rs, Brng_Rs, Rs_theo; legend = false)
+        # Compact legend in the empty corner between the 1L-2L data and the lobe labels
+        col == 1 && axislegend(axR; position = (1, 0.42), patchsize = (15, 12), padding = (6, 6, 2, 2), rowgap = 0, margin = (0, 4, 0, 0))
+        xlims!(axR, lims)
+
+        vlines!(axR, Bns; color = :black, linestyle = :dash)
+        vlines!(axR, Bhalfs; color = :gray, linestyle = :dash)
+
+        for n in 0:2
+            text!(axR, (n + 0.4 - (n == 2) * 0.1) * Φ0 / (π * R^2), 0.1; text = "$n"*"L", align = (:center, :center), color = :black)
+        end
+
+        col > 1 && hideydecorations!(axR, ticks = false, grid = false)
+        push!(axRs, axR)
     end
     linkaxes!(axs...)
+    linkaxes!(axRs...)
+    for (ax, axR) in zip(axs, axRs)
+        linkxaxes!(ax, axR)
+    end
 
-    colgap!(fig.layout, 1, 5)
-    colgap!(fig.layout, 3, 5)
+    rowsize!(fig.layout, 2, Relative(0.35))
+    for c in 1:2:5
+        colgap!(fig.layout, c, 5)
+    end
     rowgap!(fig.layout, 5)
 
     style = (font = "CMU Serif Bold", fontsize = 20)
-    for (i, l) in enumerate(["a", "b", "c", "d"])
-        row, col = fldmod1(i, 2)
-        Label(fig[row, 2col - 1, TopLeft()], l, padding = (0, 0, -12, 0), halign = :left; style...)
+    for (i, l) in enumerate(["a", "b", "c", "d", "e", "f"])
+        row, col = fldmod1(i, 3)
+        # Columns 2-3 have no tick labels, so push their labels off the axes
+        Label(fig[row, 2col - 1, TopLeft()], l, padding = (0, col > 1 ? 25 : 0, -12, 0), halign = :left; style...)
     end
 
     return fig

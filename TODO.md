@@ -1,0 +1,2 @@
+- Añadir cortes de R0/RN de a, b, d.
+- Eliminar panel c.

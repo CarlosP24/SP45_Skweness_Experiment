@@ -50,11 +50,11 @@ function process_data(exp_data::Exp_Data, name::String; T::Real = 460, Imax = 12
     return Trng, Ic, Is, Brng, Ict, Rs, Trng_Rs, Rs, Brng_Rs, Rs_theo, rnorm[ilim:imax, :], Ic[ilim:imax], dVdImat[1:imax, :]
 end
 
-function panel_resistance(ax, Trng_Rs, Rs, Brng_Rs, Rs_theo; kw...)
+function panel_resistance(ax, Trng_Rs, Rs, Brng_Rs, Rs_theo; legend = true, kw...)
     scatter!(ax, Trng_Rs, Rs; color = :black, label = "Experiment", markersize = 8, strokecolor = :white, strokewidth = 0.5, kw...)
     lines!(ax, Brng_Rs, Rs_theo; color = :black, linewidth = 4, kw...)
     lines!(ax, Brng_Rs, Rs_theo; color = :orchid, label = "Theory", linewidth = 3, kw...)
-    axislegend(ax; position = (1, 0.5))
+    legend && axislegend(ax; position = (1, 0.5))
 end
 
 function panel_dVdI(ax, dVdImat, Ts, Is, Ic, Brng, Ict; theo_color=:orange, exp_color= :limegreen, legend = true, show_AH = true, kw...)
