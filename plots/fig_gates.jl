@@ -108,6 +108,7 @@ function fig_gates(name::String; R = 64, Imax = 120, Bmax = 0.4, pref = 0.8, rra
 
         # Theory scaled to the measured zero-field switching current (smaller transparency at lower V_g)
         scale = switching_current(Ts, Is, dVdImat) / Ict0
+        @info "V_g = $Vg V: theory scale $(round(scale; digits = 3)) (× pref = $(round(scale * pref; digits = 3)))"
 
         # Theoretical R_0/R_N as in fig_theo_exp (Ambegaokar-Halperin at T), from the scaled I_c^th
         Rs_theo = @. besseli0(scale * Ict[1:jmax] / (0.0209 * T) / 2)^(-2)

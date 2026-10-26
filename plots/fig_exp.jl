@@ -69,7 +69,7 @@ function fig_exp(exp_dataB::Exp_Data, exp_dataT::Exp_Data; R = 64, Imax = 800, B
     #arrows2d!(ax, [0.085], [1.0], [0.1], [0.9]; argmode = :endpoint, color = :white, shaftwidth = 2, tipwidth = 10)
     #arrows2d!(ax, [0.085], [1.0], [0.065], [0.9]; argmode = :endpoint, color = :white, shaftwidth = 2, tipwidth = 10)
 
-    Colorbar(fig[2, 2], hmap; ticks = ([first(colorrange), last(colorrange)], [first(colorrange), last(colorrange)] ./ 1e3 .|> string), label = L"$dV/dI$ (k$\Omega$)", labelpadding = -15, )
+    Colorbar(fig[2, 2], hmap; ticks = ([first(colorrange), last(colorrange)], [first(colorrange), last(colorrange)] ./ 1e3 .|> string), label = L"$dV/dI_{I=0}$ (k$\Omega$)", labelpadding = -15, )
     rowgap!(fig.layout, 1, 5)
     colgap!(fig.layout, 1, 5)
 
