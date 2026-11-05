@@ -107,7 +107,7 @@ function fig_theo_exp(exp_data::Exp_Data, name::String; R = 64)
 end
 
 # fig = fig_theo_exp(Exp_Data(), "C3")
-# save("plots/figures/fig_theo_exp.pdf", fig)
+# save("figures/fig_theo_exp.pdf", fig)
 # fig
 
 

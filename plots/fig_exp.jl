@@ -88,5 +88,5 @@ end
 #     lockin = "data_exp/250mK_DEV13_294_35_R_demod.dat"
 #     )
 # )
-# save("plots/figures/fig_exp.pdf", fig)
+# save("figures/fig_exp.pdf", fig)
 # fig

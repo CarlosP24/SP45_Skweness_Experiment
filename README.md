@@ -82,7 +82,7 @@ make sync             # sync data from CLUSTER to local
 
    This includes and runs each `fig_*.jl` script in turn, saving the output.
 
-All figures are saved as PDF files in `plots/figures/`.
+All figures are saved as PDF files in `figures/` (repository root).
 
 ## Repository Structure
 
