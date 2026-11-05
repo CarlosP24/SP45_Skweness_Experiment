@@ -1,0 +1,2228 @@
+┌ Info: scan C2 (3/5)
+│   device = "C"
+│   ncands = 29
+│   nB = 70
+│   nZ = 21
+│   T = 290.0
+└   workers = 96
+┌ Info: τ calibrated
+│   τs =
+│    Dict{Tuple{Float64, Float64, Float64}, Float64} with 29 entries:
+│      (2.5, 35.0, 4.0)  => 0.95031
+│      (10.0, 35.0, 5.0) => 0.901734
+│      (2.5, 40.0, 5.0)  => 0.949395
+│      (2.5, 25.0, 6.0)  => 0.948836
+│      (7.5, 25.0, 5.0)  => 0.91197
+│      (5.0, 35.0, 5.0)  => 0.928305
+│      (10.0, 30.0, 6.0) => 0.900666
+└      ⋮                 => ⋮
+Progress:   0%|▏                                        |  ETA: 19:25:52[KProgress:   1%|▎                                        |  ETA: 13:02:40[KProgress:   1%|▍                                        |  ETA: 9:50:48[KProgress:   1%|▍                                        |  ETA: 8:00:14[KProgress:   1%|▌                                        |  ETA: 8:00:08[KProgress:   1%|▌                                        |  ETA: 6:58:29[KProgress:   2%|▋                                        |  ETA: 6:05:52[KProgress:   2%|▊                                        |  ETA: 5:25:27[KProgress:   2%|▊                                        |  ETA: 4:56:18[KProgress:   2%|▉                                        |  ETA: 4:29:17[KProgress:   2%|█                                        |  ETA: 4:08:27[KProgress:   2%|█                                        |  ETA: 3:49:19[KProgress:   3%|█▏                                       |  ETA: 3:32:36[KProgress:   3%|█▏                                       |  ETA: 3:19:16[KProgress:   3%|█▎                                       |  ETA: 3:08:03[KProgress:   3%|█▍                                       |  ETA: 2:56:43[KProgress:   3%|█▍                                       |  ETA: 2:46:52[KProgress:   4%|█▌                                       |  ETA: 2:38:18[K 14.836809 seconds (8.20 M allocations: 418.924 MiB, 2.22% gc time, 52.32% compilation time: <1% of which was recompilation)
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+Progress:   4%|█▋                                       |  ETA: 2:30:30[KProgress:   4%|█▋                                       |  ETA: 2:23:07[KProgress:   4%|█▊                                       |  ETA: 2:16:31[KProgress:   4%|█▊                                       |  ETA: 2:10:37[KProgress:   5%|█▉                                       |  ETA: 2:05:55[KProgress:   5%|██                                       |  ETA: 2:00:41[KProgress:   5%|██                                       |  ETA: 1:55:57[KProgress:   5%|██▏                                      |  ETA: 1:52:00[KProgress:   5%|██▎                                      |  ETA: 1:49:50[KProgress:   6%|██▎                                      |  ETA: 1:47:42[KProgress:   6%|██▍                                      |  ETA: 1:48:39[KProgress:   6%|██▍                                      |  ETA: 1:45:02[KProgress:   6%|██▌                                      |  ETA: 1:41:44[KProgress:   6%|██▋                                      |  ETA: 1:38:34[KProgress:   7%|██▋                                      |  ETA: 1:35:40[KProgress:   7%|██▊                                      |  ETA: 1:33:34[KProgress:   7%|██▉                                      |  ETA: 1:30:50[KProgress:   7%|██▉                                      |  ETA: 1:28:15[KProgress:   7%|███                                      |  ETA: 1:26:34[KProgress:   7%|███▏                                     |  ETA: 1:24:18[KProgress:   8%|███▍                                     |  ETA: 1:16:20[KProgress:   8%|███▌                                     |  ETA: 1:14:36[KProgress:   9%|███▌                                     |  ETA: 1:12:52[KProgress:   9%|███▋                                     |  ETA: 1:11:11[KProgress:   9%|███▊                                     |  ETA: 1:09:35[KProgress:   9%|███▊                                     |  ETA: 1:08:03[KProgress:   9%|███▉                                     |  ETA: 1:06:35[KProgress:  10%|███▉                                     |  ETA: 1:05:08[KProgress:  10%|████                                     |  ETA: 1:03:44[KProgress:  10%|████▏                                    |  ETA: 1:02:26[KProgress:  10%|████▏                                    |  ETA: 1:01:16[KProgress:  10%|████▎                                    |  ETA: 1:00:09[KProgress:  11%|████▍                                    |  ETA: 0:58:57[KProgress:  11%|████▍                                    |  ETA: 0:57:50[KProgress:  11%|████▌                                    |  ETA: 0:55:42[KProgress:  11%|████▋                                    |  ETA: 0:54:43[KProgress:  11%|████▊                                    |  ETA: 0:53:50[KProgress:  12%|████▊                                    |  ETA: 0:52:54[KProgress:  12%|████▉                                    |  ETA: 0:51:57[KProgress:  12%|█████                                    |  ETA: 0:51:06[KProgress:  12%|█████                                    |  ETA: 0:50:15[KProgress:  14%|█████▋                                   |  ETA: 0:44:19[KProgress:  14%|█████▊                                   |  ETA: 0:43:52[KProgress:  14%|█████▊                                   |  ETA: 0:43:14[KProgress:  14%|█████▉                                   |  ETA: 0:42:54[KProgress:  15%|██████                                   |  ETA: 0:42:17[KProgress:  15%|██████                                   |  ETA: 0:41:39[KProgress:  15%|██████▏                                  |  ETA: 0:41:06[KProgress:  15%|██████▎                                  |  ETA: 0:40:49[KProgress:  15%|██████▎                                  |  ETA: 0:40:25[KProgress:  16%|██████▍                                  |  ETA: 0:40:14[KProgress:  16%|██████▌                                  |  ETA: 0:39:43[KProgress:  16%|██████▌                                  |  ETA: 0:39:28[KProgress:  16%|██████▋                                  |  ETA: 0:38:56[KProgress:  16%|██████▋                                  |  ETA: 0:38:26[KProgress:  16%|██████▊                                  |  ETA: 0:37:58[KProgress:  17%|██████▉                                  |  ETA: 0:37:46[KProgress:  17%|██████▉                                  |  ETA: 0:38:04[KProgress:  17%|███████                                  |  ETA: 0:38:00[KProgress:  17%|███████▏                                 |  ETA: 0:37:36[KProgress:  17%|███████▏                                 |  ETA: 0:38:03[KProgress:  18%|███████▎                                 |  ETA: 0:37:34[KProgress:  18%|███████▎                                 |  ETA: 0:37:28[KProgress:  18%|███████▍                                 |  ETA: 0:37:03[KProgress:  18%|███████▌                                 |  ETA: 0:38:24[KProgress:  18%|███████▌                                 |  ETA: 0:38:46[KProgress:  19%|███████▋                                 |  ETA: 0:38:22[KProgress:  19%|███████▊                                 |  ETA: 0:38:25[KProgress:  19%|███████▊                                 |  ETA: 0:38:15[KProgress:  19%|███████▉                                 |  ETA: 0:37:52[KProgress:  19%|███████▉                                 |  ETA: 0:37:29[KProgress:  20%|████████                                 |  ETA: 0:37:51[KProgress:  20%|████████▏                                |  ETA: 0:37:39[KProgress:  20%|████████▏                                |  ETA: 0:37:34[KProgress:  20%|████████▎                                |  ETA: 0:37:20[KProgress:  20%|████████▍                                |  ETA: 0:37:00[KProgress:  20%|████████▍                                |  ETA: 0:37:54[KProgress:  21%|████████▌                                |  ETA: 0:38:00[KProgress:  21%|████████▌                                |  ETA: 0:37:43[KProgress:  21%|████████▋                                |  ETA: 0:37:36[KProgress:  21%|████████▊                                |  ETA: 0:37:13[KProgress:  21%|████████▊                                |  ETA: 0:36:52[KProgress:  22%|████████▉                                |  ETA: 0:36:51[KProgress:  22%|█████████                                |  ETA: 0:36:28[KProgress:  22%|█████████                                |  ETA: 0:36:36[KProgress:  22%|█████████▏                               |  ETA: 0:36:24[KProgress:  22%|█████████▎                               |  ETA: 0:36:10[KProgress:  23%|█████████▎                               |  ETA: 0:35:52[KProgress:  23%|█████████▍                               |  ETA: 0:35:35[KProgress:  23%|█████████▍                               |  ETA: 0:35:17[KProgress:  23%|█████████▌                               |  ETA: 0:35:00[KProgress:  24%|█████████▉                               |  ETA: 0:33:54[KProgress:  24%|█████████▉                               |  ETA: 0:33:47[KProgress:  24%|██████████                               |  ETA: 0:34:24[KProgress:  25%|██████████                               |  ETA: 0:34:08[KProgress:  25%|██████████▏                              |  ETA: 0:33:52[KProgress:  25%|██████████▎                              |  ETA: 0:33:36[KProgress:  25%|██████████▎                              |  ETA: 0:33:16[KProgress:  25%|██████████▍                              |  ETA: 0:32:56[KProgress:  25%|██████████▌                              |  ETA: 0:32:39[KProgress:  26%|██████████▋                              |  ETA: 0:32:04[KProgress:  26%|██████████▋                              |  ETA: 0:31:50[KProgress:  26%|██████████▊                              |  ETA: 0:31:31[KProgress:  28%|███████████▌                             |  ETA: 0:29:04[KProgress:  28%|███████████▋                             |  ETA: 0:28:49[KProgress:  30%|████████████▍                            |  ETA: 0:26:32[KProgress:  31%|████████████▋                            |  ETA: 0:26:05[KProgress:  31%|████████████▋                            |  ETA: 0:25:51[KProgress:  31%|████████████▊                            |  ETA: 0:25:42[K┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+Progress:  31%|████████████▊                            |  ETA: 0:25:29[KProgress:  31%|████████████▉                            |  ETA: 0:25:18[KProgress:  32%|█████████████                            |  ETA: 0:25:11[KProgress:  32%|█████████████                            |  ETA: 0:24:58[KProgress:  32%|█████████████▏                           |  ETA: 0:24:49[KProgress:  32%|█████████████▎                           |  ETA: 0:24:46[KProgress:  32%|█████████████▎                           |  ETA: 0:24:36[KProgress:  33%|█████████████▍                           |  ETA: 0:24:24[KProgress:  33%|█████████████▍                           |  ETA: 0:24:19[KProgress:  33%|█████████████▌                           |  ETA: 0:24:07[KProgress:  33%|█████████████▋                           |  ETA: 0:24:10[KProgress:  33%|█████████████▋                           |  ETA: 0:24:00[KProgress:  34%|█████████████▊                           |  ETA: 0:23:56[KProgress:  34%|█████████████▉                           |  ETA: 0:24:04[KProgress:  34%|█████████████▉                           |  ETA: 0:23:55[KProgress:  34%|██████████████                           |  ETA: 0:23:56[KProgress:  34%|██████████████                           |  ETA: 0:23:45[KProgress:  34%|██████████████▏                          |  ETA: 0:23:36[KProgress:  35%|██████████████▎                          |  ETA: 0:23:37[KProgress:  35%|██████████████▎                          |  ETA: 0:23:28[KProgress:  35%|██████████████▍                          |  ETA: 0:23:20[KProgress:  35%|██████████████▌                          |  ETA: 0:23:11[KProgress:  35%|██████████████▌                          |  ETA: 0:23:11[KProgress:  36%|██████████████▋                          |  ETA: 0:23:01[KProgress:  36%|██████████████▊                          |  ETA: 0:23:14[KProgress:  36%|██████████████▊                          |  ETA: 0:23:03[KProgress:  36%|██████████████▉                          |  ETA: 0:23:00[KProgress:  36%|██████████████▉                          |  ETA: 0:22:52[KProgress:  37%|███████████████                          |  ETA: 0:22:41[KProgress:  37%|███████████████▏                         |  ETA: 0:22:42[KProgress:  38%|███████████████▍                         |  ETA: 0:22:23[KProgress:  38%|███████████████▌                         |  ETA: 0:22:13[KProgress:  38%|███████████████▌                         |  ETA: 0:22:03[KProgress:  38%|███████████████▋                         |  ETA: 0:21:56[KProgress:  38%|███████████████▊                         |  ETA: 0:21:57[KProgress:  39%|███████████████▊                         |  ETA: 0:22:01[KProgress:  39%|███████████████▉                         |  ETA: 0:21:56[KProgress:  39%|████████████████                         |  ETA: 0:21:54[KProgress:  39%|████████████████                         |  ETA: 0:22:02[KProgress:  39%|████████████████▏                        |  ETA: 0:21:52[KProgress:  39%|████████████████▏                        |  ETA: 0:21:54[KProgress:  40%|████████████████▎                        |  ETA: 0:21:53[KProgress:  40%|████████████████▍                        |  ETA: 0:21:49[KProgress:  40%|████████████████▍                        |  ETA: 0:21:40[KProgress:  40%|████████████████▌                        |  ETA: 0:21:30[KProgress:  40%|████████████████▋                        |  ETA: 0:21:32[KProgress:  41%|████████████████▋                        |  ETA: 0:21:26[KProgress:  41%|████████████████▊                        |  ETA: 0:21:18[KProgress:  41%|████████████████▊                        |  ETA: 0:21:17[KProgress:  41%|████████████████▉                        |  ETA: 0:21:09[KProgress:  41%|█████████████████                        |  ETA: 0:21:02[KProgress:  42%|█████████████████▏                       |  ETA: 0:20:48[KProgress:  42%|█████████████████▎                       |  ETA: 0:20:42[KProgress:  42%|█████████████████▎                       |  ETA: 0:20:46[KProgress:  42%|█████████████████▍                       |  ETA: 0:20:41[KProgress:  43%|█████████████████▍                       |  ETA: 0:20:33[KProgress:  43%|█████████████████▌                       |  ETA: 0:20:26[KProgress:  43%|█████████████████▋                       |  ETA: 0:20:35[KProgress:  43%|█████████████████▋                       |  ETA: 0:20:26[KProgress:  43%|█████████████████▊                       |  ETA: 0:20:19[KProgress:  43%|█████████████████▉                       |  ETA: 0:20:10[KProgress:  44%|█████████████████▉                       |  ETA: 0:20:03[KProgress:  44%|██████████████████                       |  ETA: 0:19:54[KProgress:  44%|██████████████████▏                      |  ETA: 0:19:47[KProgress:  44%|██████████████████▏                      |  ETA: 0:19:43[KProgress:  45%|██████████████████▎                      |  ETA: 0:19:26[KProgress:  45%|██████████████████▍                      |  ETA: 0:19:20[KProgress:  45%|██████████████████▌                      |  ETA: 0:19:02[KProgress:  45%|██████████████████▋                      |  ETA: 0:18:56[KProgress:  46%|██████████████████▊                      |  ETA: 0:18:49[KProgress:  46%|██████████████████▊                      |  ETA: 0:18:44[KProgress:  46%|██████████████████▉                      |  ETA: 0:18:37[KProgress:  46%|██████████████████▉                      |  ETA: 0:18:30[KProgress:  46%|███████████████████                      |  ETA: 0:18:22[KProgress:  47%|███████████████████▏                     |  ETA: 0:18:14[KProgress:  47%|███████████████████▏                     |  ETA: 0:18:07[KProgress:  47%|███████████████████▎                     |  ETA: 0:18:00[KProgress:  47%|███████████████████▍                     |  ETA: 0:17:53[KProgress:  47%|███████████████████▍                     |  ETA: 0:17:47[KProgress:  48%|███████████████████▌                     |  ETA: 0:17:44[KProgress:  48%|███████████████████▌                     |  ETA: 0:17:36[KProgress:  48%|███████████████████▋                     |  ETA: 0:17:29[KProgress:  48%|███████████████████▊                     |  ETA: 0:17:22[KProgress:  48%|███████████████████▊                     |  ETA: 0:17:15[KProgress:  48%|███████████████████▉                     |  ETA: 0:17:08[KProgress:  49%|████████████████████                     |  ETA: 0:17:01[KProgress:  49%|████████████████████                     |  ETA: 0:16:54[KProgress:  49%|████████████████████▏                    |  ETA: 0:16:50[KProgress:  49%|████████████████████▏                    |  ETA: 0:16:43[KProgress:  49%|████████████████████▎                    |  ETA: 0:16:41[KProgress:  50%|████████████████████▍                    |  ETA: 0:16:35[KProgress:  50%|████████████████████▍                    |  ETA: 0:16:29[KProgress:  51%|████████████████████▉                    |  ETA: 0:15:51[KProgress:  51%|█████████████████████                    |  ETA: 0:15:47[KProgress:  51%|█████████████████████                    |  ETA: 0:15:47[KProgress:  52%|█████████████████████▏                   |  ETA: 0:15:44[KProgress:  52%|█████████████████████▎                   |  ETA: 0:15:42[KProgress:  52%|█████████████████████▎                   |  ETA: 0:15:42[KProgress:  52%|█████████████████████▍                   |  ETA: 0:15:39[KProgress:  52%|█████████████████████▌                   |  ETA: 0:15:33[KProgress:  52%|█████████████████████▌                   |  ETA: 0:15:27[KProgress:  53%|█████████████████████▋                   |  ETA: 0:15:24[KProgress:  53%|█████████████████████▋                   |  ETA: 0:15:20[KProgress:  53%|█████████████████████▊                   |  ETA: 0:15:13[KProgress:  53%|█████████████████████▉                   |  ETA: 0:15:08[KProgress:  53%|█████████████████████▉                   |  ETA: 0:15:04[KProgress:  54%|██████████████████████                   |  ETA: 0:14:57[KProgress:  54%|██████████████████████▏                  |  ETA: 0:14:56[KProgress:  54%|██████████████████████▏                  |  ETA: 0:14:50[KProgress:  54%|██████████████████████▎                  |  ETA: 0:14:46[KProgress:  54%|██████████████████████▎                  |  ETA: 0:14:39[KProgress:  55%|██████████████████████▍                  |  ETA: 0:14:34[KProgress:  55%|██████████████████████▌                  |  ETA: 0:14:28[KProgress:  55%|██████████████████████▌                  |  ETA: 0:14:23[KProgress:  55%|██████████████████████▋                  |  ETA: 0:14:24[KProgress:  55%|██████████████████████▊                  |  ETA: 0:14:22[KProgress:  56%|██████████████████████▊                  |  ETA: 0:14:20[KProgress:  56%|██████████████████████▉                  |  ETA: 0:14:15[KProgress:  56%|██████████████████████▉                  |  ETA: 0:14:09[KProgress:  56%|███████████████████████                  |  ETA: 0:14:05[KProgress:  56%|███████████████████████▏                 |  ETA: 0:14:06[KProgress:  57%|███████████████████████▏                 |  ETA: 0:14:01[KProgress:  57%|███████████████████████▎                 |  ETA: 0:14:00[KProgress:  57%|███████████████████████▍                 |  ETA: 0:13:55[KProgress:  57%|███████████████████████▍                 |  ETA: 0:13:50[KProgress:  57%|███████████████████████▌                 |  ETA: 0:13:48[KProgress:  57%|███████████████████████▋                 |  ETA: 0:13:41[KProgress:  58%|███████████████████████▋                 |  ETA: 0:13:35[KProgress:  58%|███████████████████████▊                 |  ETA: 0:13:31[KProgress:  58%|███████████████████████▊                 |  ETA: 0:13:27[KProgress:  58%|███████████████████████▉                 |  ETA: 0:13:21[KProgress:  58%|████████████████████████                 |  ETA: 0:13:19[KProgress:  59%|████████████████████████                 |  ETA: 0:13:14[K└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+Progress:  59%|████████████████████████▏                |  ETA: 0:13:11[KProgress:  59%|████████████████████████▎                |  ETA: 0:13:13[KProgress:  59%|████████████████████████▎                |  ETA: 0:13:12[KProgress:  59%|████████████████████████▍                |  ETA: 0:13:07[KProgress:  60%|████████████████████████▍                |  ETA: 0:13:02[KProgress:  60%|████████████████████████▌                |  ETA: 0:12:59[KProgress:  60%|████████████████████████▋                |  ETA: 0:13:01[KProgress:  60%|████████████████████████▋                |  ETA: 0:12:57[KProgress:  60%|████████████████████████▊                |  ETA: 0:12:51[KProgress:  61%|████████████████████████▉                |  ETA: 0:12:45[KProgress:  61%|████████████████████████▉                |  ETA: 0:12:40[KProgress:  61%|█████████████████████████                |  ETA: 0:12:37[KProgress:  61%|█████████████████████████                |  ETA: 0:12:35[KProgress:  61%|█████████████████████████▏               |  ETA: 0:12:30[KProgress:  61%|█████████████████████████▎               |  ETA: 0:12:26[KProgress:  62%|█████████████████████████▎               |  ETA: 0:12:21[KProgress:  62%|█████████████████████████▍               |  ETA: 0:12:17[KProgress:  62%|█████████████████████████▌               |  ETA: 0:12:12[KProgress:  62%|█████████████████████████▌               |  ETA: 0:12:08[KProgress:  62%|█████████████████████████▋               |  ETA: 0:12:03[KProgress:  63%|█████████████████████████▋               |  ETA: 0:11:59[KProgress:  63%|█████████████████████████▊               |  ETA: 0:11:53[KProgress:  63%|█████████████████████████▉               |  ETA: 0:11:49[KProgress:  63%|█████████████████████████▉               |  ETA: 0:11:44[KProgress:  63%|██████████████████████████               |  ETA: 0:11:40[KProgress:  64%|██████████████████████████▏              |  ETA: 0:11:36[KProgress:  64%|██████████████████████████▏              |  ETA: 0:11:31[KProgress:  64%|██████████████████████████▎              |  ETA: 0:11:26[KProgress:  64%|██████████████████████████▎              |  ETA: 0:11:22[KProgress:  64%|██████████████████████████▍              |  ETA: 0:11:17[KProgress:  65%|██████████████████████████▌              |  ETA: 0:11:13[KProgress:  65%|██████████████████████████▌              |  ETA: 0:11:08[KProgress:  65%|██████████████████████████▋              |  ETA: 0:11:03[KProgress:  65%|██████████████████████████▊              |  ETA: 0:10:57[KProgress:  65%|██████████████████████████▊              |  ETA: 0:10:53[KProgress:  66%|██████████████████████████▉              |  ETA: 0:10:49[KProgress:  66%|███████████████████████████              |  ETA: 0:10:47[KProgress:  66%|███████████████████████████              |  ETA: 0:10:41[KProgress:  66%|███████████████████████████▏             |  ETA: 0:10:36[KProgress:  66%|███████████████████████████▏             |  ETA: 0:10:31[KProgress:  66%|███████████████████████████▎             |  ETA: 0:10:26[KProgress:  67%|███████████████████████████▍             |  ETA: 0:10:22[KProgress:  67%|███████████████████████████▍             |  ETA: 0:10:17[KProgress:  67%|███████████████████████████▌             |  ETA: 0:10:12[KProgress:  67%|███████████████████████████▋             |  ETA: 0:10:03[KProgress:  68%|███████████████████████████▊             |  ETA: 0:09:59[KProgress:  68%|███████████████████████████▊             |  ETA: 0:09:54[KProgress:  68%|███████████████████████████▉             |  ETA: 0:09:49[KProgress:  68%|████████████████████████████             |  ETA: 0:09:44[KProgress:  68%|████████████████████████████             |  ETA: 0:09:41[KProgress:  69%|████████████████████████████▏            |  ETA: 0:09:37[KProgress:  69%|████████████████████████████▎            |  ETA: 0:09:33[KProgress:  69%|████████████████████████████▎            |  ETA: 0:09:32[KProgress:  69%|████████████████████████████▍            |  ETA: 0:09:28[KProgress:  69%|████████████████████████████▍            |  ETA: 0:09:28[KProgress:  70%|████████████████████████████▌            |  ETA: 0:09:23[KProgress:  70%|████████████████████████████▋            |  ETA: 0:09:19[KProgress:  70%|████████████████████████████▋            |  ETA: 0:09:15[KProgress:  70%|████████████████████████████▊            |  ETA: 0:09:11[KProgress:  70%|████████████████████████████▉            |  ETA: 0:09:04[KProgress:  71%|█████████████████████████████            |  ETA: 0:08:59[KProgress:  71%|█████████████████████████████            |  ETA: 0:08:55[KProgress:  71%|█████████████████████████████▏           |  ETA: 0:08:51[KProgress:  71%|█████████████████████████████▎           |  ETA: 0:08:46[KProgress:  71%|█████████████████████████████▎           |  ETA: 0:08:42[KProgress:  72%|█████████████████████████████▍           |  ETA: 0:08:37[KProgress:  72%|█████████████████████████████▌           |  ETA: 0:08:33[KProgress:  72%|█████████████████████████████▌           |  ETA: 0:08:29[KProgress:  74%|██████████████████████████████▍          |  ETA: 0:07:54[KProgress:  74%|██████████████████████████████▍          |  ETA: 0:07:50[KProgress:  74%|██████████████████████████████▌          |  ETA: 0:07:46[KProgress:  75%|██████████████████████████████▌          |  ETA: 0:07:41[KProgress:  75%|██████████████████████████████▋          |  ETA: 0:07:38[KProgress:  75%|██████████████████████████████▊          |  ETA: 0:07:33[KProgress:  75%|██████████████████████████████▊          |  ETA: 0:07:31[KProgress:  75%|██████████████████████████████▉          |  ETA: 0:07:27[KProgress:  75%|███████████████████████████████          |  ETA: 0:07:24[KProgress:  76%|███████████████████████████████          |  ETA: 0:07:20[KProgress:  76%|███████████████████████████████▏         |  ETA: 0:07:18[KProgress:  76%|███████████████████████████████▏         |  ETA: 0:07:13[KProgress:  76%|███████████████████████████████▎         |  ETA: 0:07:10[KProgress:  76%|███████████████████████████████▍         |  ETA: 0:07:08[KProgress:  77%|███████████████████████████████▍         |  ETA: 0:07:05[KProgress:  77%|███████████████████████████████▌         |  ETA: 0:07:02[KProgress:  77%|███████████████████████████████▋         |  ETA: 0:07:00[KProgress:  77%|███████████████████████████████▋         |  ETA: 0:06:56[KProgress:  77%|███████████████████████████████▊         |  ETA: 0:06:52[KProgress:  78%|███████████████████████████████▊         |  ETA: 0:06:51[KProgress:  78%|███████████████████████████████▉         |  ETA: 0:06:48[KProgress:  78%|████████████████████████████████         |  ETA: 0:06:43[KProgress:  78%|████████████████████████████████         |  ETA: 0:06:39[KProgress:  78%|████████████████████████████████▏        |  ETA: 0:06:35[KProgress:  79%|████████████████████████████████▎        |  ETA: 0:06:30[KProgress:  79%|████████████████████████████████▎        |  ETA: 0:06:27[KProgress:  79%|████████████████████████████████▍        |  ETA: 0:06:24[KProgress:  79%|████████████████████████████████▌        |  ETA: 0:06:22[KProgress:  79%|████████████████████████████████▌        |  ETA: 0:06:18[KProgress:  80%|████████████████████████████████▋        |  ETA: 0:06:13[KProgress:  80%|████████████████████████████████▋        |  ETA: 0:06:09[KProgress:  80%|████████████████████████████████▊        |  ETA: 0:06:06[KProgress:  80%|████████████████████████████████▉        |  ETA: 0:06:03[KProgress:  80%|████████████████████████████████▉        |  ETA: 0:05:59[KProgress:  80%|█████████████████████████████████        |  ETA: 0:05:56[KProgress:  81%|█████████████████████████████████▏       |  ETA: 0:05:52[KProgress:  81%|█████████████████████████████████▏       |  ETA: 0:05:49[KProgress:  81%|█████████████████████████████████▎       |  ETA: 0:05:45[KProgress:  81%|█████████████████████████████████▎       |  ETA: 0:05:41[KProgress:  81%|█████████████████████████████████▍       |  ETA: 0:05:38[KProgress:  82%|█████████████████████████████████▌       |  ETA: 0:05:34[KProgress:  82%|█████████████████████████████████▌       |  ETA: 0:05:30[KProgress:  82%|█████████████████████████████████▋       |  ETA: 0:05:26[KProgress:  82%|█████████████████████████████████▊       |  ETA: 0:05:22[KProgress:  82%|█████████████████████████████████▊       |  ETA: 0:05:18[KProgress:  83%|█████████████████████████████████▉       |  ETA: 0:05:14[KProgress:  83%|█████████████████████████████████▉       |  ETA: 0:05:10[KProgress:  83%|██████████████████████████████████       |  ETA: 0:05:06[KProgress:  83%|██████████████████████████████████▏      |  ETA: 0:05:04[KProgress:  83%|██████████████████████████████████▏      |  ETA: 0:05:00[KProgress:  84%|██████████████████████████████████▎      |  ETA: 0:04:58[KProgress:  84%|██████████████████████████████████▍      |  ETA: 0:04:54[KProgress:  84%|██████████████████████████████████▍      |  ETA: 0:04:50[KProgress:  84%|██████████████████████████████████▌      |  ETA: 0:04:46[KProgress:  84%|██████████████████████████████████▌      |  ETA: 0:04:42[KProgress:  84%|██████████████████████████████████▋      |  ETA: 0:04:38[KProgress:  85%|██████████████████████████████████▊      |  ETA: 0:04:35[KProgress:  85%|██████████████████████████████████▊      |  ETA: 0:04:31[KProgress:  85%|██████████████████████████████████▉      |  ETA: 0:04:28[KProgress:  85%|███████████████████████████████████      |  ETA: 0:04:24[KProgress:  85%|███████████████████████████████████      |  ETA: 0:04:20[KProgress:  86%|███████████████████████████████████▏     |  ETA: 0:04:16[KProgress:  86%|███████████████████████████████████▎     |  ETA: 0:04:12[KProgress:  86%|███████████████████████████████████▎     |  ETA: 0:04:09[KProgress:  86%|███████████████████████████████████▍     |  ETA: 0:04:05[KProgress:  86%|███████████████████████████████████▍     |  ETA: 0:04:02[KProgress:  87%|███████████████████████████████████▌     |  ETA: 0:03:59[KProgress:  87%|███████████████████████████████████▋     |  ETA: 0:03:55[KProgress:  87%|███████████████████████████████████▋     |  ETA: 0:03:52[KProgress:  87%|███████████████████████████████████▊     |  ETA: 0:03:48[KProgress:  87%|███████████████████████████████████▉     |  ETA: 0:03:44[KProgress:  88%|███████████████████████████████████▉     |  ETA: 0:03:41[KProgress:  88%|████████████████████████████████████     |  ETA: 0:03:38[KProgress:  88%|████████████████████████████████████     |  ETA: 0:03:34[KProgress:  88%|████████████████████████████████████▏    |  ETA: 0:03:30[KProgress:  88%|████████████████████████████████████▎    |  ETA: 0:03:27[KProgress:  89%|████████████████████████████████████▎    |  ETA: 0:03:23[KProgress:  89%|████████████████████████████████████▍    |  ETA: 0:03:19[KProgress:  89%|████████████████████████████████████▌    |  ETA: 0:03:16[KProgress:  89%|████████████████████████████████████▌    |  ETA: 0:03:13[KProgress:  89%|████████████████████████████████████▋    |  ETA: 0:03:09[KProgress:  89%|████████████████████████████████████▋    |  ETA: 0:03:06[KProgress:  90%|████████████████████████████████████▊    |  ETA: 0:03:02[KProgress:  90%|████████████████████████████████████▉    |  ETA: 0:02:59[KProgress:  90%|████████████████████████████████████▉    |  ETA: 0:02:56[KProgress:  90%|█████████████████████████████████████    |  ETA: 0:02:52[KProgress:  90%|█████████████████████████████████████▏   |  ETA: 0:02:49[KProgress:  91%|█████████████████████████████████████▏   |  ETA: 0:02:45[KProgress:  91%|█████████████████████████████████████▎   |  ETA: 0:02:42[KProgress:  91%|█████████████████████████████████████▎   |  ETA: 0:02:38[KProgress:  91%|█████████████████████████████████████▍   |  ETA: 0:02:35[KProgress:  91%|█████████████████████████████████████▌   |  ETA: 0:02:32[KProgress:  92%|█████████████████████████████████████▌   |  ETA: 0:02:28[KProgress:  92%|█████████████████████████████████████▋   |  ETA: 0:02:25[KProgress:  92%|█████████████████████████████████████▊   |  ETA: 0:02:21[KProgress:  92%|█████████████████████████████████████▊   |  ETA: 0:02:18[KProgress:  92%|█████████████████████████████████████▉   |  ETA: 0:02:14[KProgress:  93%|█████████████████████████████████████▉   |  ETA: 0:02:11[KProgress:  93%|██████████████████████████████████████   |  ETA: 0:02:07[KProgress:  93%|██████████████████████████████████████▏  |  ETA: 0:02:04[KProgress:  93%|██████████████████████████████████████▏  |  ETA: 0:02:00[KProgress:  93%|██████████████████████████████████████▎  |  ETA: 0:01:57[KProgress:  93%|██████████████████████████████████████▍  |  ETA: 0:01:54[KProgress:  94%|██████████████████████████████████████▌  |  ETA: 0:01:47[KProgress:  94%|██████████████████████████████████████▋  |  ETA: 0:01:44[KProgress:  94%|██████████████████████████████████████▋  |  ETA: 0:01:41[KProgress:  94%|██████████████████████████████████████▊  |  ETA: 0:01:38[KProgress:  95%|██████████████████████████████████████▊  |  ETA: 0:01:35[KProgress:  95%|██████████████████████████████████████▉  |  ETA: 0:01:31[KProgress:  95%|███████████████████████████████████████  |  ETA: 0:01:28[KProgress:  95%|███████████████████████████████████████  |  ETA: 0:01:24[KProgress:  95%|███████████████████████████████████████▏ |  ETA: 0:01:21[KProgress:  96%|███████████████████████████████████████▎ |  ETA: 0:01:18[KProgress:  96%|███████████████████████████████████████▎ |  ETA: 0:01:14[KProgress:  96%|███████████████████████████████████████▍ |  ETA: 0:01:11[KProgress:  96%|███████████████████████████████████████▍ |  ETA: 0:01:07[KProgress:  96%|███████████████████████████████████████▌ |  ETA: 0:01:04[KProgress:  97%|███████████████████████████████████████▋ |  ETA: 0:01:00[KProgress:  97%|███████████████████████████████████████▋ |  ETA: 0:00:57[KProgress:  97%|███████████████████████████████████████▊ |  ETA: 0:00:54[KProgress:  97%|███████████████████████████████████████▉ |  ETA: 0:00:50[KProgress:  97%|███████████████████████████████████████▉ |  ETA: 0:00:47[KProgress:  98%|████████████████████████████████████████ |  ETA: 0:00:44[KProgress:  98%|████████████████████████████████████████ |  ETA: 0:00:40[KProgress:  98%|████████████████████████████████████████▏|  ETA: 0:00:37[KProgress:  98%|████████████████████████████████████████▎|  ETA: 0:00:34[KProgress:  98%|████████████████████████████████████████▎|  ETA: 0:00:30[KProgress:  98%|████████████████████████████████████████▍|  ETA: 0:00:27[KProgress:  99%|████████████████████████████████████████▌|  ETA: 0:00:23[KProgress:  99%|████████████████████████████████████████▌|  ETA: 0:00:20[KProgress:  99%|████████████████████████████████████████▋|  ETA: 0:00:17[KProgress:  99%|████████████████████████████████████████▋|  ETA: 0:00:13[KProgress:  99%|████████████████████████████████████████▊|  ETA: 0:00:10[KProgress:  99%|████████████████████████████████████████▉|  ETA: 0:00:07[KProgress:  99%|████████████████████████████████████████▉|  ETA: 0:00:03[KProgress: 100%|█████████████████████████████████████████| Time: 0:29:43[K
+┌ Info: scan done
+└   hours = 0.49558361218361113
+┌ Info: saved
+└   path = "refit_BC/out/C2_atto3.jld2"
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62

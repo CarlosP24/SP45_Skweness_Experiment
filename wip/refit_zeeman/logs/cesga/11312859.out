@@ -1,0 +1,2 @@
+slurmstepd: info: Setting TMPDIR to /scratch/11312859. Previous errors about TMPDIR can be discarded
+ERROR: could not open file /mnt/netapp2/Home_FT2/home/csic/toq/cph/SP45_Skweness_Experiment/+1.12.4

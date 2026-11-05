@@ -1,0 +1,3361 @@
+ 41.080362 seconds (8.33 M allocations: 440.839 MiB, 1.67% gc time, 45.65% compilation time: <1% of which was recompilation)
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+┌ Info: scan C (1/2)
+│   device = "C"
+│   ncands = 300
+│   nB = 70
+│   nZ = 25
+│   T = 290.0
+└   workers = 192
+┌ Info: τ calibrated
+│   τs =
+│    Dict{Tuple{Float64, Float64, Float64}, Float64} with 120 entries:
+│      (15.0, 15.0, 2.0) => 0.878794
+│      (30.0, 25.0, 3.5) => 0.825763
+│      (10.0, 35.0, 3.0) => 0.902085
+│      (15.0, 40.0, 2.0) => 0.870723
+│      (15.0, 30.0, 2.5) => 0.878193
+│      (25.0, 20.0, 2.5) => 0.842448
+│      (10.0, 20.0, 3.5) => 0.895928
+└      ⋮                 => ⋮
+Progress:   0%|                                         |  ETA: 12.73 days[Ksrun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd-a3: error: *** JOB 262181 ON a3 CANCELLED AT 2026-11-05T10:32:01 ***
+srun: forcing job termination
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+
+[94844] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f1afe303da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94840] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+unknown function (ip: 0x7f4d88970da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94841] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f7f876c5da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94845] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f33866bada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94849] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f01919b5da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94846] signal 15: Terminated
+in expression starting at none:0
+
+[94847] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f838107ada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x7fca65fdeda4) at /lib/x86_64-linux-gnu/libc.so.6
+
+[94852] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fec0cd14da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94843] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f43d2ed2da4) at /lib/x86_64-linux-gnu/libc.so.6
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94850] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f834f382da4) at /lib/x86_64-linux-gnu/libc.so.6
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94848] signal 15: Terminated
+in expression starting at none:0
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+unknown function (ip: 0x7f68ea428da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94854] signal 15: Terminated
+in expression starting at none:0
+
+[94851] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f2a1c114da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94842] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f0ebe593da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94855] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fbf00bceda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94864] signal 15: Terminated
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94862] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+unknown function (ip: 0x7f0c315fcda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+in expression starting at none:0
+unknown function (ip: 0x7f282d0aeda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94857] signal 15: Terminated
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+in expression starting at none:0
+
+[94858] signal 15: Terminated
+in expression starting at none:0
+
+[94859] signal 15: Terminated
+in expression starting at none:0
+
+[94860] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f577630cda4) at /lib/x86_64-linux-gnu/libc.so.6
+unknown function (ip: 0x7f76cbc01da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x7fd466f5dda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x7f0fb1339da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94853] signal 15: Terminated
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94856] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f2a7e4f4da4) at /lib/x86_64-linux-gnu/libc.so.6
+
+[94861] signal 15: Terminated
+in expression starting at none:0
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x7fef2c732da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94865] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f2322b01da4) at /lib/x86_64-linux-gnu/libc.so.6
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+in expression starting at none:0
+unknown function (ip: 0x7fa5edebfda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94863] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94866] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f162559bda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94884] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7ff42a18cda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94896] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fa5705b2da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94880] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f0ab95d4da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94889] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7ff5c6c2fda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94867] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94893] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f9a651aada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94899] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f8050bb4da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x7fa591fc2da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94885] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+unknown function (ip: 0x7fc6839ceda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94872] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+unknown function (ip: 0x7f7abc846da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94874] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f3facc4eda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94883] signal 15: Terminated
+in expression starting at none:0
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94908] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7ffa9132ada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+unknown function (ip: 0x7fc9142aada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94891] signal 15: Terminated
+in expression starting at none:0
+
+[94894] signal 15: Terminated
+in expression starting at none:0
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+unknown function (ip: 0x7fead1aaada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x7f1b7739eda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94904] signal 15: Terminated
+in expression starting at none:0
+
+[94907] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f4ce4c01da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+unknown function (ip: 0x7fdd5664ada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94897] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fda42778da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94906] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f53bd582da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94868] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f41f6e8ada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94877] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fcdfb560da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94881] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f05ce044da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94888] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f015e628da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94898] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fb641648da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94902] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f4118b43da4) at /lib/x86_64-linux-gnu/libc.so.6
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94905] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fbf9b2eada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94919] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7efd71cb8da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94923] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f84cada2da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94886] signal 15: Terminated
+in expression starting at none:0
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+unknown function (ip: 0x7fc501118da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94903] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+unknown function (ip: 0x7f057e39dda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94911] signal 15: Terminated
+in expression starting at none:0
+
+[94920] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f74fb747da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94870] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f4c15326da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94878] signal 15: Terminated
+in expression starting at none:0
+
+[94892] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fca3bf3ada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94900] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fb7ab4ecda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94901] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f735c453da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94909] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7ff256b06da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94910] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f7cedbbbda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94914] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f1e4398eda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94918] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f3187062da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+unknown function (ip: 0x7f934f4bada4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94921] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fa81499cda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94924] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7f54b87b5da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+
+[94879] signal 15: Terminated
+in expression starting at none:0
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94922] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fafed2c1da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94895] signal 15: Terminated
+in expression starting at none:0
+unknown function (ip: 0x7fb607e43da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x7f41fa918da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+
+[94925] signal 15: Terminated
+in expression starting at none:0
+
+[94869] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+unknown function (ip: 0x7f35a19dbda4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x7f774aad7da4) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[94927] signal 15: Terminated
+in expression starting at none:0
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+
+[2382326] signal 15: Terminated
+in expression starting at /home/paya/SP45_Skweness_Experiment/refit_BC/scan.jl:64
+unknown function (ip: 0x7f6dd77e1e94) at /lib/x86_64-linux-gnu/libc.so.6
+pthread_cond_wait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+slurmstepd-a3: error: *** STEP 262181.0 ON a3 CANCELLED AT 2026-11-05T10:32:01 ***
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:822
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:523
+poptask at ./task.jl:1216
+wait at ./task.jl:1228
+#wait#398 at ./condition.jl:141
+wait at ./condition.jl:136 [inlined]
+_trywait at ./asyncevent.jl:185
+profile_printing_listener at ./Base.jl:332
+#start_profile_listener##0 at ./Base.jl:352
+jfptr_YY.start_profile_listenerYY.YY.0_2252.1 at /home/paya/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/lib/julia/sys.so (unknown line)
+jl_apply at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/julia.h:2391 [inlined]
+start_task at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/task.c:1249
+unknown function (ip: (nil)) at (unknown file)
+epoll_pwait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv__io_poll at /workspace/srcdir/libuv/src/unix/linux.c:1404
+uv_run at /workspace/srcdir/libuv/src/unix/core.c:430
+ijl_task_get_next at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/scheduler.c:457
+poptask at ./task.jl:1216
+wait at ./task.jl:1228
+#wait#398 at ./condition.jl:141
+wait at ./condition.jl:136 [inlined]
+wait_readnb at ./stream.jl:416
+eof at ./stream.jl:106
+jfptr_eof_52792.1 at /home/paya/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/lib/julia/sys.so (unknown line)
+eof at ./io.jl:472
+unknown function (ip: 0x7f6dba1033b2) at (unknown file)
+#14 at /home/paya/.julia/packages/SlurmClusterManager/5cccZ/src/slurmmanager.jl:227
+srun: error: a4: task 171: Terminated
+unknown function (ip: 0x7f6dba1032af) at (unknown file)
+jl_apply at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/julia.h:2391 [inlined]
+start_task at /cache/build/tester-amdci4-14/julialang/julia-release-1-dot-12/src/task.c:1249
+unknown function (ip: (nil)) at (unknown file)
+Allocations: 28383782 (Pool: 28382740; Big: 1042); GC: 13
+srun: error: a4: tasks 101,104-105,108,136,160,175: Terminated
+srun: error: a3: tasks 9,27,33,44,56,59: Terminated
+srun: error: a4: tasks 102-103,107,111-112,115-117,122,135,144-145,149,153,155,181,187: Terminated
+srun: error: a3: tasks 0,8,24,38,47,68: Terminated
+srun: error: a4: tasks 99-100,106,109,113,118,120-121,123-126,130-133,137-138,140-141,143,146-148,150-152,154,156-157,159,161-162,164,166-169,172-173,177,179-180,188-189: Terminated
+srun: error: a4: tasks 96-98,114,127-129,139,142,158,163,165,170,174,176,178,182,184-186,190-191: Terminated
+srun: error: a3: tasks 5,23,34: Terminated
+srun: error: a3: task 49: Terminated
+srun: error: a3: tasks 1,4,46,50,62,78,86: Terminated
+srun: error: a3: tasks 17,54,77,80: Terminated
+srun: error: a3: tasks 69,91: Terminated
+srun: error: a3: tasks 6,28: Terminated
+srun: error: a3: tasks 12,30,40,67,82: Terminated
+srun: error: a3: tasks 43,89: Terminated
+srun: error: a3: tasks 25,48,92: Terminated
+srun: error: a3: tasks 26,57: Terminated
+srun: error: a3: tasks 3,75: Terminated
+srun: error: a3: tasks 70,83: Terminated
+srun: error: a3: task 14: Terminated
+srun: error: a3: task 55: Terminated
+srun: error: a3: task 90: Terminated
+srun: error: a3: tasks 31,65: Terminated
+srun: error: a3: task 15: Terminated
+srun: error: a3: task 52: Terminated
+Worker 117 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 24 terminated.
+┌ Warning: Forcibly interrupting busy workers
+│   exception = IOError: stream is closed or unusable
+└ @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/cluster.jl:1269
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 137 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 112 terminated.
+TaskFailedException
+
+    nested task error: KeyError: key 185 not found
+    Stacktrace:
+     [1] getindex
+       @ ./dict.jl:477 [inlined]
+     [2] interrupt(pid::Int64)
+       @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/cluster.jl:1213
+     [3] (::Distributed.var"#interrupt##0#interrupt##1"{Int64})()
+       @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/cluster.jl:1238
+Stacktrace:
+ [1] sync_end(c::Channel{Any})
+   @ Base ./task.jl:630
+ [2] macro expansion
+   @ ./task.jl:663 [inlined]
+ [3] interrupt(pids::Vector{Int64})
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/cluster.jl:1236
+ [4] terminate_all_workers()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/cluster.jl:1271
+ [5] _atexit(exitcode::Int32)
+   @ Base ./initdefs.jl:464
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 75 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] wait_close(x::Sockets.TCPSocket)
+   @ Base ./stream.jl:492
+ [3] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:514
+ [4] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [5] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [6] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 88 terminated.
+Worker 59 terminated.
+Worker 81 terminated.
+Worker 116 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 123 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 68 terminated.
+Worker 28 terminated.
+Worker 49 terminated.
+Worker 4 terminated.
+Worker 64 terminated.
+Worker 65 terminated.
+Worker 38 terminated.
+Worker 43 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 47 terminated.
+Worker 36 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 21 terminated.
+Worker 95 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 40 terminated.
+Worker 39 terminated.
+Worker 98 terminated.
+Worker 82 terminated.
+Worker 92 terminated.
+Worker 72 terminated.
+Worker 27 terminated.
+Worker 35 terminated.
+Worker 50 terminated.
+Worker 18 terminated.
+Worker 48 terminated.
+Worker 52 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:982
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:988
+  [4] unsafe_read
+    @ ./io.jl:890 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:889
+  [6] read!
+    @ ./io.jl:894 [inlined]
+  [7] deserialize_hdr_raw
+    @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 10 terminated.
+Worker 20 terminated.
+Worker 56 terminated.
+Worker 93 terminated.
+Worker 96 terminated.
+Worker 67 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 58 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+Worker 57 terminated.
+Worker 53 terminated.
+Worker 80 terminated.
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: ArgumentError: stream not initialized
+Stacktrace:
+ [1] isopen
+   @ ./stream.jl:381 [inlined]
+ [2] close(stream::Sockets.TCPSocket)
+   @ Base ./stream.jl:507
+ [3] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:242
+ [4] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [5] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+
+caused by: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#unsafe_read##0")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:980
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:988
+ [3] unsafe_read
+   @ ./io.jl:890 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:889
+ [5] read!
+   @ ./io.jl:894 [inlined]
+ [6] deserialize_hdr_raw
+   @ ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#process_messages##0#process_messages##1"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed ~/.julia/juliaup/julia-1.12.4+0.x64.linux.gnu/share/julia/stdlib/v1.12/Distributed/src/process_messages.jl:121
+srun: error: a4: tasks 110,119,134,183: Killed
+srun: error: a3: tasks 2,10,18,22,39,41,45,71,93: Killed
+srun: error: a3: tasks 29,35,66,72-74,87: Killed
+srun: error: a3: tasks 7,11,16,32,51,64,76,81,84-85,88,95: Killed
+srun: error: a3: tasks 13,19-21,36-37,42,53,58,60-61,63,79,94: Killed

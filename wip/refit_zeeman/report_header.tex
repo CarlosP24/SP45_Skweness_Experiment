@@ -1,0 +1,10 @@
+% pandoc header for REPORT.pdf: STIX Two Text, with STIX Two Math as glyph fallback for the
+% math symbols written as Unicode in the Markdown (≈, ≤, ∂, ⟨⟩, …).
+% pandoc REPORT.md -o REPORT.pdf --pdf-engine=lualatex -H report_header.tex -V geometry:margin=2cm -V fontsize=10pt
+\directlua{luaotfload.add_fallback("stixfb", {"STIX Two Math:mode=harf;"})}
+\usepackage{fontspec}
+\setmainfont{STIX Two Text}[RawFeature={fallback=stixfb}]
+\setmonofont{Menlo}[Scale=0.85, RawFeature={fallback=stixfb}]
+% figures in place: a top float on a page with a longtable makes the page overrun its footer
+\usepackage{float}
+\floatplacement{figure}{H}

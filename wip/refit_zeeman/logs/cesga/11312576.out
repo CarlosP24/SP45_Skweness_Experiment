@@ -1,0 +1,9 @@
+slurmstepd: info: Setting TMPDIR to /scratch/11312576. Previous errors about TMPDIR can be discarded
+ERROR: LoadError: LoadError: ArgumentError: Package SlurmClusterManager [c82cd089-7bf7-41d7-976b-6b5d413cbe0a] is required but does not seem to be installed:
+ - Run `Pkg.instantiate()` to install all recorded dependencies.
+
+Stacktrace:
+ [1] top-level scope at /mnt/netapp2/Home_FT2/home/csic/toq/cph/SP45_Skweness_Experiment/wip/refit_zeeman/load_sp45.jl:6
+ [2] top-level scope at /mnt/netapp2/Home_FT2/home/csic/toq/cph/SP45_Skweness_Experiment/wip/refit_zeeman/scan.jl:11
+in expression starting at /mnt/netapp2/Home_FT2/home/csic/toq/cph/SP45_Skweness_Experiment/wip/refit_zeeman/load_sp45.jl:5
+in expression starting at /mnt/netapp2/Home_FT2/home/csic/toq/cph/SP45_Skweness_Experiment/wip/refit_zeeman/scan.jl:11

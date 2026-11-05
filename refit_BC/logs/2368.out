@@ -1,0 +1,24 @@
+┌ Info: scan smokeB (1/1)
+│   device = "B"
+│   ncands = 1
+│   nB = 4
+│   nZ = 25
+│   T = 600.0
+└   workers = 8
+┌ Info: τ calibrated
+│   τs =
+│    Dict{Tuple{Float64, Float64, Float64}, Float64} with 1 entry:
+└      (30.0, 15.0, 3.0) => 0.83359
+┌ Info: scan done
+└   hours = 0.04347624658305556
+┌ Info: saved
+└   path = "refit_BC/out/smokeB_es.jld2"
+  7.273508 seconds (8.15 M allocations: 401.055 MiB, 1.43% gc time, 55.22% compilation time: <1% of which was recompilation)
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62

@@ -1,0 +1,3 @@
+best candidate per g (scan published); data lobe-2 dip offset -0.0145 T
+g      | best cost: w  μ   τΓ   cost   L1     L2     off2    | best L2 with L1≤0.12: w  μ   τΓ   L1     L2     off2
+53.4   | 25  20   2.50 0.2990 0.1265 0.0482 -0.0247 | none

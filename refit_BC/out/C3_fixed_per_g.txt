@@ -1,0 +1,3 @@
+best candidate per g (scan C3, device C, T_e fixed); data off1 -0.0004, off2 -0.0114, off3 -0.0098
+g     | w   R_av  μ     τΓ    cost    rmsR_1L  rmsR_2L  rmsR_3L  rel0L   off1     off2     off3     T_N≈   T_e
+10.0  | 30  56.0  15.0  3.50  0.3688  0.1758    0.1696    0.0182    0.0103  +0.0058   +0.0034   -0.0047   0.099  292  ξd 60

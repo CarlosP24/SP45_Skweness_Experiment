@@ -1,0 +1,31 @@
+ERROR: LoadError: BoundsError: attempt to access 1-element Vector{Float64} at index [2]
+Stacktrace:
+  [1] throw_boundserror(A::Vector{Float64}, I::Tuple{Int64})
+    @ Base ./essentials.jl:15
+  [2] getindex(A::Vector{Float64}, i::Int64)
+    @ Base ./essentials.jl:919
+  [3] dip_offset(B::Vector{Float64}, R::Vector{Float64}, n::Int64)
+    @ Main ~/Library/CloudStorage/Nextcloud-saco.csic.es-CARLOSPAYAHERRERO/PhD/P4_SNS/SP45_Skweness_Experiment/refit_BC/analyze.jl:67
+  [4] (::var"#34#35")(n::Int64)
+    @ Main ./none:-1
+  [5] iterate
+    @ ./generator.jl:48 [inlined]
+  [6] grow_to!(dest::Dict{Int64, Float64}, itr::Base.Generator{Vector{Int64}, var"#34#35"}, st::Int64)
+    @ Base ./abstractdict.jl:0
+  [7] grow_to!(dest::Dict{Any, Any}, itr::Base.Generator{Vector{Int64}, var"#34#35"})
+    @ Base ./abstractdict.jl:610
+  [8] dict_with_eltype
+    @ ./abstractdict.jl:649 [inlined]
+  [9] Dict(kv::Base.Generator{Vector{Int64}, var"#34#35"})
+    @ Base ./dict.jl:117
+ [10] top-level scope
+    @ ~/Library/CloudStorage/Nextcloud-saco.csic.es-CARLOSPAYAHERRERO/PhD/P4_SNS/SP45_Skweness_Experiment/refit_BC/analyze.jl:69
+ [11] include(mod::Module, _path::String)
+    @ Base ./Base.jl:306
+ [12] exec_options(opts::Base.JLOptions)
+    @ Base ./client.jl:317
+ [13] _start()
+    @ Base ./client.jl:550
+in expression starting at /Users/carlospaya/Library/CloudStorage/Nextcloud-saco.csic.es-CARLOSPAYAHERRERO/PhD/P4_SNS/SP45_Skweness_Experiment/refit_BC/analyze.jl:69
+merged 1 file(s), 1 candidates of device B, kernel T = 600.0 mK
+R cost: 40 fields in lobes [1, 2]; 0L: 12 fields, I_sw(0) = 95.0 nA

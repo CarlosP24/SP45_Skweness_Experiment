@@ -1,0 +1,5 @@
+Zeeman-corrected refit, scan published: 1 candidates, physical g, T = 460.0 mK
+cost = rmsR_L1 + 2.0·rmsR_L2 + 0.5·rel0L; s = I_c scale, T_N ≈ 0.24 s
+lobe-2 dip offset (centroid − lobe centre 0.321 T): data -0.0145 T (negative = left skew)
+rank   g     w(nm) R_av   μ(meV) τΓ    cost     rmsR_L1  rmsR_L2  off2     rel0L    s      T_N≈
+1      53.4  25    47.5   20.0   2.50  0.2990   0.1265   0.0482   -0.0247  0.1523   0.849  0.204 

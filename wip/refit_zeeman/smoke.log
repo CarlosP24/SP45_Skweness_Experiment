@@ -1,0 +1,30 @@
+┌ Info: scan smoke
+│   ncands = 2
+│   nB = 4
+│   nZ = 19
+└   workers = 4
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Warning: Renamed repeated sublattice :A to :B
+└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+┌ Info: τ calibrated
+│   τs =
+│    Dict{Tuple{Float64, Float64, Float64}, Float64} with 2 entries:
+│      (20.0, 25.0, 2.5) => 0.862411
+└      (20.0, 25.0, 3.0) => 0.862522
+┌ Info: scan done
+└   hours = 0.03674778123861111
+┌ Info: saved
+└   path = "wip/refit_zeeman/out/smoke.jld2"
+      From worker 2:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 2:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 3:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 3:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 2:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 2:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 3:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 3:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62

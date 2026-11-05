@@ -1,0 +1,80 @@
+┌ Info: scan testB (1/1)
+│   device = "B"
+│   ncands = 1
+│   nB = 60
+│   nZ = 19
+│   T = 600.0
+└   workers = 8
+┌ Info: τ calibrated
+│   τs =
+│    Dict{Tuple{Float64, Float64, Float64}, Float64} with 1 entry:
+└      (25.0, 25.0, 3.0) => 0.837984
+Progress:  13%|█████▌                                   |  ETA: 0:16:39[KProgress:  20%|████████▎                                |  ETA: 0:10:34[KProgress:  27%|██████████▉                              |  ETA: 0:07:19[KProgress:  33%|█████████████▋                           |  ETA: 0:05:33[KProgress:  40%|████████████████▍                        |  ETA: 0:04:12[KProgress:  47%|███████████████████▏                     |  ETA: 0:03:23[KProgress:  53%|█████████████████████▉                   |  ETA: 0:03:12[KProgress:  60%|████████████████████████▋                |  ETA: 0:02:42[KProgress:  67%|███████████████████████████▍             |  ETA: 0:02:02[KProgress:  73%|██████████████████████████████▏          |  ETA: 0:01:29[KProgress:  80%|████████████████████████████████▊        |  ETA: 0:01:01[KProgress:  87%|███████████████████████████████████▌     |  ETA: 0:00:38[KProgress:  93%|██████████████████████████████████████▎  |  ETA: 0:00:18[KProgress: 100%|█████████████████████████████████████████| Time: 0:04:11[K
+┌ Info: scan done
+└   hours = 0.06983721927083333
+┌ Info: saved
+└   path = "refit_BC/out/testB_local.jld2"
+      From worker 2:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 2:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 2:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 2:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 2:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 2:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 2:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 2:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 7:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 7:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 5:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 5:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 6:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 6:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 4:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 4:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 3:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 3:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 9:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 9:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 8:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 8:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 7:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 7:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 5:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 5:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 3:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 3:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 4:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 4:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 6:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 6:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 9:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 9:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 8:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 8:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 7:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 7:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 7:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 7:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 6:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 6:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 6:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 6:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 8:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 8:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 8:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 8:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 5:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 5:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 5:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 5:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 9:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 9:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 9:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 9:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 4:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 4:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 4:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 4:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 3:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 3:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62
+      From worker 3:	┌ Warning: Renamed repeated sublattice :A to :B
+      From worker 3:	└ @ Quantica ~/.julia/packages/Quantica/rNrmh/src/types.jl:62

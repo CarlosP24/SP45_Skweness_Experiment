@@ -1,0 +1,8 @@
+device B: R_0 line 61 points on the 0.004 T grid, tick-fit residuals 3.6e-06 T, 1.7e-02 Ω
+device B panel (a) → devB_dVdI_map.dat: 2069 × 61, B 0.0001–0.2400 T, I -749.6–748.8 nA, level 7.74 Ω, off-LUT colours 11.2 % (all ±1 rounding), clipped 0.32 %, tick residuals 3.1e-06 T, 2.5e-02 nA, 2.9e-02 Ω
+   map at I = 0.31 nA vs the R_0 line: mean +11.1 Ω, rms 15.9 Ω, max |Δ| 42.4 Ω
+device C: R_0 line 150 points on the 0.003 T grid, tick-fit residuals 7.8e-06 T, 1.7e-02 Ω
+device C panel (b) → devC_dVdI_zoom.dat: 1769 × 161, B 0.0001–0.4800 T, I -98.9–101.0 nA, level 7.92 Ω, off-LUT colours 16.5 % (all ±1 rounding), clipped 0.00 %, tick residuals 1.4e-06 T, 2.6e-03 nA, 4.4e-02 Ω
+   map at I = 0.02 nA vs the R_0 line: mean -48.2 Ω, rms 76.4 Ω, max |Δ| 199.4 Ω
+device C panel (a) → devC_dVdI_full.dat: 1769 × 161, B 0.0001–0.4799 T, I -801.5–798.1 nA, level 7.92 Ω, off-LUT colours 11.3 % (all ±1 rounding), clipped 0.00 %, tick residuals 8.6e-06 T, 4.2e-02 nA, 3.9e-02 Ω
+   map at I = 0.11 nA vs the R_0 line: mean -33.2 Ω, rms 56.8 Ω, max |Δ| 171.9 Ω
