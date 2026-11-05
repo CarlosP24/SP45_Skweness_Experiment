@@ -1,54 +1,27 @@
 # m_J-resolved current-phase relations.
 #
 # ---------------------------------------------------------------------------
-# WHY THERE IS A SECOND MODEL HERE AT ALL
+# All SP45 wires are single-sector `build_cyl` models (src/models/wires.jl): m_J
+# is the model parameter `Z`, and the junction's current is Σ_Z of the sector
+# currents. `calc_Josephson` sums the sectors right away; this file keeps them
+# apart, which is what the CPR figure is about.
 #
-# The hero figure's junction is built with `build_cyl_mm`: every m_J channel
-# lives in a single Hamiltonian as a transverse lattice coordinate, and
-# Quantica's `josephson` traces over the whole contact. So the per-m_J
-# decomposition the CPR figure is *about* cannot be recovered from that object —
-# `josephson` accepts a contact slice and nothing finer.
+# History. The published curves were first computed with the multimode builder
+# `build_cyl_mm`, where every m_J channel is a transverse lattice coordinate and
+# the decomposition cannot be recovered. That builder also writes the Zeeman
+# term π times too large (0.5 g μBΦ0 πoΦ0 B instead of 0.5 g μB B), so its
+# "g = 17" is a physical g = 17π ≈ 53.4. The single-sector wires now carry the
+# physical g directly (`g_fit` in wires.jl), and no conversion is needed here.
 #
-# `build_cyl` instead carries m_J as the model parameter `Z`, one sector per
-# run. The decomposition is then exact by construction, which is how SP43
-# produced the same panels.
-#
-# The price is that the two builders do not share conventions. Both differences
-# below are silent — the code runs either way and returns a plausible-looking
-# spectrum — so they are converted here, in one place, and nowhere else.
-#
-#   1. FLUX. `Params_mm` is parameterised by the axial field B (T); `Params` by
-#      the normalised flux Φ/Φ₀. `build_cyl` applies cos(θ) itself, so Φ is
-#      handed over without it.
-#
-#   2. ZEEMAN — the one that bites.
-#
-#          build_cyl_mm :  0.5 g μBΦ0 πoΦ0 B cos θ
-#          build_cyl    :  0.5 g μBΦ0 Φ cos θ / (π RLP²)
-#
-#      Substituting Φ = πoΦ0 B RLP² into the second gives exactly the first
-#      divided by π. The single-mode form is the physical one — it reduces to
-#      0.5 g μB B — and the multimode form is π times larger.
-#
-#      g = 17 was *fitted* in the multimode model, so it is an effective value in
-#      that convention, not a bare g-factor. Handing it straight to `build_cyl`
-#      would shrink the Zeeman splitting by π and move every CdGM analog, which
-#      is the entire subject of the figure. Hence g_1D = π g_mm below.
-#
-#      Do not "fix" this by changing g in the fit. The hero depends on the
-#      multimode value, and this figure has to match the hero, not correct it.
-#
-# `verify_against_hero` (calculations/CPR.jl) is what actually demonstrates the
-# two models agree. Treat it as part of the calculation, not as a test.
+# `verify_against_hero` (calculations/CPR.jl) checks that Σ_Z of this
+# calculation reproduces the junction's I_c.
 # ---------------------------------------------------------------------------
 
 """
     flux_of_B(p, B)
 
 Normalised flux Φ/Φ₀ threading the Little–Parks area of wire `p` at axial field
-`B` (T). Uses the wire's own `πoΦ0`, so the multimode value stays authoritative
-(`Params` and `Params_mm` disagree in the 6th digit — 7 ppm, irrelevant to the
-physics but not worth introducing gratuitously).
+`B` (T), with the wire's own `πoΦ0` (the multimode value, see wires.jl).
 """
 flux_of_B(p, B) = p.πoΦ0 * B * (p.R + p.d / 2)^2
 
@@ -56,36 +29,13 @@ flux_of_B(p, B) = p.πoΦ0 * B * (p.R + p.d / 2)^2
 B_of_flux(p, Φ) = Φ / (p.πoΦ0 * (p.R + p.d / 2)^2)
 
 """
-    single_mode(p::Params_mm; kw...)
+    single_mode(p::Params; kw...)
 
-The single-mode `Params` mirror of a fitted multimode wire, with the flux and
-Zeeman conventions converted as described in this file's header.
-
-`ishollow = true` reproduces the multimode geometry, which is a hollow core at a
-single radius `Rav = R - w/2`; for the fitted wires that is 60 − 25/2 = 47.5 nm,
-the radius the poster quotes for the CdGM analogs. The dome profile is switched
-off (`Vmax = Vmin = 0`) because the multimode builder has none.
+The wire of the CPR calculation: the junction's own single-sector wire, with
+optional overrides. Kept as a function so the CPR system is derived from the
+junction rather than retyped. g is the physical g, as everywhere.
 """
-function single_mode(p::Params_mm; kw...)
-    return Params(;
-        a0 = p.a0,
-        R = p.R,
-        w = p.w,
-        d = p.d,
-        Δ0 = p.Δ0,
-        ξd = p.ξd,
-        θ = p.θ,
-        μ = p.μ,
-        τΓ = p.τΓ,
-        α = p.α,
-        g = π * p.g,          # convention 2 — see header. Not a typo.
-        shell = p.shell,
-        ishollow = true,
-        Vmax = 0, Vmin = 0,   # no dome profile in the multimode model
-        L = 0,                # semi-infinite leads, as in the hero
-        kw...
-    )
-end
+single_mode(p::Params; kw...) = Params(p; kw...)
 
 """
 A junction whose current-phase relation is resolved by m_J sector.
@@ -134,9 +84,8 @@ function add_cpr(name::String, source::String; T = 0.0, kw...)
     sys = CPR_System(;
         wireL = single_mode(j.wireL),
         wireR = single_mode(j.wireR),
-        # num_mJ is a Float64 field on Params_mm (@deftype Float64); Z is an
-        # angular-momentum index and is used as a Dict key, so keep it integral.
-        Zs = -Int(j.wireL.num_mJ):Int(j.wireL.num_mJ),
+        # Z is an angular-momentum index and is used as a Dict key: the wire's own range
+        Zs = j.wireL.Zs,
         j_params = j.j_params,
         TN = j.TN,
         kB = j.kB,

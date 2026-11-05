@@ -1,15 +1,13 @@
 # m_J-resolved current-phase relation.
 #
-# Structurally this is calculations/Josephson.jl with three changes:
+# Structurally this is calculations/Josephson.jl with two changes:
 #
-#   * wires come from `build_cyl` (m_J is the parameter `Z`) instead of
-#     `build_cyl_mm` (m_J is a lattice coordinate);
-#   * the sweep is over (Φ, Z) rather than (B, w), and the flux replaces the
-#     field as the model's magnetic parameter;
-#   * the result is kept as a Dict over Z instead of being traced away.
+#   * the sweep is over (Φ, Z) rather than (B, Z), the flux being the model's
+#     magnetic parameter;
+#   * the result is kept as a Dict over Z instead of being summed.
 #
-# The parameter conversions live in models/cpr.jl. Read that header before
-# touching anything here.
+# Both use the same single-sector wires (`build_cyl`, physical g); see the
+# header of models/cpr.jl.
 
 """
     calc_CPR(name::String)
@@ -140,7 +138,7 @@ function write_cpr_sidecar(path::AbstractString, system, τ)
     println(io, "  \"phi_min\": ", jsonval(minimum(system.Φrng)), ",")
     println(io, "  \"phi_max\": ", jsonval(maximum(system.Φrng)), ",")
     println(io, "  \"zeeman_convention\": ", jsonval(
-        "g stored here is g_1D = pi * g_multimode; see src/models/cpr.jl"), ",")
+        "g is the physical g (Zeeman 0.5 g muB B); the former multimode builder's g = 17 equals 17*pi here; see src/models/cpr.jl"), ",")
     for (name, w) in sort(collect(wires), by = first)
         println(io, "  \"$name\": {")
         entries = ["    \"$f\": $(jsonval(getfield(w, f)))" for f in fields]
@@ -174,7 +172,7 @@ converted parameters is the same physical system as the fitted multimode one.
 
 Returns a NamedTuple with the two Ic curves on a common flux axis and their
 relative deviation. A disagreement here means a convention was missed — look at
-the Zeeman factor of π first — and the figure must not be built until it passes.
+the Zeeman convention (physical g, see models/cpr.jl) first — and the figure must not be built until it passes.
 
 This runs at T = 0 while the hero's cache is at 460 mK, so a smooth suppression
 of the single-mode Ic at the few-percent level is expected and not a failure; a
@@ -206,7 +204,7 @@ function verify_against_hero(res; hero_path = "data/Js/fitted_C3.jld2", rtol = 0
     ok = worst <= rtol
     ok ? @info("Σ_Z Ic matches the hero to $(round(100worst; digits = 2)) % of peak") :
          @warn("Σ_Z Ic deviates from the hero by up to $(round(100worst; digits = 2)) % of peak — " *
-               "check the Zeeman π conversion in models/cpr.jl before building the figure")
+               "check the Zeeman convention in models/cpr.jl before building the figure")
 
     return (; Φ = Φrng, Ic_1D, Ic_mm, deviation = dev, worst, ok)
 end

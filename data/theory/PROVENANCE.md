@@ -69,26 +69,25 @@ retains the `contactind` contact-trace structure the port relies on.
 
 ## The Zeeman convention — read this before trusting any number here
 
-`build_cyl_mm` (multimode, used by the hero) and `build_cyl` (single-mode, used
-by the CPR calculation) do not agree on the Zeeman term:
+`build_cyl_mm` (multimode) and `build_cyl` (single sector) do not agree on the
+Zeeman term:
 
 ```
 build_cyl_mm :  0.5 g μBΦ0 πoΦ0 B cos θ
 build_cyl    :  0.5 g μBΦ0 Φ cos θ / (π R_LP²)     with Φ = πoΦ0 B R_LP²
 ```
 
-The second is the first divided by π. The single-mode form is the physical one
+The second is the first divided by π. The single-sector form is the physical one
 (it reduces to `0.5 g μB B`); the multimode form is π times larger.
 
-`g = 17` was fitted in the multimode model, so it is an effective value in that
-convention. The single-mode mirror therefore uses **`g_1D = π × 17 ≈ 53.407`**,
-which is not a typo and must not be "corrected". Verified numerically: the two
-Zeeman energies then agree to 1 part in 10¹⁵, and without the correction they
-differ by exactly 3.141592653589793.
+**Since branch `mJ_builder` (2026-11-05)** every SP45 wire is a single-sector
+`build_cyl` model and g is the physical g everywhere (src/models/wires.jl,
+`g_fit`). The published fit, made with the multimode builder at "g = 17", is a
+physical g = 17π ≈ 53.4, quoted as the fitted g ≈ 53. The CPR system takes the
+junction's wires as they are (`single_mode` no longer converts anything).
 
-This lives in one place, `src/models/cpr.jl`, and every wire parameter for the
-CPR run is *derived* from `junctions["fitted_C3"]` rather than retyped, so the
-two calculations cannot drift apart.
+The run below predates that change: it was made with `g_1D = π × 17 ≈ 53.407`
+on single-mode mirrors of the then-multimode junction, i.e. the same physical g.
 
 ## Runs
 
