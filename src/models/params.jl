@@ -2,7 +2,7 @@
     Brng = range(0, 0.6, 401)
     ωrng = range(-0.3, 0, 401) .+ 1e-3im
     φrng = range(0, 2π, 101)
-    outdir = "data"
+    outdir = get(ENV, "SP45_OUTDIR", "data")      # overridable for comparison runs
 end
 
 @with_kw struct Results

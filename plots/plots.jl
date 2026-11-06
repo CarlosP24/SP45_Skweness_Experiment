@@ -18,14 +18,28 @@ fig = fig_exp(Exp_Data(;
     lockin = "data_exp/250mK_DEV13_294_35_R_demod.dat"
     )
 )
-mkpath("plots/figures")
-save("plots/figures/fig_exp.pdf", fig)
+mkpath("figures")
+save("figures/fig_exp.pdf", fig)
 fig
 
 
 ## Fig 3: Experiments vs Theory
 include("fig_theo_exp.jl")
 fig = fig_theo_exp(Exp_Data(), "C3")
-mkpath("plots/figures")
-save("plots/figures/fig_theo_exp.pdf", fig)
+mkpath("figures")
+save("figures/fig_theo_exp.pdf", fig)
+fig
+
+
+## Referee: depleted core (no CdGM analogs, no skewness)
+include("fig_depleted.jl")
+fig = fig_depleted("C3")
+save("figures/fig_depleted.pdf", fig)
+fig
+
+
+## Referee: gate-voltage independence (V_g = 20, 25, 30, 35 V; main text is V_g = 80 V)
+include("fig_gates.jl")
+fig = fig_gates("C3")
+save("figures/fig_gates.pdf", fig)
 fig

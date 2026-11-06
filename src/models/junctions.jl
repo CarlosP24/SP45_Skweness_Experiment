@@ -6,14 +6,17 @@
 end
 
 @with_kw struct Junction
-    wireL::Params_mm = Params_mm()
-    wireR::Params_mm = Params_mm()
+    wireL::Params = Params()
+    wireR::Params = Params()
     params::Calc_Params = Calc_Params()
     Δw::Float64 = 0
     j_params::J_Params = J_Params()
     TN = 0.1
     kB::Float64 = 8.61e-5   # eV/K
     T::Float64 = 0.0        # mK
+    # Junction whose normal-state conductance fixes τ (via TN). Empty = this one.
+    # A depleted core has G_N ≈ 0, so TN is meaningless there and τ must be borrowed.
+    τ_from::String = ""
 end
 
 params_jos = Calc_Params(;
@@ -35,11 +38,12 @@ function add_junction(name::String)
 
     Expected name shapes (tokens after base are optional):
       - "C_mu=1.0_w=20_dw=3_tau=2.5_g=10"
-      - "D_mu=5_w=10"
+      - "D_mu=5_w=10"  (registers, but its leads have unequal R and the
+        single-sector junction refuses to build it; see `check_same_geometry`)
 
     The first token is the base: "C" or "D". This function uses
     wires["<base>_left"] and wires["<base>_right"] as templates
-    for the left/right Params_mm and applies any provided numeric overrides.
+    for the left/right Params and applies any provided numeric overrides.
     """
 
     parts = split(name, '_')
@@ -71,7 +75,7 @@ function add_junction(name::String)
         error("could not parse numeric value '$s' in junction name '$name'")
     end
 
-    # Build keyword args for Params_mm. Map mu->μ, tau->τΓ, w->w, g->g
+    # Build keyword args for Params. Map mu->μ, tau->τΓ, w->w, g->g
     kwargs = Dict{Symbol,Any}()
     if haskey(params_map, "mu")
         kwargs[Symbol("μ")] = parse_num(params_map["mu"])
@@ -86,7 +90,7 @@ function add_junction(name::String)
         kwargs[:g] = parse_num(params_map["g"])
     end
 
-    # Create wire Params_mm for left and right from templates
+    # Create wire Params for left and right from templates
     left_key = string(base, "_left")
     right_key = string(base, "_right")
     if !haskey(wires, left_key) || !haskey(wires, right_key)
@@ -97,8 +101,8 @@ function add_junction(name::String)
     baseL = wires[left_key]
     baseR = wires[right_key]
 
-    wireL = isempty(kwargs) ? Params_mm(baseL) : Params_mm(baseL; kwargs...)
-    wireR = isempty(kwargs) ? Params_mm(baseR) : Params_mm(baseR; kwargs...)
+    wireL = isempty(kwargs) ? Params(baseL) : Params(baseL; kwargs...)
+    wireR = isempty(kwargs) ? Params(baseR) : Params(baseR; kwargs...)
 
     # Δw (dw in the string) is stored on the Junction struct
     Δw = haskey(params_map, "dw") ? parse_num(params_map["dw"]) : 0.0
@@ -130,15 +134,22 @@ function read_junction(name::String)
 end
 
 
-## Fitted junctions
-add_junction("C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19")
-add_junction("C_mu=20_w=29_tau=3.1_g=20_T=550")
-add_junction("C_mu=20_w=25_tau=2.5_g=17_T=460")
-junctions["fitted_C"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19"]
-junctions["fitted_C2"] = junctions["C_mu=20_w=29_tau=3.1_g=20_T=550"]
-junctions["fitted_C3"] = junctions["C_mu=20_w=25_tau=2.5_g=17_T=460"]
-delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=17_T=550_TN=0.19")
-delete!(junctions, "C_mu=20_w=29_tau=3.1_g=20_T=550")
-delete!(junctions, "C_mu=20_w=25_tau=2.5_g=17_T=460")
+## Fitted junctions (g is the physical g; see src/models/wires.jl, `g_fit`)
+add_junction("C_mu=25_w=20_dw=0_tau=2.5_g=$(17π)_T=550_TN=0.19")
+add_junction("C_mu=20_w=29_tau=3.1_g=$(20π)_T=550")
+add_junction("C_mu=20_w=25_tau=2.5_g=$(g_fit)_T=460")
+junctions["fitted_C"] = junctions["C_mu=25_w=20_dw=0_tau=2.5_g=$(17π)_T=550_TN=0.19"]
+junctions["fitted_C2"] = junctions["C_mu=20_w=29_tau=3.1_g=$(20π)_T=550"]
+junctions["fitted_C3"] = junctions["C_mu=20_w=25_tau=2.5_g=$(g_fit)_T=460"]
+delete!(junctions, "C_mu=25_w=20_dw=0_tau=2.5_g=$(17π)_T=550_TN=0.19")
+delete!(junctions, "C_mu=20_w=29_tau=3.1_g=$(20π)_T=550")
+delete!(junctions, "C_mu=20_w=25_tau=2.5_g=$(g_fit)_T=460")
+
+## Depleted core (referee request): fitted_C3 with only μ changed.
+# The band bottom of the hollow core sits at μ = 0; μ = -5 meV is ≫ Δ0, Zeeman and τΓΔ0,
+# so the core has no occupied subbands anywhere in Brng. τ is taken from fitted_C3.
+add_junction("C_mu=-5_w=25_tau=2.5_g=$(g_fit)_T=460")
+junctions["depleted_C3"] = Junction(junctions["C_mu=-5_w=25_tau=2.5_g=$(g_fit)_T=460"]; τ_from = "fitted_C3")
+delete!(junctions, "C_mu=-5_w=25_tau=2.5_g=$(g_fit)_T=460")
 
 #########################################################################
