@@ -86,8 +86,9 @@ The second is the first divided by π. The single-sector form is the physical on
 physical g = 17π ≈ 53.4, quoted as the fitted g ≈ 53. The CPR system takes the
 junction's wires as they are (`single_mode` no longer converts anything).
 
-The run below predates that change: it was made with `g_1D = π × 17 ≈ 53.407`
-on single-mode mirrors of the then-multimode junction, i.e. the same physical g.
+The run below was regenerated on 2026-11-06 with the current code: g = `g_fit` = 53 and τ
+from `find_τ` of the source junction. The first run (2026-09-02) used g = 17π ≈ 53.407 and
+calibrated τ from the Z = 0 sector alone (τ = 0.826); it is superseded.
 
 ## Runs
 
@@ -104,7 +105,7 @@ parameter set, the calibrated τ and the SP43 state at run time.
 | Cluster job id | none — see below |
 | Grid | Φ ∈ [0.5, 1.5], 81 points × Z ∈ −6:6 (13 sectors) = 1053 points |
 | Temperature | T = 0 (the hero is at 460 mK — deliberate, see the build doc §3) |
-| T_N | 0.24, the fitted value, recalibrated to τ = 0.826 in this model |
+| T_N | 0.24, the fitted value; τ = 0.86241 from `find_τ(fitted_C3)` (sector-summed G_N), the same τ as `calc_Josephson` |
 
 **Deviation from the build doc (§2, §11):** the doc requires this to run through
 SP45's cluster submission setup and forbids interactive runs. Measured cost is

@@ -29,19 +29,17 @@ function calc_CPR(name::String)
     mkpath(dirname(path))
 
     # Build the two single-mode wires and the junction Green's function
-    hSM_left,  hSC_left,  params_left  = build_cyl(wireL)
-    hSM_right, hSC_right, params_right = build_cyl(wireR)
+    _, hSC_left,  params_left  = build_cyl(wireL)
+    _, hSC_right, params_right = build_cyl(wireR)
     g_right, g_left, g = greens_dict["semi"](hSC_left, hSC_right, params_left, params_right;)
 
-    # Find τ from TN. Recalibrated in this model rather than carried over: TN is
-    # the fitted *normal transmission*, and τ is only the knob that reaches it,
-    # so the transferable quantity is TN.
-    τrng = subdiv(0, 1, 100)
-    Gτs = get_TN(hSM_left, hSM_right, params_left, params_right, "semi", τrng; Φ = 0, Z = 0)
-    Gτs = Gτs ./ maximum(Gτs)
-    Tτ = linear_interpolation(τrng, Gτs)
-    τ = find_zeros(τ -> Tτ(τ) - TN, 0, 1) |> first
-    println("Found τ = $τ for TN = $TN")
+    # τ is the source junction's: `find_τ` calibrates TN against the normal
+    # conductance summed over the sectors, so this decomposition and the summed
+    # calculation share one junction transparency. (Calibrating from Z = 0 alone,
+    # as the first run did, gave τ = 0.826 instead of 0.862.)
+    junctions[source].TN == TN || error("CPR system $name has TN = $TN, its source $source has $(junctions[source].TN)")
+    τ = find_τ(junctions[source])
+    println("Found τ = $τ for TN = $TN (from $source)")
 
     # Integration path — a function of Φ here, where the hero's is a function of B
     bw = maximum([bandwidth(params_left), bandwidth(params_right)])
