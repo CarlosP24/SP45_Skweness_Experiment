@@ -52,6 +52,8 @@ wires["C_right"] = Params(wires["base_wire"];
     Δ0 = 0.204
 )
 
+# D wires work on their own (LDOS), but a "D_..." junction is not supported: the leads have different R,
+# which the single-sector junction rejects (`check_same_geometry`, src/builders/JosephsonJunction.jl).
 wires["D_left"] = Params(wires["base_wire"];
     R = 52,
     ξd = 68,

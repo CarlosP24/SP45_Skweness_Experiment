@@ -64,10 +64,36 @@ end
 # There is no `hdict` and no ΔmJ bookkeeping: in the single-mode model m_J is
 # the conserved parameter `Z`, so the junction cannot mix sectors by
 # construction. `iszero(dr[2])` is the only transverse guard needed.
+#
+# That, and passing one flux Φ to both leads, holds only for leads of equal
+# geometry; `check_same_geometry` enforces it.
 # ---------------------------------------------------------------------------
 
+"""
+    check_same_geometry(p_left::Params, p_right::Params)
+
+Throw unless the two single-sector leads have the same R, w, d and core type.
+
+Equal R − w/2 puts the hollow sites at the same transverse coordinate, so the
+`iszero(dr[2])` hoppings exist; with unequal radii the junction is silently
+disconnected. Equal R + d/2 makes Φ = πoΦ0 B R_LP² the same field in both
+leads. Unequal areas would also allow different fluxoid numbers n in the two
+leads, which shifts m_J across the interface (differently for electrons and
+holes), so a Z → Z junction would be wrong rather than merely mis-scaled.
+Such junctions (e.g. the D templates) need the multimode builder's ΔmJ − pΔn/2
+bookkeeping, which this single-sector path does not have.
+"""
+function check_same_geometry(p_left::Params, p_right::Params)
+    for f in (:a0, :R, :w, :d, :ishollow)
+        getfield(p_left, f) == getfield(p_right, f) ||
+            throw(ArgumentError("single-sector junction needs equal lead geometry: " *
+                "$f = $(getfield(p_left, f)) (left) ≠ $(getfield(p_right, f)) (right)"))
+    end
+    return nothing
+end
+
 function build_coupling(p_left::Params, p_right::Params;  kw...)
-    p_left.a0 != p_right.a0 && throw(ArgumentError("Lattice constants must be equal"))
+    check_same_geometry(p_left, p_right)
     a0 = p_left.a0
     t = p_left.t
     α = (p_left.α + p_right.α) / 2
@@ -85,7 +111,7 @@ function build_coupling(p_left::Params, p_right::Params;  kw...)
 end
 
 function build_hopping(p_left::Params, p_right::Params; zero_site = false,  kw...)
-    p_left.a0 != p_right.a0 && throw(ArgumentError("Lattice constants must be equal"))
+    check_same_geometry(p_left, p_right)
     a0 = p_left.a0
     t = p_left.t
     α = (p_left.α + p_right.α) / 2

@@ -38,7 +38,8 @@ function add_junction(name::String)
 
     Expected name shapes (tokens after base are optional):
       - "C_mu=1.0_w=20_dw=3_tau=2.5_g=10"
-      - "D_mu=5_w=10"
+      - "D_mu=5_w=10"  (registers, but its leads have unequal R and the
+        single-sector junction refuses to build it; see `check_same_geometry`)
 
     The first token is the base: "C" or "D". This function uses
     wires["<base>_left"] and wires["<base>_right"] as templates
