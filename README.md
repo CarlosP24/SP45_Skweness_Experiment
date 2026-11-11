@@ -1,9 +1,9 @@
 # Probing synthetic Caroli-de Gennes-Matricon states through critical current in full-shell nanowire Josephson junctions
-[![DOI](https://zenodo.org/badge/1016588588.svg)](https://doi.org/10.5281/zenodo.21381725)
-[![arXiv](https://img.shields.io/badge/arXiv-2607.18371-b31b1b.svg)](https://arxiv.org/abs/2607.18371)
-[![Phys. Rev. B](https://img.shields.io/badge/Phys.%20Rev.%20B-accepted-1f6feb.svg)](https://doi.org/10.1103/8vql-tyn3)
-[![Julia v1.12+](https://img.shields.io/badge/Julia-v1.12+-blue.svg)](https://julialang.org/)
+[![DOI: 10.1103/8vql-tyn3](assets/aps-prb-badge.svg)](https://doi.org/10.1103/8vql-tyn3)
+[![arXiv: 2607.18371](assets/arxiv-badge.svg)](https://arxiv.org/abs/2607.18371)
+[![Julia v1.12+](assets/julia-badge.svg)](https://julialang.org/)
 [![Quantica badge](https://raw.githubusercontent.com/pablosanjose/Quantica.jl/master/docs/src/assets/badge.svg)](https://github.com/pablosanjose/Quantica.jl)
+[![DOI: 10.5281/zenodo.21381725](assets/zenodo-badge.svg)](https://doi.org/10.5281/zenodo.21381725)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE.md)
 
 This repository contains the code, experimental data and numerical results used to generate all figures for the paper "Probing Synthetic Caroli-de Gennes-Matricon States Through Critical Current in Full-Shell Nanowire Josephson Junctions", [arXiv:2607.18371](https://arxiv.org/abs/2607.18371) (2026), accepted for publication in Physical Review B ([doi:10.1103/8vql-tyn3](https://doi.org/10.1103/8vql-tyn3)).
