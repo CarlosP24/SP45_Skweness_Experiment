@@ -15,13 +15,9 @@ Full-shell hybrid nanowires consisting of a semiconductor core fully enveloped b
 
 This work compares full-shell Josephson junction theory against transport measurements, fitting the skewed critical current and core critical temperature observed in the experiments (data by Edu Lee et al.) to a microscopic model built with [Quantica.jl](https://github.com/pablosanjose/Quantica.jl) and [FullShell.jl](https://github.com/CarlosP24/FullShell.jl).
 
-### Model and g-factor convention
+### Model
 
 Both leads have the same radius and shell thickness, so the junction conserves the generalized angular momentum m_J. Every wire is therefore built sector by sector with FullShell's m_J-independent builder `build_cyl`, and the LDOS and Josephson current are sums over the sectors Z = -6…6 ([src/models/wires.jl](src/models/wires.jl), [src/calculations](src/calculations)).
-
-The g-factor is the **physical** Landé factor: `build_cyl` writes the Zeeman energy as ½ g μ_B B cos θ. The fitted value is g = 53 (`g_fit` in [src/models/wires.jl](src/models/wires.jl)).
-
-Earlier versions used the multimode builder `build_cyl_mm`, whose Zeeman term is π times larger. Their "g = 17" is the same physical g, 17π ≈ 53.4. The published multimode results are kept as `data/Js/*_mm.jld2` and `data/LDOS/*_mm.jld2`, and [plots/compare_mm.jl](plots/compare_mm.jl) compares them with the current ones.
 
 ### Prerequisites
 
