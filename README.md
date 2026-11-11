@@ -1,11 +1,12 @@
-# Probing Synthetic Caroli-de Gennes-Matricon States Through Critical Current in Full-Shell Nanowire Josephson Junctions
+# Probing synthetic Caroli-de Gennes-Matricon states through critical current in full-shell nanowire Josephson junctions
 [![DOI](https://zenodo.org/badge/1016588588.svg)](https://doi.org/10.5281/zenodo.21381725)
 [![arXiv](https://img.shields.io/badge/arXiv-2607.18371-b31b1b.svg)](https://arxiv.org/abs/2607.18371)
+[![Phys. Rev. B](https://img.shields.io/badge/Phys.%20Rev.%20B-accepted-1f6feb.svg)](https://doi.org/10.1103/8vql-tyn3)
 [![Julia v1.12+](https://img.shields.io/badge/Julia-v1.12+-blue.svg)](https://julialang.org/)
 [![Quantica badge](https://raw.githubusercontent.com/pablosanjose/Quantica.jl/master/docs/src/assets/badge.svg)](https://github.com/pablosanjose/Quantica.jl)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE.md)
 
-This repository contains the code, experimental data and numerical results used to generate all figures for the paper "Probing Synthetic Caroli-de Gennes-Matricon States Through Critical Current in Full-Shell Nanowire Josephson Junctions", [arXiv:2607.18371](https://arxiv.org/abs/2607.18371) (2026).
+This repository contains the code, experimental data and numerical results used to generate all figures for the paper "Probing Synthetic Caroli-de Gennes-Matricon States Through Critical Current in Full-Shell Nanowire Josephson Junctions", [arXiv:2607.18371](https://arxiv.org/abs/2607.18371) (2026), accepted for publication in Physical Review B ([doi:10.1103/8vql-tyn3](https://doi.org/10.1103/8vql-tyn3)).
 
 ## Abstract
 Full-shell hybrid nanowires consisting of a semiconductor core fully enveloped by a superconducting shell have emerged as a platform to study Caroli-de Gennes-Matricon (CdGM) analogs. These subgap states can be considered a synthetic version of CdGM states in Abrikosov vortices. Unlike conventional CdGM states, these analogs exhibit a level spacing comparable to the superconducting gap, making them readily observable via tunneling spectroscopy techniques. The spectral density of CdGM analogs follows a characteristic skewed pattern as a function of applied axial magnetic field, an effect that is superimposed on the Little-Parks oscillations of the shell's gap induced by fluxoid quantization. Here, we provide experimental evidence for CdGM analogs through a distinctive skewness fingerprint in the critical current and zero-bias resistance of overdamped Josephson junctions based on full-shell nanowires. 
@@ -149,18 +150,19 @@ All figures are saved as PDF files in `figures/` (repository root).
 
 If you use this code or data in your research, please cite the associated paper:
 
-C. Payá, Á. Ibabe, M. Gómez, T. Kanne, J. Nygård, R. Aguado, P. San-Jose, E. J. H. Lee, and E. Prada, *Probing Synthetic Caroli-de Gennes-Matricon States Through Critical Current in Full-Shell Nanowire Josephson Junctions*, [arXiv:2607.18371](https://arxiv.org/abs/2607.18371) (2026).
+C. Payá, Á. Ibabe, M. Gómez, T. Kanne, J. Nygård, R. Aguado, P. San-Jose, E. J. H. Lee, and E. Prada, *Probing Synthetic Caroli-de Gennes-Matricon States Through Critical Current in Full-Shell Nanowire Josephson Junctions*, Phys. Rev. B (accepted), [doi:10.1103/8vql-tyn3](https://doi.org/10.1103/8vql-tyn3); [arXiv:2607.18371](https://arxiv.org/abs/2607.18371) (2026).
 
 ```bibtex
 @article{Paya2026,
   title         = {Probing Synthetic Caroli-de Gennes-Matricon States Through Critical Current in Full-Shell Nanowire Josephson Junctions},
   author        = {Pay{\'a}, Carlos and Ibabe, {\'A}ngel and G{\'o}mez, Mario and Kanne, Thomas and Nyg{\aa}rd, Jesper and Aguado, Ram{\'o}n and San-Jose, Pablo and Lee, Eduardo J. H. and Prada, Elsa},
-  journal       = {arXiv:2607.18371},
+  journal       = {Phys. Rev. B},
+  note          = {Accepted},
   year          = {2026},
   eprint        = {2607.18371},
   archivePrefix = {arXiv},
   primaryClass  = {cond-mat.mes-hall},
-  doi           = {10.48550/arXiv.2607.18371}
+  doi           = {10.1103/8vql-tyn3}
 }
 ```
 
