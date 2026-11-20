@@ -35,24 +35,30 @@ function convexhull(pts)
     return vcat(lower[1:end-1], upper[1:end-1])
 end
 
+# point inside a convex polygon (vertices in either orientation)
+function inconvex(p, poly)
+    sg = [(b[1] - a[1]) * (p[2] - a[2]) - (b[2] - a[2]) * (p[1] - a[1]) for (a, b) in zip(poly, circshift(poly, -1))]
+    return all(≥(0), sg) || all(≤(0), sg)
+end
+
 # Hexagonal full-shell cap: face at c, prism receding along δ (s = ±1 picks the side)
 function hexcap!(ax, c; Ro = 1.35, Ri = 1.0, δ = (0.95, 0.22), s = 1, lw = 2.5)
     d = Point2f(s * δ[1], δ[2])
     face, back = hexpts(c, Ro), hexpts(c, Ro) .+ Ref(d)
-    visible = [s * cos(θ) ≥ -1e-3 for θ in range(0, 2π, 7)[1:6]]
+    # lateral facet k (vertices k, k+1) faces the viewer if its outward normal points along d
+    θv = range(0, 2π, 7)[1:6]
+    facet = [cos(θ + π/6) * d[1] + sin(θ + π/6) * d[2] > 0 for θ in θv]
+    edge = [facet[k] || facet[mod1(k - 1, 6)] for k in 1:6]     # lateral edge at vertex k
 
     # translucent prism body and hidden edges
     poly!(ax, convexhull(vcat(face, back)); color = (color_super, 0.55), strokewidth = 0)
     for k in 1:6
-        visible[k] || lines!(ax, [face[k], back[k]]; color = (:black, 0.35), linestyle = :dash, linewidth = 1.5)
-    end
-    for k in 1:6
-        kn = mod1(k + 1, 6)
-        visible[k] && visible[kn] || lines!(ax, [back[k], back[kn]]; color = (:black, 0.35), linestyle = :dash, linewidth = 1.5)
+        edge[k] || lines!(ax, [face[k], back[k]]; color = (:black, 0.35), linestyle = :dash, linewidth = 1.5)
+        facet[k] || lines!(ax, [back[k], back[mod1(k + 1, 6)]]; color = (:black, 0.35), linestyle = :dash, linewidth = 1.5)
     end
     # inner core receding (faint)
     for (k, p) in enumerate(hexpts(c, Ri))
-        visible[k] && lines!(ax, [p, p + d]; color = (:black, 0.25), linestyle = :dash, linewidth = 1.2)
+        edge[k] && lines!(ax, [p, p + d]; color = (:black, 0.25), linestyle = :dash, linewidth = 1.2)
     end
 
     # face: shell, radially shaded core, CdGM rings
@@ -72,11 +78,10 @@ function hexcap!(ax, c; Ro = 1.35, Ri = 1.0, δ = (0.95, 0.22), s = 1, lw = 2.5)
 
     # visible lateral and back edges
     for k in 1:6
-        visible[k] && lines!(ax, [face[k], back[k]]; color = :black, linewidth = lw)
-        kn = mod1(k + 1, 6)
-        visible[k] && visible[kn] && lines!(ax, [back[k], back[kn]]; color = :black, linewidth = lw)
+        edge[k] && lines!(ax, [face[k], back[k]]; color = :black, linewidth = lw)
+        facet[k] && lines!(ax, [back[k], back[mod1(k + 1, 6)]]; color = :black, linewidth = lw)
     end
-    return ring(0.68Ri, 0.07, 6)
+    return ring(0.68Ri, 0.07, 6), face
 end
 
 function panel_junction(ax; xL = 2.15, xR = 9.85, gap = 0.45, hc = 0.55, ts = 0.32, fs = 34)
@@ -90,8 +95,8 @@ function panel_junction(ax; xL = 2.15, xR = 9.85, gap = 0.45, hc = 0.55, ts = 0.
         band!(ax, [a, b], -hc - ts, -hc; color = color_super)
     end
 
-    ringL = hexcap!(ax, (xL, 0.0); s = -1)
-    ringR = hexcap!(ax, (xR, 0.0); s = 1)
+    ringL, faceL = hexcap!(ax, (xL, 0.0); s = -1)
+    ringR, faceR = hexcap!(ax, (xR, 0.0); s = 1)
 
     # supercurrent through the junction (green, like the Ic curve below)
     arrows2d!(ax, [xm - 1.75], [0.0], [3.3], [0.0]; color = color_ic, shaftwidth = 10, tiplength = 30, tipwidth = 34)
@@ -103,17 +108,24 @@ function panel_junction(ax; xL = 2.15, xR = 9.85, gap = 0.45, hc = 0.55, ts = 0.
     arrows2d!(ax, [xm - 2.6], [yB], [5.0], [0.0]; color = color_B, shaftwidth = 5, tiplength = 22, tipwidth = 22)
     text!(ax, xm + 2.55, yB; text = L"B", color = color_B, fontsize = fs + 4, align = (:left, :center))
 
-    # CdGM analogs label pointing to the rings of both caps
-    yl = 1.85
+    # CdGM analogs label; each arrow leaves a gap after the text and stops short of the cap,
+    # aimed at the upper-inner part of the outer ring
+    yl = 2.05
     text!(ax, xm, yl; text = "CdGM analogs", color = color_cdgm, fontsize = fs, font = :bold, align = (:center, :center))
-    pL = ringL[round(Int, 0.14 * length(ringL))]     # upper-right part of the left ring
-    pR = ringR[round(Int, 0.36 * length(ringR))]     # upper-left part of the right ring
-    for (p, x0) in ((pL, xm - 2.5), (pR, xm + 2.5))
-        arrows2d!(ax, [x0], [yl], [p[1] - x0], [p[2] - yl]; color = color_cdgm, shaftwidth = 4, tiplength = 16, tipwidth = 16)
+    pL = ringL[round(Int, 0.14 * length(ringL))]
+    pR = ringR[round(Int, 0.36 * length(ringR))]
+    for (p, face, sgn) in ((pL, faceL, -1), (pR, faceR, 1))
+        p0 = Point2f(xm + sgn * 2.6, yl - 0.12)
+        u = (p - p0) / hypot((p - p0)...)
+        t = 0.0
+        while !inconvex(p0 + t * u, face); t += 0.01; end   # first point on the cap outline
+        p1 = p0 + (t - 0.2) * u
+        arrows2d!(ax, [p0[1]], [p0[2]], [p1[1] - p0[1]], [p1[2] - p0[2]]; color = color_cdgm,
+            shaftwidth = 4, tiplength = 15, tipwidth = 15)
     end
 
     xlims!(ax, -0.05, 12.05)
-    ylims!(ax, -1.95, 2.3)
+    ylims!(ax, -1.95, 2.45)
     return ax
 end
 
