@@ -43,3 +43,11 @@ include("fig_gates.jl")
 fig = fig_gates("C3")
 save("figures/fig_gates.pdf", fig)
 fig
+
+
+## PRB Editors' Suggestion teaser image (square; shown as a 200×200 px thumbnail)
+include("fig_teaser.jl")
+fig = fig_teaser(Exp_Data(), "C3")
+save("figures/fig_teaser.pdf", fig)
+save("figures/fig_teaser.png", fig; px_per_unit = 2)
+fig
